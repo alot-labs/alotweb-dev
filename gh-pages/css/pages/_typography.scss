@@ -1,0 +1,57 @@
+/* Headings */
+
+.heading-1{
+	font-size: px(60);
+	line-height: (68 / 60);
+	text-transform: uppercase;
+	@include daxline-black;
+	margin-bottom: px($desktop-vertical-space / 2);
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.heading-2{
+	font-size: px(30);
+	line-height: (36 / 30);
+	text-transform: uppercase;
+	@include daxline-extra-bold;
+	margin-bottom: px(20);
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.heading-3{
+	font-size: px(25);
+	line-height: (30 / 25);
+	text-transform: uppercase;
+	@include daxline-extra-bold;
+	margin-bottom: px(20);
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+/* Paragraphs */
+
+.paragraph{
+	font-size: px($font-size);
+	line-height: (25 / $font-size);
+	margin-bottom: px(30);
+	&--bold{
+		@include daxline-extra-bold;
+	}
+	&:last-child{
+		margin-bottom: 0;
+	}
+	strong{
+		@include daxline-extra-bold;
+	}
+}
+
+.paragraph-big{
+	@include daxline-extra-bold;
+	font-size: px(22);
+	line-height: (30 / 22);
+}

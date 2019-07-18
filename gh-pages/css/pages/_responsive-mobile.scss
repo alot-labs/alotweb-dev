@@ -1,0 +1,622 @@
+/* Mobile: 0 - 650px */
+
+@media (max-width: $mobile-breakpoint){
+	$font-size-responsive: 13;
+	$zoom: $font-size / $font-size-responsive;
+	::-webkit-scrollbar{
+		display: none;
+		width: 0;
+		background: transparent;
+	}
+	::-webkit-scrollbar-thumb{
+		background: transparent;
+	}
+	html{
+		font-size: ($font-size-responsive * 1px);
+	}
+	body{
+		padding-top: ($menu-height-mobile * 1px);
+	}
+	.desktop-only{
+		display: none;
+	}
+	.mobile-only{
+		display: block;
+	}
+	.container{
+		padding-left: ($mobile-horizontal-space * 1px);
+		padding-right: ($mobile-horizontal-space * 1px);
+	}
+	.heading-1{
+		font-size: 30px;
+		margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		br{
+			display: none;
+		}
+	}
+	.paragraph{
+		&--bold{
+			@include daxline-light;
+		}
+	}
+	.paragraph-big{
+		@include daxline-light;
+		br{
+			display: none;
+		}
+	}
+	.section{
+		margin-bottom: ($mobile-vertical-space * 1px);
+	}
+	.header{
+		&__logo{
+			width: 70px;
+			height: 26px;
+		}
+		.container{
+			height: ($menu-height-mobile * 1px);
+		}
+		&__menu{
+			li{
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.hero{
+		&--homepage{
+			margin-bottom: 0;
+			&:before{
+				background: linear-gradient(to right, rgba(80, 52, 47, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+			}
+			.hero__holder{
+				padding-bottom: (($mobile-vertical-space / 2) * 1px);
+			}
+		}
+		&--risk-management{
+			&:before{
+				background: linear-gradient(to right, rgba(13, 30, 47, 0.8) 0%, rgba(0, 0, 0, 0.4) 100%);
+			}
+		}
+		&--gaming-content{
+			&:before{
+				background: linear-gradient(to right, rgba(7, 26, 46, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%);
+			}
+		}
+		&--lotto-betting{
+			margin-bottom: 0;
+		}
+		&--omnichannel-lottery{
+			&:before{
+				background: linear-gradient(to right, rgba(40, 37, 46, 0.85) 0%, rgba(0, 0, 0, 0.4) 100%);
+			}
+		}
+		&--about-us{
+			&:before{
+				background: linear-gradient(to right, rgba(16,24,32,0.85) 0%, rgba(16,24,32,0.35) 100%);
+			}
+		}
+		&__illustration{
+			flex-direction: column-reverse;
+			&-image{
+				width: 100%;
+				margin-bottom: (($mobile-vertical-space / 2) * 1px);
+				&-holder{
+					&--keno-games{
+						height: 22vw;
+						background-position: left top;
+					}
+				}
+			}
+		}
+		&__holder{
+			padding-top: 130px;
+			padding-bottom: 40px;
+			.heading-1{
+				margin-bottom: 20px;
+			}
+			.paragraph-big{
+				max-width: 75vw;
+			}
+		}
+	}
+	.stats{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		&__holder{
+			flex-wrap: wrap;
+		}
+		&__item{
+			flex-basis: 47%;
+			margin-right: 6%;
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+			&:nth-child(1),
+			&:nth-child(2){
+				margin-bottom: 40px;
+			}
+			&:nth-child(5){
+				display: none;
+			}
+		}
+		.paragraph{
+			max-width: 90%;
+			br{
+				display: none;
+			}
+		}
+	}
+	.heading-holder{
+		display: block;
+		margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		&__item{
+			margin-right: 0;
+			margin-bottom: ($mobile-horizontal-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.products-services{
+		&__holder{
+			display: block;
+		}
+		&__column{
+			margin-right: 0;
+			margin-bottom: ($mobile-horizontal-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__item{
+			margin-bottom: 30px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+			&-header{
+				padding: ($mobile-horizontal-space * 1px);
+			}
+			&-body{
+				padding: ($mobile-horizontal-space * 1px);
+			}
+		}
+		&__illustration{
+			margin-bottom: ($mobile-horizontal-space * 1px);
+			&-image{
+				padding-top: 50%;
+				background-position: left center;
+				background-size: auto 100%;
+			}
+		}
+		.heading-1{
+			margin-bottom: 10px;
+		}
+	}
+	.news{
+		&__holder{
+			display: block;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		}
+		&__item{
+			margin-right: 0;
+			margin-bottom: 40px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.article-preview{
+		&__text{
+			padding: ($mobile-horizontal-space * 1px);
+		}
+		&__image{
+			height: 200px;
+		}
+	}
+	.clients{
+		&__holder{
+			display: flex;
+			padding-left: ($mobile-horizontal-space * 1px);
+			margin-left: (-$mobile-horizontal-space * 1px);
+			margin-right: (-$mobile-horizontal-space * 1px);
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+		&__row{
+			margin-bottom: 0;
+			margin-right: ($mobile-horizontal-space * 1px);
+			&:last-child{
+				margin-right: 0;
+				padding-right: ($mobile-horizontal-space * 1px);
+			}
+		}
+		&__logo{
+			width: 53vw;
+			flex-basis: auto;
+			height: 130px;
+			margin-right: ($mobile-horizontal-space * 1px);
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+	.footer{
+		padding-top: ($mobile-vertical-space * 1px);
+		padding-bottom: ($mobile-vertical-space * 1px);
+		&__column{
+			flex-basis: 47%;
+			margin-right: 6%;
+			&:nth-child(3){
+				margin-right: 0;
+			}
+			&:last-child{
+				margin-top: 30px;
+				padding-top: 30px;
+				border-top: 1px solid #ddd;
+				flex-basis: 100%;
+				margin-right: 0;
+			}
+		}
+	}
+	.image-with-description{
+		&__holder{
+			min-height: 0;
+		}
+		&__plate{
+			width: 100%;
+			padding: (($mobile-vertical-space / 2) * 1px) ($mobile-horizontal-space * 1px);
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		&__text{
+			@include daxline-light;
+		}
+		&__illustration{
+			width: 100%;
+			position: initial;
+			right: initial;
+			top: initial;
+			height: 250px;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+	}
+	.why-choose{
+		&__holder{
+			margin-left: 0;
+			max-width: none;
+		}
+	}
+	.icon-list{
+		&__item{
+			padding-left: 80px;
+			margin-bottom: 40px;
+		}
+	}
+	.use-cases{
+		&__row{
+			display: block;
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__item{
+			margin-right: 0;
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.players-experience{
+		&__illustration{
+			background-image: url(../i/players-experience-mobile.jpg);
+			height: 55vw;
+		}
+	}
+	.lotto-betting{
+		margin-top: 0;
+		padding-top: ($mobile-vertical-space * 1px);
+		padding-bottom: ($mobile-vertical-space * 1px);
+	}
+	.split-content{
+		margin-bottom: ($mobile-vertical-space * 1px);
+		display: block;
+		&__item{
+			margin-right: 0;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.other-games{
+		&__holder{
+			display: block;
+		}
+		&__column{
+			margin-right: 0;
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.overplate-text{
+		margin-top: 0;
+		&__plate{
+			display: block;
+			width: auto;
+			padding: (($mobile-vertical-space / 2) * 1px) ($mobile-horizontal-space * 1px);
+			border-radius: 0;
+			margin-left: (-$mobile-horizontal-space * 1px);
+			margin-right: (-$mobile-horizontal-space * 1px);
+		}
+		&__column{
+			margin-right: 0;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.overprint-image{
+		&__holder{
+			display: block;
+		}
+		&__illustration-holder{
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		}
+	}
+	.game-embed{
+		margin-bottom: 0;
+		&__mobile{
+			padding-bottom: ($mobile-vertical-space * 1px);
+		}
+		&__device-mobile{
+			max-width: none;
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:before,
+			&:after{
+				display: none;
+			}
+			&-holder{
+				padding-top: 150%;
+				background: #000;
+				border: 2px solid #000;
+				border-radius: $radius;
+				overflow: hidden;
+				box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+			}
+			&-embed{
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+		}
+	}
+	.ticket-features{
+		&__item{
+			.paragraph{
+				@include daxline-extra-bold;
+			}
+		}
+	}
+	.related-products{
+		padding-top: ($mobile-vertical-space * 1px);
+		padding-bottom: ($mobile-vertical-space * 1px);
+		margin-top: -1px;
+		margin-bottom: 0;
+		&__holder{
+			display: block;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		}
+		&__item{
+			margin-right: 0;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__text-holder{
+			padding: ($mobile-horizontal-space * 1px);
+		}
+		&__button-holder{
+			.button{
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	.logo-text{
+		&__holder{
+			display: block;
+		}
+		&__icons{
+			margin-right: 0;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			&-item{
+				flex-basis: 30%;
+				padding-top: 30%;
+				&:last-child{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+	.icon-multilist{
+		&__column{
+			display: block;
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__item{
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__icon{
+			margin-bottom: 20px;
+		}
+		.heading-2{
+			margin-bottom: 20px;
+		}
+	}
+	.lottery-terminals{
+		padding-top: ($mobile-vertical-space * 1px);
+		padding-bottom: ($mobile-vertical-space * 1px);
+		&__holder{
+			display: block;
+		}
+		&__column{
+			margin-bottom: ($mobile-vertical-space * 1px);
+			&:first-child{
+				margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			}
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__illustration{
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			max-width: 200px;
+			height: 180px;
+		}
+	}
+	.accessories{
+		&__row{
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+			&--large{
+				display: block;
+				.accessories__item{
+					margin-right: 0;
+				}
+				.accessories__image-holder{
+					padding-top: 56%;
+				}
+			}
+			&--small{
+				flex-wrap: wrap;
+				.accessories__item{
+					@include flex-basis(2, 6);
+					&:nth-last-child(1),
+					&:nth-last-child(2){
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		&__item{
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		}
+		&__image{
+			width: 70%;
+			height: 70%;
+		}
+		&__name{
+			font-size: 15px;
+		}
+	}
+	.articles{
+		&__header{
+			padding-top: ($mobile-vertical-space * 1px);
+			padding-bottom: ($mobile-vertical-space * 1px);
+			&--overlap{
+				padding-bottom: (2 * $mobile-vertical-space * 1px);
+				margin-bottom: (-$mobile-vertical-space * 1px);
+			}
+		}
+		&__holder{
+			display: block;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__hero{
+			height: 56vw;
+		}
+		&__item{
+			margin-right: 0;
+			margin-bottom: 40px;
+			&:nth-child(3n){
+				margin-right: 0;
+			}
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		&__text{
+			padding-top: (($mobile-vertical-space / 2) * 1px);
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			ul, ol{
+				margin-left: 20px;
+				margin-bottom: 20px;
+			}
+			p{
+				margin-bottom: 20px;
+			}
+			h1, h2, h3, h4, h5, h6{
+				margin-top: 40px;
+				margin-bottom: 10px;
+			}
+			img{
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+		}
+	}
+	.team{
+		&__holder{
+			&:last-child{
+				margin-bottom: -40px;
+			}
+		}
+		&__item{
+			flex-basis: 47%;
+			margin-right: 6%;
+			margin-bottom: 40px;
+			&:nth-child(3n){
+				margin-right: 6%;
+			}
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+		}
+		.heading-2{
+			margin-bottom: 5px;
+		}
+		.paragraph{
+			font-size: 15px;
+		}
+	}
+	.contact{
+		margin-bottom: 0;
+		padding-top: ($mobile-vertical-space * 1px);
+		padding-bottom: ($mobile-vertical-space * 1px);
+	}
+	.locations{
+		margin-bottom: 0;
+		padding-top: ($mobile-vertical-space * 1px);
+		padding-bottom: ($mobile-vertical-space * 1px);
+		&__holder{
+			display: block;
+		}
+		&__text-holder{
+			padding: ($mobile-horizontal-space * 1px);
+		}
+		&__column{
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

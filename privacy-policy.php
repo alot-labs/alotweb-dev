@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT website privacy policy";
+    $meta_desc = "Privacy policy of this promotional website belonging to ALOT Solutions Limited.";
+    $meta_keywords = "Privacy Policy";
+    $og_image = "";
+    $og_url = $url."/privacy-policy".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section articles">
     <div class="articles__header">

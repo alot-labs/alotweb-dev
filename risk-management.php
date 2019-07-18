@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT Risk Management";
+    $meta_desc = "Risk management services for lottery operators, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.";
+    $meta_keywords = "Lottery, huge jackpot, hedging, insurance, jackpot games";
+    $og_image = "";
+    $og_url = $url."/risk-management".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section hero hero--risk-management">
     <div class="container">

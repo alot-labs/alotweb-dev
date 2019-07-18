@@ -2,41 +2,41 @@
     <div class="container">
         <div class="footer__holder">
             <div class="footer__column">
-                <a href="index.php" class="footer__logo"></a>
+                <a href="/" class="footer__logo"></a>
                 <p class="footer__paragraph">&copy; Copyright 2019 Alot</p>
             </div>
             <div class="footer__column">
                 <ul class="footer__list">
                     <li>
-                        <a href="risk-management.php">Risk Management</a>
+                        <a href="risk-management<?=$ext?>">Risk Management</a>
                     </li>
                     <li>
-                        <a href="gaming-content.php">Gaming Content</a>
+                        <a href="gaming-content<?=$ext?>">Gaming Content</a>
                     </li>
                     <li>
-                        <a href="lotto-betting.php">Lotto Betting</a>
+                        <a href="lotto-betting<?=$ext?>">Lotto Betting</a>
                     </li>
                     <li>
-                        <a href="instant-win-games.php">Instant Win Games</a>
+                        <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
                     </li>
                     <li>
-                        <a href="keno-games.php">Keno</a>
+                        <a href="keno-games<?=$ext?>">Keno</a>
                     </li>
                     <li>
-                        <a href="omnichannel-lottery.php">Omnichannel lottery</a>
+                        <a href="omnichannel-lottery<?=$ext?>">Omnichannel lottery</a>
                     </li>
                 </ul>
             </div>
             <div class="footer__column">
                 <ul class="footer__list">
                     <li>
-                        <a href="news.php">News</a>
+                        <a href="news<?=$ext?>">News</a>
                     </li>
                     <li>
-                        <a href="about-us.php">About us</a>
+                        <a href="about-us<?=$ext?>">About us</a>
                     </li>
                     <li>
-                        <a href="privacy-policy.php">Privacy policy</a>
+                        <a href="privacy-policy<?=$ext?>">Privacy policy</a>
                     </li>
                 </ul>
             </div>

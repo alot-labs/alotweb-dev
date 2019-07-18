@@ -1,0 +1,52 @@
+/* Desktop: 1101px - 1301px */
+
+@media (max-width: $desktop-breakpoint){
+	$font-size-responsive: 16;
+	$zoom: $font-size / $font-size-responsive;
+	html{
+		font-size: ($font-size-responsive * 1px);
+	}
+	.hero{
+		&__holder{
+			min-height: px(430 * $zoom);
+			.paragraph-big{
+				max-width: 600px;
+			}
+		}
+	}
+	.heading-1{
+		font-size: px(43 * $zoom);
+	}
+	.heading-2{
+		font-size: px(23 * $zoom);
+	}
+	.header{
+		&__menu{
+			li{
+				margin-right: px(25 * $zoom);
+				a{
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	.players-experience{
+		&__illustration{
+			height: px(400 * $zoom);
+		}
+	}
+	.lotto-betting{
+		margin-top: px(-170);
+		padding-top: px(276);
+	}
+	.game-embed{
+		&__device-mobile{
+			max-width: 390px;
+		}
+		&__device-desktop{
+			&-embed{
+				width: 75.1%;
+			}
+		}
+	}
+}

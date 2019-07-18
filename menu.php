@@ -1,30 +1,30 @@
 <header class="header">
     <div class="container">
-        <a href="index.php" class="header__logo"></a>
+        <a href="/" class="header__logo"></a>
         <ul class="header__menu">
             <li>
-                <a href="risk-management.php">Risk Management</a>
+                <a href="risk-management<?=$ext?>">Risk Management</a>
             </li>
             <li>
-                <a href="gaming-content.php">Gaming Content</a>
+                <a href="gaming-content<?=$ext?>">Gaming Content</a>
             </li>
             <li>
-                <a href="lotto-betting.php">Lotto Betting</a>
+                <a href="lotto-betting<?=$ext?>">Lotto Betting</a>
             </li>
             <li>
-                <a href="instant-win-games.php">Instant Win Games</a>
+                <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
             </li>
             <li>
-                <a href="keno-games.php">Keno</a>
+                <a href="keno-games<?=$ext?>">Keno</a>
             </li>
             <li class="no-margin">
-                <a href="omnichannel-lottery.php">Omnichannel lottery</a>
+                <a href="omnichannel-lottery<?=$ext?>">Omnichannel lottery</a>
             </li>
             <li class="header__menu-item-mobile">
-                <a href="news.php">News</a>
+                <a href="news<?=$ext?>">News</a>
             </li>
             <li class="header__menu-item-mobile">
-                <a href="about-us.php">About us</a>
+                <a href="about-us<?=$ext?>">About us</a>
             </li>
         </ul>
         <div class="header__hamburger">

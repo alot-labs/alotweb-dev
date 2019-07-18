@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT Gaming Content";
+    $meta_desc = "Unique portfolio of gaming content with huge jackpot prizes, including lottery betting, fixed odds lottery games, KENO, bingo, scratch cards and more.";
+    $meta_keywords = "Lottery, huge jackpot, jackpot games, KENO, bingo, scratch cards, lottery betting";
+    $og_image = "";
+    $og_url = $url."/gaming-content".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section hero hero--gaming-content">
     <div class="container">
@@ -39,7 +49,7 @@
             <div class="split-content__item">
                 <p class="paragraph">Let your players bet on the world’s largest lottery jackpots and other popular lottery-style games. A great acquisition and retention product, but also an amazing revenue generator in its own right.</p>
                 <p class="paragraph">Prizes are guaranteed by our superior Jackpot Risk Management services, so you can rest assured that the prize payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
-                <a href="lotto-betting.php" class="button button--green">Lottery demo</a>
+                <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
             </div>
         </div>
         <div class="split-content">
@@ -65,7 +75,7 @@
                 <div class="other-games__item">
                     <div class="other-games__illustration" style="background-image: url(i/instant-game.jpg);"></div>
                     <p class="paragraph">Integrate our RGS to add our catalogue of instant win lottery-style games to your gaming portfolio. Our proprietary content lets your players watch the draw and win instantly. With a higher RTP than lottery betting our instant games are ideal for sportsbook and casino players. All of our games are iTech certified and powered by RiNG™ our unique Random & Insured Number Generator.</p>
-                    <a href="instant-win-games.php" class="button button--green">Instant games demo</a>
+                    <a href="instant-win-games<?=$ext?>" class="button button--green">Instant games demo</a>
                 </div>
             </div>
             <div class="other-games__column other-games__column--offset">
@@ -73,7 +83,7 @@
                 <div class="other-games__item">
                     <div class="other-games__illustration" style="background-image: url(i/keno-game.jpg);"></div>
                     <p class="paragraph">KENO from all over the world in one place. Players can participate in KENO games offered by operators from all over the world or join an RNG-based KENO-style games from one screen. Very popular in Asian markets!</p>
-                    <a href="keno-games.php" class="button button--green">KENO demo</a>
+                    <a href="keno-games<?=$ext?>" class="button button--green">KENO demo</a>
                 </div>
             </div>
         </div>

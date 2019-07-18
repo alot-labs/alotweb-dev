@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT ARTICLE TITLE";
+    $meta_desc = "Summary of article";
+    $meta_keywords = "News, article, update, blog, ALOT";
+    $og_image = "";
+    $og_url = $url."/article".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section articles">
     <div class="articles__header articles__header--overlap">
@@ -37,7 +47,7 @@
                 <p>Fusce ornare neque non metus blandit, nec finibus ligula vehicula. Curabitur libero sapien, aliquam id mauris sit amet, fringilla finibus nibh. Nam sit amet tortor rutrum nisi faucibus dictum a sit amet augue. Pellentesque sit amet maximus erat. Proin elementum at elit quis tempor. Nunc consectetur tortor id odio dictum, sit amet consequat nulla maximus. Mauris faucibus purus ac tellus interdum, in scelerisque est tempor. Vestibulum convallis leo at tincidunt accumsan. Sed elementum molestie arcu eget tincidunt. Morbi ac iaculis ante. Ut vel mollis erat.</p>
             </article>
             <div class="articles__button-holder">
-                <a href="news.php" class="button button--blue">Back to news</a>
+                <a href="news<?=$ext?>" class="button button--blue">Back to news</a>
             </div>
         </div>
     </div>

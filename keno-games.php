@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT Keno games";
+    $meta_desc = "Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.";
+    $meta_keywords = "side bets, Lottery, lotto, huge jackpot, jackpot games, KENO";
+    $og_image = "";
+    $og_url = $url."/keno-games".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section hero hero--keno-games">
     <div class="container">
@@ -72,35 +82,35 @@
         <div class="related-products__wrapper">
             <div class="related-products__holder">
                 <div class="related-products__item">
-                    <a href="lotto-betting.php" class="related-products__illustration related-products__illustration--lottery"></a>
+                    <a href="lotto-betting<?=$ext?>" class="related-products__illustration related-products__illustration--lottery"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="lotto-betting.php">Lottery client</a>
+                            <a href="lotto-betting<?=$ext?>">Lottery client</a>
                         </h3>
                         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="related-products__item">
-                    <a href="instant-win-games.php" class="related-products__illustration related-products__illustration--instant-win"></a>
+                    <a href="instant-win-games<?=$ext?>" class="related-products__illustration related-products__illustration--instant-win"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="instant-win-games.php">Instant Win Games</a>
+                            <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
                         </h3>
                         <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="related-products__item">
-                    <a href="gaming-content.php" class="related-products__illustration related-products__illustration--api"></a>
+                    <a href="gaming-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="gaming-content.php">API</a>
+                            <a href="gaming-content<?=$ext?>">API</a>
                         </h3>
                         <p class="paragraph">API Integration and Website Integration</p>
                     </div>
                 </div>
             </div>
             <div class="related-products__button-holder">
-                <a href="about-us.php" class="button button--white-green">Contact us</a>
+                <a href="about-us<?=$ext?>" class="button button--white-green">Contact us</a>
             </div>
         </div>
     </div>

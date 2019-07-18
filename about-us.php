@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT About us";
+    $meta_desc = "Company profile, history, track record and team composition. ALOT is the number one provider of jackpot risk management services in the world, also offering unique gaming content and lottery systems.";
+    $meta_keywords = "Company profile, team, history";
+    $og_image = "";
+    $og_url = $url."/about_us".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section hero hero--about-us">
     <div class="container">

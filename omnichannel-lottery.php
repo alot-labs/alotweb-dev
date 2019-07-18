@@ -1,5 +1,15 @@
-<?php include 'header.php'; ?>
-<?php include 'menu.php'; ?>
+<?php 
+    include 'config.php';
+
+    $title = "ALOT Omnichannel Lottery";
+    $meta_desc = "Turnkey technology and risk coverage solution for lotteries operating across all channels with web and mobile clients, shop terminals, handheld devices, interactive betting terminals and more.";
+    $meta_keywords = "Lottery, retail, online, mobile, web, terminals";
+    $og_image = "";
+    $og_url = $url."/omnichannel-lottery".$ext;
+
+    include 'header.php';
+    include 'menu.php';
+?>
 
 <section class="section hero hero--omnichannel-lottery">
     <div class="container">
