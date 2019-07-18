@@ -1,0 +1,39 @@
+/* Buttons */
+
+.button{
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	transition: all $transition;
+	text-align: center;
+	padding: 0 px(30);
+	height: ($button-height * 1px);
+	line-height: ($button-height * 1px);
+	font-size: inherit;
+	border: none;
+	@include daxline-extra-bold;
+	text-transform: uppercase;
+	border-radius: $radius;
+	&--blue{
+		background: $blue;
+		color: #fff;
+		&:hover{
+			background: $dark-blue;
+		}
+	}
+	&--green{
+		background: $green;
+		color: #fff;
+		&:hover{
+			background: $dark-green;
+		}
+	}
+	&--white-green{
+		background: #fff;
+		color: $black;
+		&:hover{
+			background: $green;
+			color: #fff;
+		}
+	}
+}

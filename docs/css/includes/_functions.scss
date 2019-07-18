@@ -1,0 +1,283 @@
+@function box-value($value){
+	@return (($value * $box-width) + (($value - 1) * $box-space));
+}
+
+@function box($value){
+	@return (box-value($value) * 1%);
+}
+
+/* Returns flex basis width in percent */
+
+@function flex-basis($items, $margin){
+	@return (((100 - (($items - 1) * $margin)) / $items) * 1%);
+}
+
+@function flex-basis-value($items, $margin){
+	@return ((100 - (($items - 1) * $margin)) / $items);
+}
+
+/* Creates flex item */
+
+@mixin flex-basis($items, $margin){
+	flex-basis: flex-basis($items, $margin);
+	margin-right: ($margin * 1%);
+	&:nth-child(#{$items}n){
+		margin-right: 0;
+	}
+}
+
+/* Strip units from number */
+
+@function strip-unit($number) {
+	@if type-of($number) == 'number' and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	}
+	@return $number;
+}
+
+/* Triangles */
+
+@mixin triangle-top($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-left: $size solid transparent;
+	border-right: $size solid transparent;
+	border-bottom: $size solid $color;
+}
+
+@mixin triangle-down($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-left: $size solid transparent;
+	border-right: $size solid transparent;
+	border-top: $size solid $color;
+}
+
+@mixin triangle-right($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-top: $size solid transparent;
+	border-bottom: $size solid transparent;
+	border-left: $size solid $color;
+}
+
+@mixin triangle-left($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-top: $size solid transparent;
+	border-bottom: $size solid transparent;
+	border-right: $size solid $color;
+}
+
+@mixin triangle-bottom-right($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-left: $size solid transparent;
+	border-bottom: $size solid $color;
+}
+
+@mixin triangle-bottom-left($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-right: $size solid transparent;
+	border-bottom: $size solid $color;
+}
+
+@mixin triangle-top-right($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-left: $size solid transparent;
+	border-top: $size solid $color;
+}
+
+@mixin triangle-top-left($size: 10px, $color: #000){
+	width: 0;
+	height: 0;
+	border-right: $size solid transparent;
+	border-top: $size solid $color;
+}
+
+/* Text */
+
+@function px($value){
+	@return ($value / $font-size) * 1rem;
+}
+
+@mixin ellipsis{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@mixin no-wrap{
+	white-space: nowrap;
+}
+
+@mixin reset-input{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+@mixin no-text-select{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Mixins */
+
+@mixin clearfix{
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+/* Retina */
+
+@mixin retina($bg-color, $image-url, $bg-repeat, $x-pos, $y-pos, $image-url2, $img-width, $img-height){
+	background-color: $bg-color;
+	background-image: url(#{$image-url});
+	background-repeat: $bg-repeat;
+	background-position: $x-pos $y-pos;
+	background-size: $img-width $img-height;
+	@media
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+		background-image: url(#{$image-url2});
+	}
+}
+
+@mixin retina-cover($bg-color, $image-url, $bg-repeat, $x-pos, $y-pos, $image-url2){
+	background-color: $bg-color;
+	background-image: url(#{$image-url});
+	background-repeat: $bg-repeat;
+	background-position: $x-pos $y-pos;
+	background-size: cover;
+	@media
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
+		background-image: url(#{$image-url2});
+	}
+}
+
+/* Transformations */
+
+@mixin translate($x: 0, $y: 0){
+	-webkit-transform: translate($x, $y);
+	-ms-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin scale($ratio: 1.5){
+	-webkit-transform:scale($ratio);
+	transform: scale($ratio);
+}
+
+@mixin rotate($degree: 1deg){
+	-webkit-transform: rotate($degree);
+	-moz-transform: rotate($degree);
+	-ms-transform: rotate($degree);
+	transform: rotate($degree);
+}
+
+@mixin transition($delay: 250ms, $transition-style: ease-out){
+	transition: all $delay $transition-style;
+}
+
+@mixin transform-origin($origin-x, $origin-y){
+	-ms-transform-origin: $origin-x $origin-y;
+	-webkit-transform-origin: $origin-x $origin-y;
+	transform-origin: $origin-x $origin-y;
+}
+
+/* Gradients */
+
+@mixin gradient($from: #000, $to: #fff){
+	background: -webkit-linear-gradient($from, $to);
+	background: linear-gradient($from, $to);
+}
+
+@mixin horizontal-gradient($from: #000, $to: #fff){
+	background: -webkit-linear-gradient(left, $from, $to);
+	background: linear-gradient(to right, $from, $to);
+}
+
+/* Inputs */
+
+@mixin placeholder-color($placeholder-text-color: #000){
+	&::-webkit-input-placeholder {
+		color: $placeholder-text-color;
+	}
+	&:-moz-placeholder {
+		color: $placeholder-text-color;
+		opacity: 1;
+	}
+	&::-moz-placeholder {
+		color: $placeholder-text-color;
+		opacity: 1;
+	}
+	&:-ms-input-placeholder {
+		color: $placeholder-text-color;
+	}
+}
+
+/* Animation */
+
+@mixin animation($name: my-animation, $duration: 1s, $timing-function: ease, $delay: 0, $iteration-count: 1, $direction: normal, $fill-mode: none, $play-state: running){
+	animation-name: $name;
+	animation-duration: $duration;
+	animation-timing-function: $timing-function;
+	animation-delay: $delay;
+	animation-iteration-count: $iteration-count;
+	animation-direction: $direction;
+	animation-fill-mode: $fill-mode;
+	animation-play-state: $play-state;
+
+	-webkit-animation-name: $name;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-timing-function: $timing-function;
+	-webkit-animation-delay: $delay;
+	-webkit-animation-iteration-count: $iteration-count;
+	-webkit-animation-direction: $direction;
+	-webkit-animation-fill-mode: $fill-mode;
+	-webkit-animation-play-state: $play-state;
+
+	/*
+	@name
+	Specifies the name of the keyframe you want to bind to the selector
+
+	@duration
+	(Defined in seconds (s) or milliseconds (ms). Default is 0)
+	Specifies how many seconds or milliseconds an animation takes to complete
+
+	@timing-function
+	(linear|ease|ease-in|ease-out|ease-in-out)
+	Specifies the speed curve of the animation
+
+	@delay
+	(Defined in seconds (s) or milliseconds (ms). Default is 0)
+	Specifies a delay before the animation will start
+
+	@iteration-count
+	(1,2,3...|infinite)
+	(A number that defines how many times an animation should be played. Default is 1)
+	Specifies how many times an animation should be played
+
+	@direction
+	(normal|reverse|alternate|alternate-reverse)
+	Specifies whether or not the animation should play in reverse on alternate cycles. If the animation is set to play only once, this property will have no effect.
+
+	@fill-mode
+	(none|forwards|backwards|both)
+	Specifies what values are applied by the animation outside the time it is executing (when it is finished, or when it has a "delay"). By default, CSS animations will not affect the element you are animating until the first keyframe is "played", and then stops affecting it once the last keyframe has completed. The animation-fill-mode property can override this behavior. Animate something moving from one place to another and have it stay there: forwards.
+
+	@play-state
+	(paused|running)
+	Specifies whether the animation is running or paused
+	*/
+}
