@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build script for serving static content instead of php files
-DEST="./gh-pages"
+DEST="./docs"
 html=".html"
 
 # Create destination folder
