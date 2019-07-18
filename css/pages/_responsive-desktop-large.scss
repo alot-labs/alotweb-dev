@@ -1,0 +1,51 @@
+/* Desktop Large: 1302px - 1577px */
+
+@media (max-width: ($large-desktop-breakpoint + 1px)){
+	$font-size-responsive: 17;
+	$zoom: $font-size / $font-size-responsive;
+	html{
+		font-size: ($font-size-responsive * 1px);
+	}
+	.heading-1{
+		font-size: px(50 * $zoom);
+	}
+	.products-services{
+		&__illustration{
+			margin-left: 0;
+			margin-right: 0;
+		}
+		&__holder{
+			margin-top: px(-180 * $zoom);
+		}
+	}
+	.hero{
+		&__holder{
+			min-height: px(540 * $zoom);
+		}
+	}
+	.players-experience{
+		&__illustration{
+			height: px(540 * $zoom);
+		}
+	}
+	.overprint-image{
+		&__illustration-wrapper{
+			margin-left: 0;
+		}
+	}
+	.game-embed{
+		&__device-desktop{
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+	.hero{
+		&__illustration{
+			&-image{
+				&-holder{
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

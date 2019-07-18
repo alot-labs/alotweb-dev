@@ -1,0 +1,182 @@
+<?php include 'header.php'; ?>
+<?php include 'menu.php'; ?>
+
+<section class="section hero hero--omnichannel-lottery">
+    <div class="container">
+        <div class="hero__holder">
+            <h1 class="heading-1">Omnichannel Lottery</h1>
+            <p class="paragraph-big">Complete solution combining technology, consulting and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section icon-multilist">
+    <div class="container">
+        <h2 class="heading-1">Lottery & Betting <br>Systems</h2>
+        <div class="icon-multilist__holder">
+            <div class="icon-multilist__column">
+                <div class="icon-multilist__item">
+                    <div class="icon-multilist__icon icon-multilist__icon--draw"></div>
+                    <h3 class="heading-2">Our expertise</h3>
+                    <ul class="icon-multilist__list">
+                        <li>Lottery, e-gaming & betting system development</li>
+                        <li>Lottery equipment, terminals, accessories & consumables</li>
+                        <li>Mobile, Internet Games distribution</li>
+                        <li>Project management and operation</li>
+                        <li>Product portfolio planning</li>
+                        <li>Marketing strategies, promotions, advertising</li>
+                    </ul>
+                </div>
+                <div class="icon-multilist__item">
+                    <div class="icon-multilist__icon icon-multilist__icon--report"></div>
+                    <h3 class="heading-2">Features</h3>
+                    <ul class="icon-multilist__list">
+                        <li>User, Terminal, Game & Merchant Management</li>
+                        <li>Player Account Management</li>
+                        <li>Multi-currency, Multi-language</li>
+                        <li>Multi-jurisdictional, Multi-tenant</li>
+                        <li>Statistics & Reporting</li>
+                        <li>GPS Tracking System & Mapping Dashboards</li>
+                        <li>Risk Management</li>
+                        <li>RNG Draw Simulation</li>
+                        <li>eMarketing Module</li>
+                        <li>Best practice workflow for lottery operation</li>
+                        <li>Ready-to-go manual for quick start-up of new lottery operation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon-multilist__column">
+                <div class="icon-multilist__item">
+                    <div class="icon-multilist__icon icon-multilist__icon--lottery-ticket"></div>
+                    <h3 class="heading-2">Game options</h3>
+                    <ul class="icon-multilist__list">
+                        <li>Flexible lotto systems (6/49, 6/36, 5/90…)</li>
+                        <li>Digit Game (3D, 4D, Chance…)</li>
+                        <li>Instant Game, Scratch Card</li>
+                        <li>Football, Sports Toto</li>
+                        <li>Raffles, Sweepstakes</li>
+                        <li>Bingo, Keno</li>
+                        <li>SMS Betting</li>
+                        <li>Smartphone App</li>
+                        <li>Web/Mobile client</li>
+                    </ul>
+                </div>
+                <div class="icon-multilist__item">
+                    <div class="icon-multilist__icon icon-multilist__icon--process"></div>
+                    <h3 class="heading-2">ERP</h3>
+                    <ul class="icon-multilist__list">
+                        <li>End-to-end operational process - Logistics & Inventory, Procurement, Sales & Distribution, Finance, Human Resources and other services</li>
+                        <li>Retailer relations, lottery terminals, credit management, sales figures and payout</li>
+                        <li>Centralized data synchronization for easy management</li>
+                        <li>System control from point of sales to back office operation</li>
+                        <li>Real-time credit control of retailer and distributors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section lottery-terminals">
+    <div class="container">
+        <div class="lottery-terminals__holder">
+            <div class="lottery-terminals__column">
+                <h2 class="heading-1">Lottery Terminals</h2>
+            </div>
+            <div class="lottery-terminals__column">
+                <div class="lottery-terminals__item">
+                    <div class="lottery-terminals__illustration">
+                        <div class="lottery-terminals__image lottery-terminals__image--mobile-touch"></div>
+                    </div>
+                    <div class="lottery-terminals__text">
+                        <h3 class="heading-3">Mobile touch-screen POS</h3>
+                        <ul class="lottery-terminals__list">
+                            <li>PCI PTS 3.X</li>
+                            <li>EMV4.3 Level 1 & 2</li>
+                            <li>128M  Flash, 64MB RAM</li>
+                            <li>3.5” TFT Color Display 320*480 Touch Screen</li>
+                            <li>GPRS Quad (dual sim)</li>
+                            <li>Optional: Wi-Fi, 3G, CDMA, LAN</li>
+                            <li>Optional Camera, Fingerprint Reader</li>
+                            <li>Optional 1D/ 2D Barcode Scanner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="lottery-terminals__column">
+                <div class="lottery-terminals__item">
+                    <div class="lottery-terminals__illustration">
+                        <div class="lottery-terminals__image lottery-terminals__image--android"></div>
+                    </div>
+                    <div class="lottery-terminals__text">
+                        <h3 class="heading-3">Android mobile POS</h3>
+                        <ul class="lottery-terminals__list">
+                            <li>Android 4.2</li>
+                            <li>1GB DDR3 Memory, 8GB Storage</li>
+                            <li>7” 1024*600 Color Touch Screen</li>
+                            <li>3G + Wi-Fi, Bluetooth</li>
+                            <li>2M Camera, Thermal Printer, Smartcard Reader, MSR, Contactless Card Reader</li>
+                            <li>Optional Barcode Scanner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section accessories">
+    <div class="container">
+        <h2 class="heading-1">Accessories & Peripherals</h2>
+        <div class="accessories__holder">
+            <div class="accessories__row accessories__row--large">
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--desktop-pos"></div>
+                    </div>
+                    <h3 class="accessories__name">Desktop POS</h3>
+                </div>
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--android-pos"></div>
+                    </div>
+                    <h3 class="accessories__name">Android POS</h3>
+                </div>
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--desktop-terminal"></div>
+                    </div>
+                    <h3 class="accessories__name">Desktop terminal</h3>
+                </div>
+            </div>
+            <div class="accessories__row accessories__row--small">
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--external-printer"></div>
+                    </div>
+                    <h3 class="accessories__name">External printer</h3>
+                </div>
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--omr"></div>
+                    </div>
+                    <h3 class="accessories__name">OMR</h3>
+                </div>
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--2d-barcode-scanner"></div>
+                    </div>
+                    <h3 class="accessories__name">2D Barcode Scanner</h3>
+                </div>
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--barcode-scanner"></div>
+                    </div>
+                    <h3 class="accessories__name">Barcode Scanner</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php include 'footer.php'; ?>
