@@ -1,11 +1,11 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Omnichannel Lottery";
+    $title = "ALOT Lottery";
     $meta_desc = "Turnkey technology and risk coverage solution for lotteries operating across all channels with web and mobile clients, shop terminals, handheld devices, interactive betting terminals and more.";
     $meta_keywords = "Lottery, retail, online, mobile, web, terminals";
     $og_image = "";
-    $og_url = $url."/omnichannel-lottery".$ext;
+    $og_url = $url."/lottery".$ext;
 
     include 'header.php';
     include 'menu.php';
@@ -14,7 +14,7 @@
 <section class="section hero hero--omnichannel-lottery">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Omnichannel Lottery</h1>
+            <h1 class="heading-1">ALOT Lottery</h1>
             <p class="paragraph-big">Complete solution combining technology, consulting and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
         </div>
     </div>

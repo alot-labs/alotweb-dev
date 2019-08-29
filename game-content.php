@@ -1,11 +1,11 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Gaming Content";
+    $title = "ALOT Game Content";
     $meta_desc = "Unique portfolio of gaming content with huge jackpot prizes, including lottery betting, fixed odds lottery games, KENO, bingo, scratch cards and more.";
     $meta_keywords = "Lottery, huge jackpot, jackpot games, KENO, bingo, scratch cards, lottery betting";
     $og_image = "";
-    $og_url = $url."/gaming-content".$ext;
+    $og_url = $url."/game-content".$ext;
 
     include 'header.php';
     include 'menu.php';
@@ -14,7 +14,7 @@
 <section class="section hero hero--gaming-content">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Gaming Content</h1>
+            <h1 class="heading-1">ALOT Game Content</h1>
             <p class="paragraph-big">Unique portfolio of proprietary gaming content ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and more.</p>
         </div>
     </div>
@@ -36,7 +36,7 @@
 
 <section class="section lotto-betting">
     <div class="container">
-        <h2 class="heading-1">Lotto betting</h2>
+        <h2 class="heading-1">Lotto Betting</h2>
         <div class="split-content">
             <div class="split-content__item">
                 <div class="lottery-icons">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="other-games__column other-games__column--offset">
-                <h2 class="heading-1">KENO differently</h2>
+                <h2 class="heading-1">KENO......Differently</h2>
                 <div class="other-games__item">
                     <div class="other-games__illustration" style="background-image: url(i/keno-game.jpg);"></div>
                     <p class="paragraph">KENO from all over the world in one place. Players can participate in KENO games offered by operators from all over the world or join an RNG-based KENO-style games from one screen. Very popular in Asian markets!</p>

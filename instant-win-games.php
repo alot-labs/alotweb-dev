@@ -13,7 +13,7 @@
 <section class="section hero hero--instant-win-games">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Instant Win <br>games</h1>
+            <h1 class="heading-1">Instant Win <br>Games</h1>
         </div>
     </div>
 </section>
@@ -26,7 +26,7 @@
                 <div class="logo-text__icons-item logo-text__icons-item--itech"></div>
             </div>
             <div class="logo-text__description">
-                <h2 class="heading-1">What Are Instant Win games?</h2>
+                <h2 class="heading-1">What Are Instant Win Games?</h2>
                 <p class="paragraph">With instant win games, players know how much they have won as soon as they submit their bet. The immediate gratification extends the player’s experience and keeps them on the site longer. Our certified Random Insured Number Generator (RiNG) produces game results for every Instant Win game and can determine winnings of up to 100M EUR. If you are a game developer, you can take advantage of RiNG in your own games, boosting the potential winnings to sky-high levels.</p>
             </div>
         </div>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="heading-1">Our Instant win games</h2>
+            <h2 class="heading-1">Our Instant Win Games</h2>
         </div>
     </div>
     <div class="game-embed__desktop">
@@ -75,9 +75,9 @@
                     <a href="lotto-betting<?=$ext?>" class="related-products__illustration related-products__illustration--lottery"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="lotto-betting<?=$ext?>">Lottery client</a>
+                            <a href="lotto-betting<?=$ext?>">Lottery Game Client</a>
                         </h3>
-                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="paragraph">Fastest route to market for your brand.</p>
                     </div>
                 </div>
                 <div class="related-products__item">
@@ -86,16 +86,16 @@
                         <h3 class="heading-3">
                             <a href="keno-games<?=$ext?>">Keno Games</a>
                         </h3>
-                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="paragraph">KENO....differently</p>
                     </div>
                 </div>
                 <div class="related-products__item">
-                    <a href="gaming-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
+                    <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="gaming-content<?=$ext?>">API</a>
+                            <a href="game-content<?=$ext?>">API</a>
                         </h3>
-                        <p class="paragraph">API Integration and Website Integration</p>
+                        <p class="paragraph">Our API Integrations</p>
                     </div>
                 </div>
             </div>

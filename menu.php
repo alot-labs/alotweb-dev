@@ -6,7 +6,7 @@
                 <a href="risk-management<?=$ext?>">Risk Management</a>
             </li>
             <li>
-                <a href="gaming-content<?=$ext?>">Gaming Content</a>
+                <a href="game-content<?=$ext?>">Game Content</a>
             </li>
             <li>
                 <a href="lotto-betting<?=$ext?>">Lotto Betting</a>
@@ -18,7 +18,7 @@
                 <a href="keno-games<?=$ext?>">Keno</a>
             </li>
             <li class="no-margin">
-                <a href="omnichannel-lottery<?=$ext?>">Omnichannel lottery</a>
+                <a href="lottery<?=$ext?>">Lottery</a>
             </li>
             <li class="header__menu-item-mobile">
                 <a href="news<?=$ext?>">News</a>
