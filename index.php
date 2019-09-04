@@ -57,7 +57,7 @@
             <div class="products-services__column">
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">ALOT Risk Management</h3>
+                        <h3 class="heading-2">ALOT Prize Risk Management</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">Leverage the power of huge jackpots backed by our in-house insurance company. Impeccable track record in underwriting prize payout risk for gaming companies. </p>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">ALOT Lottery</h3>
+                        <h3 class="heading-2">ALOT Lottery Systems</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">Access your lottery customers in every way possible – web and online, retail terminals, compact handheld devices, interactive betting terminals.</p>
@@ -79,7 +79,7 @@
             <div class="products-services__column">
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">ALOT Game Content</h3>
+                        <h3 class="heading-2">ALOT Games</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">License our catalogue of games unavailable anywhere else. KENO-style, fixed odds lotto, instant lottery and many other games offering huge prizes with unseen features.</p>
@@ -89,12 +89,12 @@
                 </div>
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">ALOT Promotions</h3>
+                        <h3 class="heading-2">Example deployments</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">We support your charity or prize promotion marketing with our groundbraking technology. In combination with ALOT Risk Management, we boost your prizes to attract more patrons.</p>
                         <p class="paragraph">Raffles or fixed odds games. With or without a fee to enter. One-time or continuous. </p>
-                        <a href="game-content<?=$ext?>" class="button button--blue">ALOT Promotions</a>
+                        <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
                     </div>
                 </div>
             </div>

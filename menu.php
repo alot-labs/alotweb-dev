@@ -3,28 +3,22 @@
         <a href="/" class="header__logo"></a>
         <ul class="header__menu">
             <li>
-                <a href="risk-management<?=$ext?>">Risk Management</a>
+                <a href="risk-management<?=$ext?>">Prize Risk Management</a>
             </li>
             <li>
-                <a href="game-content<?=$ext?>">Game Content</a>
+                <a href="games<?=$ext?>">Games</a>
             </li>
             <li>
-                <a href="lotto-betting<?=$ext?>">Lotto Betting</a>
+                <a href="lottery<?=$ext?>">Lottery Systems</a>
             </li>
             <li>
-                <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
-            </li>
-            <li>
-                <a href="keno-games<?=$ext?>">Keno</a>
-            </li>
-            <li class="no-margin">
-                <a href="lottery<?=$ext?>">Lottery</a>
-            </li>
-            <li class="header__menu-item-mobile">
                 <a href="news<?=$ext?>">News</a>
             </li>
             <li class="header__menu-item-mobile">
-                <a href="about-us<?=$ext?>">About us</a>
+                <a href="news<?=$ext?>">About Us</a>
+            </li>
+            <li class="header__menu-item-mobile">
+                <a href="about-us<?=$ext?>">Contact</a>
             </li>
         </ul>
         <div class="header__hamburger">
