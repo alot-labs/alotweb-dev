@@ -2,7 +2,7 @@
     include 'config.php';
 
     $title = "ALOT Risk Management";
-    $meta_desc = "Risk management services for lottery operators, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.";
+    $meta_desc = "Risk management services for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.";
     $meta_keywords = "Lottery, huge jackpot, hedging, insurance, jackpot games";
     $og_image = "";
     $og_url = $url."/risk-management".$ext;
@@ -14,8 +14,8 @@
 <section class="section hero hero--risk-management">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Risk Management</h1>
-            <p class="paragraph-big">The proven provider of risk management services for lottery operators, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
+            <h1 class="heading-1">ALOT Risk Management</h1>
+            <p class="paragraph-big">The proven provider of risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
         </div>
     </div>
 </section>
@@ -25,7 +25,7 @@
         <h2 class="heading-1">Boost your prizes</h2>
         <div class="image-with-description__holder">
             <div class="image-with-description__plate image-with-description__plate--blue">
-                <p class="image-with-description__text">With our industry-unique risk management solution, you can offer jackpot prizes to your customers without putting your own capital at risk. Enhance your existing games, license our jackpot content or build your own lottery and start offering immense jackpots from the beginning.</p>
+                <p class="image-with-description__text">You can offer jackpot prizes to your customers without risking your own capital or chose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering immense jackpots from the beginning.</p>
             </div>
             <div class="image-with-description__illustration" style="background-image: url(i/lottery-balls.jpg);"></div>
         </div>
@@ -39,7 +39,7 @@
             <ul class="icon-list">
                 <li class="icon-list__item icon-list__item--horseshoe">
                     <h3 class="heading-2">In-house insurance company</h3>
-                    <p class="paragraph">We operate our own insurance company underwriting our client’s jackpot prizes, backed by world leading reinsurance giants.</p>
+                    <p class="paragraph">We operate an insurance company within our group, underwriting our client’s jackpot prizes.</p>
                 </li>
                 <li class="icon-list__item icon-list__item--cloverleaf">
                     <h3 class="heading-2">Proven track record</h3>
@@ -47,7 +47,7 @@
                 </li>
                 <li class="icon-list__item icon-list__item--license">
                     <h3 class="heading-2">Licensed and regulated</h3>
-                    <p class="paragraph">Our prize risk coverage solution and corresponding group companies are regulated and respected by major gaming regulators such as UK, Gibraltar, Malta, Sweden, Australia and more.</p>
+                    <p class="paragraph">Our prize risk coverage solution and corresponding group companies are regulated and respected by major gaming regulators such as UK, Gibraltar, Malta, Sweden, Ireland, South Africa, Australia and more.</p>
                 </li>
                 <li class="icon-list__item icon-list__item--trophy">
                     <h3 class="heading-2">Flexible</h3>
@@ -65,7 +65,7 @@
             <div class="use-cases__row">
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-1.jpg)"></div>
-                    <h3 class="heading-3">Lottery Operators</h3>
+                    <h3 class="heading-3">State Lotteries</h3>
                     <p class="paragraph">Do you run a lottery with a small player base and the collected stakes do not build your jackpot prize fast enough? Attract new players by boosting your jackpot with&nbsp;us!</p>
                 </div>
                 <div class="use-cases__item">

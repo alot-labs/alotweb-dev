@@ -2,7 +2,7 @@
     include 'config.php';
 
     $title = "ALOT Solutions";
-    $meta_desc = "The leading provider of jackpot solutions, risk management services, lottery management systems and unique gaming content with impeccable track record.";
+    $meta_desc = "The leading provider of jackpot solutions, risk management services, lottery management systems and unique gaming content.";
     $meta_keywords = "Lottery, jackpot, hedging, insurance, retail lottery, online lottery, mobile lottery, jackpot games";
     $og_image = "";
     $og_url = $url;
@@ -14,8 +14,8 @@
 <section class="section hero hero--homepage">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">The leading provider <br>of jackpot solutions,</h1>
-            <p class="paragraph-big">Risk Management Services, Lottery Management Systems <br>and unique gaming content with an impeccable <br>track record.</p>
+            <h1 class="heading-1">The leading provider of<br></h1>
+            <p class="paragraph-big">Risk Management, Lottery Systems,  <br>and Game Content.</p>
         </div>
     </div>
 </section>
@@ -32,8 +32,8 @@
                 <p class="paragraph">Biggest <br>payout</p>
             </div>
             <div class="stats__item">
-                <p class="stats__value">20k</p>
-                <p class="paragraph">Lotteries, scratchcards &amp; instant games</p>
+                <p class="stats__value">20M</p>
+                <p class="paragraph">Jackpot for scratchcards &amp; instant games</p>
             </div>
             <div class="stats__item">
                 <p class="stats__value">150</p>
@@ -57,44 +57,44 @@
             <div class="products-services__column">
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">Jackpot Solutions</h3>
+                        <h3 class="heading-2">ALOT Prize Risk Management</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">Leverage the power of huge jackpots and numbers-based gaming. Enhance your existing lottery or gaming portfolio, license our games or create your own bespoke lottery or RNG based game with immense prizes.</p>
-                        <p class="paragraph">Jackpot coverage ranging from $30k to $1B+.</p>
-                        <a href="lotto-betting<?=$ext?>" class="button button--blue">Lotto betting</a>
+                        <p class="paragraph">Leverage the power of huge jackpots backed by our in-house insurance company. Impeccable track record in underwriting prize payout risk for gaming companies. </p>
+                        <p class="paragraph"> Over $350M in jackpot prizes paid out to date, 90M single largest payout, 20M jackpot for scratchcards.</p>
+                        <a href="lotto-betting<?=$ext?>" class="button button--blue">ALOT Risk Management</a>
                     </div>
                 </div>
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">Omnichannel Lottery Systems</h3>
+                        <h3 class="heading-2">ALOT Lottery Systems</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">Access your lottery customers in every way possible – retail terminals, compact handheld devices, interactive betting terminals, web and mobile channels.</p>
+                        <p class="paragraph">Access your lottery customers in every way possible – web and online, retail terminals, compact handheld devices, interactive betting terminals.</p>
                         <p class="paragraph">Turnkey solution, whether you sell online and/or on the streets.</p>
-                        <a href="omnichannel-lottery<?=$ext?>" class="button button--blue">Omnichannel Systems</a>
+                        <a href="lottery<?=$ext?>" class="button button--blue">ALOT Lottery</a>
                     </div>
                 </div>
             </div>
             <div class="products-services__column">
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">Risk Management</h3>
-                    </div>
-                    <div class="products-services__item-body">
-                        <p class="paragraph">We run an in-house insurance company with an impeccable track record in underwriting jackpot risk for gaming companies. Licensed and respected in Tier 1 gaming jurisdictions around the world.</p>
-                        <p class="paragraph">Over $350M in jackpot prizes paid out to date.</p>
-                        <a href="risk-management<?=$ext?>" class="button button--blue">Risk management</a>
-                    </div>
-                </div>
-                <div class="products-services__item">
-                    <div class="products-services__item-header">
-                        <h3 class="heading-2">Unique game content</h3>
+                        <h3 class="heading-2">ALOT Games</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">License our catalogue of games unavailable anywhere else. KENO-style, fixed odds lotto, instant lottery and many other games offering huge prizes with unseen features.</p>
                         <p class="paragraph">Enhance your player’s experience with engaging new content under your brand.</p>
-                        <a href="gaming-content<?=$ext?>" class="button button--blue">Game content</a>
+                        <a href="risk-management<?=$ext?>" class="button button--blue">ALOT Game Content</a>
+                    </div>
+                </div>
+                <div class="products-services__item">
+                    <div class="products-services__item-header">
+                        <h3 class="heading-2">Example deployments</h3>
+                    </div>
+                    <div class="products-services__item-body">
+                        <p class="paragraph">We support your charity or prize promotion marketing with our groundbraking technology. In combination with ALOT Risk Management, we boost your prizes to attract more patrons.</p>
+                        <p class="paragraph">Raffles or fixed odds games. With or without a fee to enter. One-time or continuous. </p>
+                        <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                 <h2 class="heading-1">Our clients</h2>
             </div>
             <div class="heading-holder__item">
-                <p class="paragraph">Come and join the family of market leading operators who understand the importance of the innovation in jackpot-based gaming. We service lottery operators, lottery service providers, casinos, betting shops, online sportsbooks, bingos, marketing prize promoters and more.</p>
+                <p class="paragraph">Come and join the family of market leading operators who understand the importance of the innovation in jackpot-based gaming. We service state lottery operators, lottery service providers, casinos, betting shops, online sportsbooks, bingos, marketing prize promoters and more.</p>
             </div>
         </div>
         <div class="clients__holder">

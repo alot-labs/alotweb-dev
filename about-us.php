@@ -14,7 +14,7 @@
 <section class="section hero hero--about-us">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Company profile</h1>
+            <h1 class="heading-1">Company Profile</h1>
             <p class="paragraph-big">The unique provider of jackpot solutions, risk management and lottery systems – online or land-based.</p>
         </div>
     </div>

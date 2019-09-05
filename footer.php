@@ -8,22 +8,13 @@
             <div class="footer__column">
                 <ul class="footer__list">
                     <li>
-                        <a href="risk-management<?=$ext?>">Risk Management</a>
+                        <a href="risk-management<?=$ext?>">Prize Risk Management</a>
                     </li>
                     <li>
-                        <a href="gaming-content<?=$ext?>">Gaming Content</a>
+                        <a href="games<?=$ext?>">Games</a>
                     </li>
                     <li>
-                        <a href="lotto-betting<?=$ext?>">Lotto Betting</a>
-                    </li>
-                    <li>
-                        <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
-                    </li>
-                    <li>
-                        <a href="keno-games<?=$ext?>">Keno</a>
-                    </li>
-                    <li>
-                        <a href="omnichannel-lottery<?=$ext?>">Omnichannel lottery</a>
+                        <a href="lottery<?=$ext?>">Lottery Systems</a>
                     </li>
                 </ul>
             </div>
@@ -38,12 +29,15 @@
                     <li>
                         <a href="privacy-policy<?=$ext?>">Privacy policy</a>
                     </li>
+                    <li>
+                        <a href="contact<?=$ext?>">Contact</a>
+                    </li>
                 </ul>
             </div>
             <div class="footer__column">
                 <p class="footer__paragraph">
                     Alot Solutions Limited <br>
-                    6.20 World Trade Center, <br>
+                    5.089 World Trade Center, <br>
                     6 Bayside Road, <br>
                     Gibraltar
                 </p>

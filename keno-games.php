@@ -16,7 +16,7 @@
         <div class="hero__holder">
             <div class="hero__illustration">
                 <div class="hero__illustration-text">
-                    <h1 class="heading-1">Keno games <br>differently</h1>
+                    <h1 class="heading-1">Keno Games....Differently</h1>
                 </div>
                 <div class="hero__illustration-image">
                     <div class="hero__illustration-image-holder hero__illustration-image-holder--keno-games"></div>
@@ -32,7 +32,7 @@
             <div class="other-games__column">
                 <h2 class="heading-1">About Keno</h2>
                 <div class="other-games__item">
-                    <p class="paragraph">Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.  With RTP (Return To Player) as high as 97.49%, these games keep players engaged for longer and offer an amazing winning experience.</p>
+                    <p class="paragraph">Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.  With RTP (Return To Player) as high as 97.5%, these games keep players engaged for longer and offer an amazing winning experience.</p>
                 </div>
             </div>
             <div class="other-games__column">
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="heading-1">Our Keno games</h2>
+            <h2 class="heading-1">Our Keno Games</h2>
         </div>
     </div>
     <div class="game-embed__desktop">
@@ -87,7 +87,7 @@
                         <h3 class="heading-3">
                             <a href="lotto-betting<?=$ext?>">Lottery client</a>
                         </h3>
-                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="paragraph">Fastest route to market for your brand.</p>
                     </div>
                 </div>
                 <div class="related-products__item">
@@ -96,16 +96,16 @@
                         <h3 class="heading-3">
                             <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
                         </h3>
-                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p class="paragraph">Scratch cards and fast paced games.</p>
                     </div>
                 </div>
                 <div class="related-products__item">
-                    <a href="gaming-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
+                    <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="gaming-content<?=$ext?>">API</a>
+                            <a href="game-content<?=$ext?>">API</a>
                         </h3>
-                        <p class="paragraph">API Integration and Website Integration</p>
+                        <p class="paragraph">API Integrations.</p>
                     </div>
                 </div>
             </div>
