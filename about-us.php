@@ -48,13 +48,13 @@
                 <div class="team__picture" style="background-image: url(i/team-markus-stricker.jpg)"></div>
                 <h3 class="heading-2">Markus Stricker</h3>
                 <p class="heading-3">CRO</p>
-                <p class="paragraph">Markus is ALOT’s Chief Risk Officer and we feel safe with&nbsp;him.</p>
+                <p class="paragraph">Markus holds a PhD in Mathematics and is a qualified actuary with more than 20 years of speciality re/insurance experience. He focuses on creating re/insurance solutions for technology based businesses and oversees ALOTs risk&jackpot management businesses.</p>
             </div>
             <div class="team__item">
                 <div class="team__picture" style="background-image: url(i/team-michal-chovanec.jpg)"></div>
                 <h3 class="heading-2">Michal Chovanec</h3>
                 <p class="heading-3">CTO</p>
-                <p class="paragraph">Candid super techie who does not tolerate any BS.</p>
+                <p class="paragraph">Michal is an information technology pioneer with over 20 years of experience in managing software development teams in various sectors.  Thanks to his diligent and systematic approach to solving complex problems. Michal with ALOT dev team ensures robustness, security and scalability of ALOT Technology products and services.</p>
             </div>
             <div class="team__item">
                 <div class="team__picture" style="background-image: url(i/team-geaspar-brybe.jpg)"></div>
@@ -66,22 +66,28 @@
                 <div class="team__picture" style="background-image: url(i/team-marek-mahdal.jpg)"></div>
                 <h3 class="heading-2">Marek Mahdal</h3>
                 <p class="heading-3">COO</p>
-                <p class="paragraph">The new guy.</p>
+                <p class="paragraph">With over 20 years of management experience, Marek is a senior digital leader, product development & operations specialist overseeing ALOTs business operations ensuring that effective operational, control and reporting procedures are in place and all systems can scale with our partners requirements.</p>
             </div>
         </div>
     </div>
 </section>
 
+<div class="virtual-anchor virtual-anchor--2" id="contact"></div>
+
 <section class="section contact">
     <div class="container">
-        <div class="heading-holder heading-holder--center">
+        <div class="heading-holder">
             <div class="heading-holder__item">
                 <h2 class="heading-1">Contact Us</h2>
             </div>
             <div class="heading-holder__item">
-                <div class="contact__anchor">
+                <div class="contact__anchor contact__anchor--email">
                     <p class="contact__anchor-text">General inquires</p>
                     <a href="mailto:info@alot-solutions.com" class="contact__anchor-hyperlink">info@alot-solutions.com</a>
+                </div>
+                <div class="contact__anchor contact__anchor--support">
+                    <p class="contact__anchor-text">Customer support</p>
+                    <a href="mailto:support@alot-solutions.com" class="contact__anchor-hyperlink">support@alot-solutions.com</a>
                 </div>
             </div>
         </div>

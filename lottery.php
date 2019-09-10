@@ -20,6 +20,29 @@
     </div>
 </section>
 
+<section class="section achievements achievements--items-2 achievements--magenta">
+    <div class="container">
+        <div class="achievements__holder">
+            <div class="achievements__item">
+                <div class="achievements__icon achievements__icon--lotto-experience"></div>
+                <div class="achievements__text-holder">
+                    <p class="achievements__value">Pioneering on-line Lottery experience</p>
+                    <p class="paragraph">Innovative primary and secondary lottery providers leverage our Prize Cover, Games and Lottery Systems to power their operations.</p>
+                </div>
+            </div>
+            <div class="achievements__item">
+                <div class="achievements__icon achievements__icon--prize-promotion"></div>
+                <div class="achievements__text-holder">
+                    <p class="achievements__value">Innovate Your Prize Promotion</p>
+                    <p class="paragraph">ALOT Solutions is the trusted partner to power <strong>raffles</strong>, <strong>sweepstakes</strong> and any other form of <strong>prize promotion marketing</strong>. We provide state of the art entry, draw & resulting technology as well as leveraging our Prize Cover to enable your offer to stand-out.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
+
 <section class="section icon-multilist">
     <div class="container">
         <h2 class="heading-1">Lottery & Betting <br>Systems</h2>

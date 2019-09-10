@@ -32,6 +32,8 @@
                         </div>
                     </div>
                 </div>
+
+
                 <div class="articles__item">
                     <div class="article-preview">
                         <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?=$ext?>"></a>
@@ -80,6 +82,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>

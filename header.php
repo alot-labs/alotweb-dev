@@ -25,6 +25,7 @@
 
     <!-- JS -->
     <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/functions.js"></script>
 </head>
 <body>
