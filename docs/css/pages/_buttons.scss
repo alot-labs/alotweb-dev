@@ -14,6 +14,7 @@
 	@include daxline-extra-bold;
 	text-transform: uppercase;
 	border-radius: $radius;
+	white-space: nowrap;
 	&--blue{
 		background: $blue;
 		color: #fff;
