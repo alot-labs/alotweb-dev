@@ -21,7 +21,7 @@ cp -Rf css $DEST
 cp -Rf fonts $DEST
 cp -Rf i $DEST
 cp -Rf js $DEST
-cp CNAME $DEST
+#cp CNAME $DEST
 
 
 echo "Process complete." ;
