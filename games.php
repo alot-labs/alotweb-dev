@@ -20,6 +20,8 @@
     </div>
 </section>
 
+<div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
+
 <section class="section players-experience">
     <div class="container">
         <div class="heading-holder heading-holder--narrow-text">
@@ -79,7 +81,7 @@
                 </div>
             </div>
             <div class="other-games__column other-games__column--offset">
-                <h2 class="heading-1">KENO......Differently</h2>
+                <h2 class="heading-1">KENO... Differently</h2>
                 <div class="other-games__item">
                     <div class="other-games__illustration" style="background-image: url(i/keno-game.jpg);"></div>
                     <p class="paragraph">KENO from all over the world in one place. Players can participate in KENO games offered by operators from all over the world or join an RNG-based KENO-style games from one screen. Very popular in Asian markets!</p>

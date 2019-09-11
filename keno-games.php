@@ -16,7 +16,7 @@
         <div class="hero__holder">
             <div class="hero__illustration">
                 <div class="hero__illustration-text">
-                    <h1 class="heading-1">Keno Games....Differently</h1>
+                    <h1 class="heading-1">Keno Games... Differently</h1>
                 </div>
                 <div class="hero__illustration-image">
                     <div class="hero__illustration-image-holder hero__illustration-image-holder--keno-games"></div>
@@ -99,7 +99,7 @@
                         <p class="paragraph">Scratch cards and fast paced games.</p>
                     </div>
                 </div>
-                <div class="related-products__item">
+                <!--div class="related-products__item">
                     <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
@@ -107,7 +107,7 @@
                         </h3>
                         <p class="paragraph">API Integrations.</p>
                     </div>
-                </div>
+                </div-->
             </div>
             <div class="related-products__button-holder">
                 <a href="about-us<?=$ext?>" class="button button--white-green">Contact us</a>

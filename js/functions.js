@@ -1,9 +1,20 @@
 $(document).ready(function() {
 
+    /* Slideshow */
+    $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false
+    });
+
     /* Menu hamburger */
     $('.header__hamburger').click(function(){
         $('.header__hamburger-icon').toggleClass('active');
-        $('.header__menu').toggleClass('active');
+        $('.header__mobile-plate').toggleClass('active');
         $('body').toggleClass('menu-active');
     });
 

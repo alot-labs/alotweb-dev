@@ -11,14 +11,43 @@
     include 'menu.php';
 ?>
 
-<section class="section hero hero--homepage">
-    <div class="container">
-        <div class="hero__holder">
-            <h1 class="heading-1">The leading provider of<br></h1>
-            <p class="paragraph-big">Risk Management, Lottery Systems,  <br>and Game Content.</p>
+<div class="owl-carousel">
+    <section class="hero hero--homepage">
+        <div class="container">
+            <div class="hero__holder">
+                <h1 class="heading-1">The leading provider&nbsp;of</h1>
+                <p class="paragraph-big">Risk Management, Lottery Systems,  <br>and Game Content.</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+    <section class="hero hero--risk-management">
+        <div class="container">
+            <div class="hero__holder">
+                <h1 class="heading-1">ALOT Prize Cover</h1>
+                <p class="paragraph-big">The proven provider of risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
+                <a href="prize-cover<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="hero hero--omnichannel-lottery">
+        <div class="container">
+            <div class="hero__holder">
+                <h1 class="heading-1">ALOT Lottery</h1>
+                <p class="paragraph-big">Complete solution combining technology, consulting and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
+                <a href="lottery<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <section class="hero hero--gaming-content">
+        <div class="container">
+            <div class="hero__holder">
+                <h1 class="heading-1">ALOT Game Content</h1>
+                <p class="paragraph-big">Unique portfolio of proprietary gaming content ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and more.</p>
+                <a href="games<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
+            </div>
+        </div>
+    </section>
+</div>
 
 <section class="section stats">
     <div class="container">
@@ -57,12 +86,12 @@
             <div class="products-services__column">
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">ALOT Prize Risk Management</h3>
+                        <h3 class="heading-2">ALOT Prize Cover</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">Leverage the power of huge jackpots backed by our in-house insurance company. Impeccable track record in underwriting prize payout risk for gaming companies. </p>
                         <p class="paragraph"> Over $350M in jackpot prizes paid out to date, 90M single largest payout, 20M jackpot for scratchcards.</p>
-                        <a href="lotto-betting<?=$ext?>" class="button button--blue">ALOT Risk Management</a>
+                        <a href="prize-cover<?=$ext?>" class="button button--blue">ALOT Prize Cover</a>
                     </div>
                 </div>
                 <div class="products-services__item">
@@ -72,7 +101,7 @@
                     <div class="products-services__item-body">
                         <p class="paragraph">Access your lottery customers in every way possible – web and online, retail terminals, compact handheld devices, interactive betting terminals.</p>
                         <p class="paragraph">Turnkey solution, whether you sell online and/or on the streets.</p>
-                        <a href="lottery<?=$ext?>" class="button button--blue">ALOT Lottery</a>
+                        <a href="lottery<?=$ext?>" class="button button--blue">ALOT Lottery Systems</a>
                     </div>
                 </div>
             </div>
@@ -84,7 +113,7 @@
                     <div class="products-services__item-body">
                         <p class="paragraph">License our catalogue of games unavailable anywhere else. KENO-style, fixed odds lotto, instant lottery and many other games offering huge prizes with unseen features.</p>
                         <p class="paragraph">Enhance your player’s experience with engaging new content under your brand.</p>
-                        <a href="risk-management<?=$ext?>" class="button button--blue">ALOT Game Content</a>
+                        <a href="games<?=$ext?>" class="button button--blue">ALOT Games</a>
                     </div>
                 </div>
                 <div class="products-services__item">
@@ -114,11 +143,12 @@
         </div>
         <div class="clients__holder">
             <div class="clients__row">
+                <div class="clients__logo clients__logo--lottoland"></div>
                 <div class="clients__logo clients__logo--kindred"></div>
                 <div class="clients__logo clients__logo--unibet"></div>
                 <div class="clients__logo clients__logo--bwin"></div>
             </div>
-            <div class="clients__row clients__row--reverse">
+            <div class="clients__row clients__row--center">
                 <div class="clients__logo clients__logo--betvictor"></div>
                 <div class="clients__logo clients__logo--william-hill"></div>
                 <div class="clients__logo clients__logo--bgt"></div>
@@ -150,6 +180,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="news__item">
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?=$ext?>"></a>
@@ -162,6 +193,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="mobile-only">
             <a href="news<?=$ext?>" class="button button--blue">More news</a>

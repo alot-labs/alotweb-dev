@@ -89,7 +89,7 @@
                         <p class="paragraph">KENO....differently</p>
                     </div>
                 </div>
-                <div class="related-products__item">
+                <!--div class="related-products__item">
                     <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
@@ -97,7 +97,7 @@
                         </h3>
                         <p class="paragraph">Our API Integrations</p>
                     </div>
-                </div>
+                </div-->
             </div>
             <div class="related-products__button-holder">
                 <a href="about-us<?=$ext?>" class="button button--white-green">Contact us</a>
