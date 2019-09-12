@@ -16,7 +16,7 @@
         <div class="container">
             <div class="hero__holder">
                 <h1 class="heading-1">The leading provider&nbsp;of</h1>
-                <p class="paragraph-big">Risk Management, Lottery Systems,  <br>and Game Content.</p>
+                <p class="paragraph-big">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good&nbsp;causes.</p>
             </div>
         </div>
     </section>
