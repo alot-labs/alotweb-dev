@@ -1,9 +1,9 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT About us";
-    $meta_desc = "Company profile, history, track record and team composition. ALOT is the number one provider of jackpot risk management services in the world, also offering unique gaming content and lottery systems.";
-    $meta_keywords = "Company profile, team, history";
+    $title = "ALOT Example Deployments";
+    $meta_desc = "Example deployments of ALOT's products and services, including games, lottery systems and prize cover services.";
+    $meta_keywords = "Examples";
     $og_image = "";
     $og_url = $url."/about_us".$ext;
 
@@ -25,7 +25,7 @@
         <div class="container">
             <div class="deployment__holder deployment__holder--left">
                 <div class="deployment__wrapper">
-                    <h2 class="heading-1">Game client</h2>
+                    <h2 class="heading-1">Games</h2>
                     <div class="deployment__screenshot deployment__screenshot--unibet">
                         <a class="deployment__logo deployment__logo--unibet" href="https://www.unibet.co.uk/" target="_blank"></a>
                     </div>

@@ -1,8 +1,8 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Lottery";
-    $meta_desc = "Turnkey technology and risk coverage solution for lotteries operating across all channels with web and mobile clients, shop terminals, handheld devices, interactive betting terminals and more.";
+    $title = "ALOT Lottery Systems";
+    $meta_desc = "Turnkey technology and risk cover for lotteries operating across all channels with web and mobile clients, shop terminals, handheld devices, interactive betting terminals and more.";
     $meta_keywords = "Lottery, retail, online, mobile, web, terminals";
     $og_image = "";
     $og_url = $url."/lottery".$ext;
@@ -14,7 +14,7 @@
 <section class="section hero hero--omnichannel-lottery">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT Lottery</h1>
+            <h1 class="heading-1">ALOT Lottery Systems</h1>
             <p class="paragraph-big">Complete solution combining technology, consulting and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
         </div>
     </div>
@@ -54,7 +54,7 @@
                     <ul class="icon-multilist__list">
                         <li>Lottery, e-gaming & betting system development</li>
                         <li>Lottery equipment, terminals, accessories & consumables</li>
-                        <li>Mobile, Internet Games distribution</li>
+                        <li>Mobile, Web Games distribution</li>
                         <li>Project management and operation</li>
                         <li>Product portfolio planning</li>
                         <li>Marketing strategies, promotions, advertising</li>
@@ -70,7 +70,7 @@
                         <li>Multi-jurisdictional, Multi-tenant</li>
                         <li>Statistics & Reporting</li>
                         <li>GPS Tracking System & Mapping Dashboards</li>
-                        <li>Risk Management</li>
+                        <li>Prize Cover</li>
                         <li>RNG Draw Simulation</li>
                         <li>eMarketing Module</li>
                         <li>Best practice workflow for lottery operation</li>

@@ -2,7 +2,7 @@
     include 'config.php';
 
     $title = "ALOT About us";
-    $meta_desc = "Company profile, history, track record and team composition. ALOT is the number one provider of jackpot risk management services in the world, also offering unique gaming content and lottery systems.";
+    $meta_desc = "Company profile, history, track record and team composition. ALOT is the number one provider of jackpot cover services in the world, also offering unique games and lottery systems.";
     $meta_keywords = "Company profile, team, history";
     $og_image = "";
     $og_url = $url."/about_us".$ext;
@@ -15,7 +15,7 @@
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">Company Profile</h1>
-            <p class="paragraph-big">The unique provider of jackpot solutions, risk management and lottery systems – online or land-based.</p>
+            <p class="paragraph-big">The unique provider of prize cover, lottery systems and games – through all channels.</p>
         </div>
     </div>
 </section>
@@ -42,7 +42,7 @@
                 <div class="team__picture" style="background-image: url(i/team-michael-bogie.jpg)"></div>
                 <h3 class="heading-2">Michael Bogie</h3>
                 <p class="heading-3">CEO</p>
-                <p class="paragraph">Mike is a nice chap and we like him&nbsp;a&nbsp;lot.</p>
+                <p class="paragraph">Mike is a nice chap and we like him&nbsp;a&nbsp;lot, but he is too modest to say anything nice about himself in this section of our awesome website.</p>
             </div>
             <div class="team__item">
                 <div class="team__picture" style="background-image: url(i/team-markus-stricker.jpg)"></div>
@@ -103,20 +103,6 @@
                     <div class="locations__illustration" style="background-image: url(i/office-location-gibraltar.jpg)"></div>
                     <div class="locations__text-holder">
                         <h3 class="heading-2">Gibraltar (HQ)</h3>
-                        <p class="paragraph">
-                            <strong>ALOT Solutions Limited</strong><br>
-                            5.08 World Trade Center<br>
-                            6 Bayside Road<br>
-                            Gibraltar GX111AA
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="locations__column">
-                <div class="locations__item">
-                    <div class="locations__illustration" style="background-image: url(i/office-location-hong-kong.jpg)"></div>
-                    <div class="locations__text-holder">
-                        <h3 class="heading-2">Hong Kong</h3>
                         <p class="paragraph">
                             <strong>ALOT Solutions Limited</strong><br>
                             5.08 World Trade Center<br>

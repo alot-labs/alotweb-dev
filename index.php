@@ -2,8 +2,8 @@
     include 'config.php';
 
     $title = "ALOT Solutions";
-    $meta_desc = "The leading provider of jackpot solutions, risk management services, lottery management systems and unique gaming content.";
-    $meta_keywords = "Lottery, jackpot, hedging, insurance, retail lottery, online lottery, mobile lottery, jackpot games";
+    $meta_desc = "The leading provider of jackpot solutions, prize cover, lottery systems and unique games.";
+    $meta_keywords = "Lottery, jackpot, hedging, insurance, prize cover, retail lottery, online lottery, mobile lottery, jackpot games";
     $og_image = "";
     $og_url = $url;
 
@@ -15,8 +15,8 @@
     <section class="hero hero--homepage">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">The leading provider&nbsp;of</h1>
-                <p class="paragraph-big">Risk Management, Lottery Systems,  <br>and Game Content.</p>
+                <h1 class="heading-1">ALOT Solutions has arrived to power</h1>
+                <p class="paragraph-big"> innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good causes.</p>
             </div>
         </div>
     </section>
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="hero__holder">
                 <h1 class="heading-1">ALOT Prize Cover</h1>
-                <p class="paragraph-big">The proven provider of risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
+                <p class="paragraph-big">The proven provider of prize cover and risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
                 <a href="prize-cover<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
         </div>
@@ -32,8 +32,8 @@
     <section class="hero hero--omnichannel-lottery">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">ALOT Lottery</h1>
-                <p class="paragraph-big">Complete solution combining technology, consulting and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
+                <h1 class="heading-1">ALOT Lottery Systems</h1>
+                <p class="paragraph-big">Complete solution combining technology, consulting, prize cover and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
                 <a href="lottery<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
         </div>
@@ -41,8 +41,8 @@
     <section class="hero hero--gaming-content">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">ALOT Game Content</h1>
-                <p class="paragraph-big">Unique portfolio of proprietary gaming content ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and more.</p>
+                <h1 class="heading-1">ALOT Games</h1>
+                <p class="paragraph-big">Unique portfolio of proprietary games ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and more.</p>
                 <a href="games<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
         </div>
@@ -54,23 +54,23 @@
         <div class="stats__holder">
             <div class="stats__item">
                 <p class="stats__value">€350m</p>
-                <p class="paragraph">In jackpot <br>paid out</p>
+                <p class="paragraph">In prizes <br>paid out</p>
             </div>
             <div class="stats__item">
                 <p class="stats__value">€90m</p>
-                <p class="paragraph">Biggest <br>payout</p>
+                <p class="paragraph">Biggest Jackpot <br>paid</p>
             </div>
             <div class="stats__item">
                 <p class="stats__value">20M</p>
                 <p class="paragraph">Jackpot for scratchcards &amp; instant games</p>
             </div>
             <div class="stats__item">
-                <p class="stats__value">150</p>
-                <p class="paragraph">Companies using our RiNG technology</p>
+                <p class="stats__value">150+</p>
+                <p class="paragraph">Games using our RiNG technology</p>
             </div>
             <div class="stats__item">
-                <p class="stats__value">10</p>
-                <p class="paragraph">Gambling licenses worldwide</p>
+                <p class="stats__value">30+</p>
+                <p class="paragraph">World largest gaming and lottery clients</p>
             </div>
         </div>
     </div>
@@ -121,8 +121,8 @@
                         <h3 class="heading-2">Example deployments</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">We support your charity or prize promotion marketing with our groundbraking technology. In combination with ALOT Risk Management, we boost your prizes to attract more patrons.</p>
-                        <p class="paragraph">Raffles or fixed odds games. With or without a fee to enter. One-time or continuous. </p>
+                        <p class="paragraph">Review some of live deployments of our products with some of the most prestigious industry leaders.</p>
+                        <!-- <p class="paragraph">Raffles or fixed odds games. With or without a fee to enter. One-time or continuous. </p> -->
                         <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
                     </div>
                 </div>
@@ -172,16 +172,16 @@
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-1.jpg);" href="article<?=$ext?>"></a>
                     <div class="article-preview__text">
-                        <p class="article-preview__date">Athens, 1<sup>st</sup> of August, 2019</p>
+                        <p class="article-preview__date">Gibraltar, 1<sup>st</sup> of October, 2019</p>
                         <h3 class="heading-2">
-                            <a href="article<?=$ext?>">ALOT signs Intralot</a>
+                            <a href="article<?=$ext?>">ALOT Announcement</a>
                         </h3>
-                        <p class="paragraph">Intralot, the leading lottery operator operating popular games such as Brazilian Mega-Sena or American Powerball has signed an exclusive deal with ALOT Solutions to enhance their lottery games with unique features backed by ALOT'S world leading risk management solutions.</p>
+                        <p class="paragraph">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good causes.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="news__item">
+            <!-- <div class="news__item">
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?=$ext?>"></a>
                     <div class="article-preview__text">
@@ -192,7 +192,7 @@
                         <p class="paragraph">Jackpotjoy, one of the leading operators licensed in Malta, UK and Sweden has enchanced their portfolio with jackpot betting games provided by ALOT Solutions. This deal marks an important milestone for both companies.</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
         <div class="mobile-only">
