@@ -15,15 +15,15 @@
     <section class="hero hero--homepage">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">The leading provider&nbsp;of</h1>
-                <p class="paragraph-big">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good&nbsp;causes.</p>
+                <h1 class="heading-1">ALOT SOLUTOINS HAS ARRIVED</h1>
+                <p class="paragraph-big">To power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good&nbsp;causes.</p>
             </div>
         </div>
     </section>
     <section class="hero hero--risk-management">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">ALOT Prize Cover</h1>
+                <h1 class="heading-1">Prize Cover</h1>
                 <p class="paragraph-big">The proven provider of prize cover and risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
                 <a href="prize-cover<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
@@ -32,7 +32,7 @@
     <section class="hero hero--omnichannel-lottery">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">ALOT Lottery Systems</h1>
+                <h1 class="heading-1">Lottery Systems</h1>
                 <p class="paragraph-big">Complete solution combining technology, consulting, prize cover and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
                 <a href="lottery<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
@@ -41,7 +41,7 @@
     <section class="hero hero--gaming-content">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">ALOT Games</h1>
+                <h1 class="heading-1">Games</h1>
                 <p class="paragraph-big">Unique portfolio of proprietary games ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and more.</p>
                 <a href="games<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
@@ -54,14 +54,14 @@
         <div class="stats__holder">
             <div class="stats__item">
                 <p class="stats__value">€350m</p>
-                <p class="paragraph">In prizes <br>paid out</p>
+                <p class="paragraph">In facilitated prize <br>pay outs</p>
             </div>
             <div class="stats__item">
                 <p class="stats__value">€90m</p>
-                <p class="paragraph">Biggest Jackpot <br>paid</p>
+                <p class="paragraph">Jackpot<br>payment assistance</p>
             </div>
             <div class="stats__item">
-                <p class="stats__value">20M</p>
+                <p class="stats__value">€20M</p>
                 <p class="paragraph">Jackpot for scratchcards &amp; instant games</p>
             </div>
             <div class="stats__item">
@@ -90,7 +90,7 @@
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">Leverage the power of huge jackpots backed by our in-house insurance company. Impeccable track record in underwriting prize payout risk for gaming companies. </p>
-                        <p class="paragraph"> Over $350M in jackpot prizes paid out to date, 90M single largest payout, 20M jackpot for scratchcards.</p>
+                        <p class="paragraph"> Over €350M in jackpot prizes paid out to date, €90M single largest payout, €20M jackpot for scratchcards.</p>
                         <a href="prize-cover<?=$ext?>" class="button button--blue">ALOT Prize Cover</a>
                     </div>
                 </div>
@@ -118,11 +118,10 @@
                 </div>
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">Example deployments</h3>
+                        <h3 class="heading-2">Promotions</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">Review some of live deployments of our products with some of the most prestigious industry leaders.</p>
-                        <!-- <p class="paragraph">Raffles or fixed odds games. With or without a fee to enter. One-time or continuous. </p> -->
+                        <p class="paragraph">Raffles, Sweepstakes or fixed odds games. With or without a fee to enter. One-time or continuous. </p>
                         <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
                     </div>
                 </div>

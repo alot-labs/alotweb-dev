@@ -28,9 +28,6 @@
                     <li>
                         <a href="news<?=$ext?>">News</a>
                     </li>
-                    <li>
-                        <a href="about-us<?=$ext?>#contact">Contact</a>
-                    </li>
                 </ul>
             </div>
         </div>

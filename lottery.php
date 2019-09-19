@@ -100,7 +100,7 @@
                     <ul class="icon-multilist__list">
                         <li>End-to-end operational process - Logistics & Inventory, Procurement, Sales & Distribution, Finance, Human Resources and other services</li>
                         <li>Retailer relations, lottery terminals, credit management, sales figures and payout</li>
-                        <li>Centralized data synchronization for easy management</li>
+                        <li>Centralised data synchronisation for easy management</li>
                         <li>System control from point of sales to back office operation</li>
                         <li>Real-time credit control of retailer and distributors</li>
                     </ul>
@@ -124,9 +124,6 @@
                     <div class="lottery-terminals__text">
                         <h3 class="heading-3">Mobile touch-screen POS</h3>
                         <ul class="lottery-terminals__list">
-                            <li>PCI PTS 3.X</li>
-                            <li>EMV4.3 Level 1 & 2</li>
-                            <li>128M  Flash, 64MB RAM</li>
                             <li>3.5” TFT Color Display 320*480 Touch Screen</li>
                             <li>GPRS Quad (dual sim)</li>
                             <li>Optional: Wi-Fi, 3G, CDMA, LAN</li>
@@ -145,7 +142,6 @@
                         <h3 class="heading-3">Android mobile POS</h3>
                         <ul class="lottery-terminals__list">
                             <li>Android 4.2</li>
-                            <li>1GB DDR3 Memory, 8GB Storage</li>
                             <li>7” 1024*600 Color Touch Screen</li>
                             <li>3G + Wi-Fi, Bluetooth</li>
                             <li>2M Camera, Thermal Printer, Smartcard Reader, MSR, Contactless Card Reader</li>
