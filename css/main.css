@@ -1581,7 +1581,7 @@ a {
   .team__item:nth-child(3n) {
     margin-right: 0; }
 .team__picture {
-  padding-top: 100%;
+  padding-top: 120%;
   margin-bottom: 1.6666666667rem;
   background-color: #e8e8e8;
   background-position: center center;
