@@ -1,8 +1,8 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Risk Management";
-    $meta_desc = "Risk management services for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.";
+    $title = "ALOT Prize Cover";
+    $meta_desc = "Prize Cover for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.";
     $meta_keywords = "Lottery, huge jackpot, hedging, insurance, jackpot games";
     $og_image = "";
     $og_url = $url."/risk-management".$ext;
@@ -14,8 +14,8 @@
 <section class="section hero hero--risk-management">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT Risk Management</h1>
-            <p class="paragraph-big">The proven provider of risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
+            <h1 class="heading-1">ALOT Prize Cover</h1>
+            <p class="paragraph-big">The proven provider of prize cover for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
         </div>
     </div>
 </section>
@@ -70,11 +70,11 @@
                 </li>
                 <li class="icon-list__item icon-list__item--license">
                     <h3 class="heading-2">Licensed and regulated</h3>
-                    <p class="paragraph">Our prize risk coverage solution and corresponding group companies are regulated and respected by major gaming regulators such as UK, Gibraltar, Malta, Sweden, Ireland, South Africa, Australia and more.</p>
+                    <p class="paragraph">Our Prize Cover products and corresponding group companies are regulated and respected by major gaming regulators such as UK, Gibraltar, Malta, Sweden, Ireland, South Africa, Australia and more.</p>
                 </li>
                 <li class="icon-list__item icon-list__item--trophy">
                     <h3 class="heading-2">Flexible</h3>
-                    <p class="paragraph">You can use our risk management services to cover your whole pay-table or pick the individual prize tiers you’d like to hedge with us. You can use real live events to determine results, or use our unique Random Insured Numbers Generator (RiNG).</p>
+                    <p class="paragraph">You can use our Prize Cover to cover your whole pay-table or pick the individual prize tiers you’d like to hedge with us. You can use real live events to determine results, or use our unique Random Insured Numbers Generator (RiNG).</p>
                 </li>
             </ul>
         </div>
@@ -101,7 +101,7 @@
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-3.jpg)"></div>
                     <h3 class="heading-3">Casinos & Sportsbooks</h3>
-                    <p class="paragraph">Boost your player’s favorite slot, scratch card game, bingo or other draw/RNG-based games with exciting new prize tiers. A 5M scratch? A 10M slot? Not a problem with ALOT risk management.</p>
+                    <p class="paragraph">Boost your player’s favorite slot, scratch card game, bingo or other draw/RNG-based games with exciting new prize tiers. A 5M scratch? A 10M slot? Not a problem with ALOT Prize Cover.</p>
                 </div>
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-4.jpg)"></div>

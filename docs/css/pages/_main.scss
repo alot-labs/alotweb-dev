@@ -42,7 +42,9 @@ a{
 	top: 0;
 	z-index: $z-index-menu;
 	width: 100%;
-	background: #fff;
+	/*background: #fff;*/
+	background: rgba(255, 255, 255, 0.8);
+	backdrop-filter: saturate(180%) blur(20px);
 	&.scrolled{
 		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -56,7 +58,8 @@ a{
 		display: block;
 		width: 106px;
 		height: 40px;
-		background: url(../i/logo-alot.svg) no-repeat center center;
+		background: url(../i/logo-alot.svg) no-repeat 0 0;
+		background-size: contain;
 		position: relative;
 		z-index: ($z-index-menu + 2);
 	}
@@ -65,6 +68,14 @@ a{
 		display: flex;
 		li{
 			margin-right: px(40);
+			position: relative;
+			&:hover{
+				.header__submenu{
+					/*display: block;*/
+					opacity: 1;
+					pointer-events: auto;
+				}
+			}
 			&:last-child{
 				margin-right: 0;
 			}
@@ -72,17 +83,63 @@ a{
 				margin-right: 0;
 			}
 			a{
+				display: block;
+				white-space: nowrap;
 				text-transform: uppercase;
 				@include daxline-extra-bold;
 				font-size: 16px;
+				line-height: 30px;
 				transition: opacity $transition;
 				&:hover{
 					opacity: $opacity;
 				}
 			}
+			.header__submenu{
+				a{
+					margin-bottom: 10px;
+					text-transform: none;
+					@include daxline-light;
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+			}
 		}
 		&-item-mobile{
 			display: none;
+		}
+	}
+	&__submenu{
+		/*display: none;*/
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 250ms ease-out;
+		position: absolute;
+		left: -15px;
+		top: 40px;
+		/*background: #eee;*/
+		background: #333;
+		padding: 15px;
+		border-radius: 5px;
+		/*background: rgba(255, 255, 255, 0.95);*/
+		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+		color: #fff;
+		&:before{
+			width: 100%;
+			height: 11px;
+			position: absolute;
+			left: 0;
+			top: -11px;
+			display: block;
+			content: '';
+		}
+		&:after{
+			@include triangle-top(8px, #333);
+			display: block;
+			content: '';
+			position: absolute;
+			top: -8px;
+			left: 30px;
 		}
 	}
 	&__hamburger{
@@ -162,6 +219,7 @@ a{
 		}
 	}
 	&--risk-management{
+		margin-bottom: 0;
 		background-image: url(../i/hero-risk-management.jpg);
 		&:before{
 			background: linear-gradient(to right, rgba(13, 30, 47, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
@@ -174,6 +232,7 @@ a{
 		}
 	}
 	&--omnichannel-lottery{
+		margin-bottom: 0;
 		background-image: url(../i/hero-omnichannel-lottery.jpg);
 		&:before{
 			background: linear-gradient(to right, rgba(40, 37, 46, 0.85) 0%, rgba(0, 0, 0, 0.25) 100%);
@@ -204,11 +263,31 @@ a{
 			background: linear-gradient(to right, rgba(16, 24, 32, 0.85) 0%, rgba(16, 24, 32, 0.1) 100%);
 		}
 	}
+	&--awards{
+		background-image: url(../i/hero-awards.jpg);
+		color: $black;
+		/*&:before{
+			background: linear-gradient(to right, rgba(80, 52, 47, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+		}*/
+		.hero__holder{
+			.paragraph-big{
+				max-width: 530px;
+			}
+		}
+	}
+	&--example-deployments{
+		background-image: url(../i/hero-example-deployments.jpg);
+		margin-bottom: 0;
+		&:before{
+			background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.15) 100%);
+		}
+	}
 	&__holder{
 		min-height: px(650);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: flex-start;
 		padding-top: px($desktop-vertical-space);
 		padding-bottom: px($desktop-vertical-space);
 		.heading-1{
@@ -220,14 +299,19 @@ a{
 		}
 		.paragraph-big{
 			max-width: 750px;
+			margin-bottom: px(30);
+			&:last-child{
+				margin-bottom: 0;
+			}
 		}
 	}
 	&__illustration{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		width: 100%;
 		&-text{
-			flex-basis: box(4);
+			flex-basis: box(5);
 		}
 		&-image{
 			flex-basis: box(7);
@@ -383,6 +467,9 @@ a{
 		&--reverse{
 			justify-content: flex-end;
 		}
+		&--center{
+			justify-content: center;
+		}
 	}
 	&__logo{
 		flex-basis: box(3);
@@ -391,11 +478,11 @@ a{
 		border: $border;
 		position: relative;
 		height: px(160);
-		&:hover{
+		/*&:hover{
 			&:before{
 				opacity: 1;
 			}
-		}
+		}*/
 		&:before{
 			position: absolute;
 			display: block;
@@ -408,8 +495,8 @@ a{
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-size: contain;
-			opacity: $opacity;
-			transition: opacity $transition;
+			/*opacity: $opacity;
+			transition: opacity $transition;*/
 		}
 		&:last-child{
 			margin-right: 0;
@@ -424,7 +511,7 @@ a{
 		}
 		&--unibet{
 			&:before{
-				background-image: url(../i/logo-unibet.png);
+				background-image: url(../i/logo-unibet.svg);
 			}
 		}
 		&--bwin{
@@ -447,22 +534,35 @@ a{
 				background-image: url(../i/logo-bgt.png);
 			}
 		}
+		&--lottoland{
+			&:before{
+				background-image: url(../i/logo-lottoland.svg);
+			}
+		}
 	}
 }
 
 /* News */
 
 .news{
+	$news-item-width: box-value(5);
+	$news-item-count: 2;
+	$holder-side-space: ((100 - (($news-item-width * $news-item-count) + $box-space)) / 2);
 	&__holder{
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		/*justify-content: center;*/
+		/*padding-left: ($holder-side-padding * 1%);
+		padding-right: ($holder-side-padding * 1%);*/
 	}
 	&__item{
-		flex-basis: box(5);
+		flex-basis: ($news-item-width * 1%);
 		margin-right: ($box-space * 1%);
-		&:nth-child(2n){
-			margin-right: 0;
+		&:nth-child(#{$news-item-count}n+1){
+			margin-left: ($holder-side-space * 1%);
+		}
+		&:nth-child(#{$news-item-count}n){
+			margin-right: ($holder-side-space * 1%);
 		}
 	}
 }
@@ -550,15 +650,50 @@ a{
 		}
 		h1{
 			font-size: px(35);
+			& + h2,
+			& + h3,
+			& + h4,
+			& + h5,
+			& + h6{
+				margin-top: 0;
+			}
 		}
 		h2{
 			font-size: px(30);
+			& + h3,
+			& + h4,
+			& + h5,
+			& + h6{
+				margin-top: 0;
+			}
 		}
 		h3{
 			font-size: px(25);
+			& + h4,
+			& + h5,
+			& + h6{
+				margin-top: 0;
+			}
 		}
-		h4, h5, h6{
+		h4{
 			font-size: px(20);
+			& + h5,
+			& + h6{
+				margin-top: 0;
+			}
+		}
+		h5{
+			font-size: px(20);
+			& + h6{
+				margin-top: 0;
+			}
+		}
+		h6{
+			font-size: px(20);
+		}
+		.delimiter-heading{
+			padding-top: 70px;
+			border-top: 1px solid $grey;
 		}
 		ul, ol{
 			margin-left: 50px;
@@ -665,7 +800,8 @@ a{
 		display: block;
 		width: 106px;
 		height: 40px;
-		background: url(../i/logo-alot-black.svg) no-repeat center center;
+		background: url(../i/logo-alot.svg) no-repeat 0 0;
+		background-size: contain;
 		opacity: $opacity;
 		transition: opacity $transition;
 		margin-bottom: 20px;
@@ -1566,7 +1702,8 @@ a{
 		margin-bottom: 0;
 	}
 	.heading-3{
-		color: $blue;
+		/*color: $blue;*/
+		opacity: $opacity;
 	}
 }
 
@@ -1584,20 +1721,35 @@ a{
 		padding-left: px($icon-size + $icon-offset);
 		min-height: px($icon-size);
 		position: relative;
-		@include daxline-extra-bold;
+
+		margin-bottom: px(30);
+		&:last-child{
+			margin-bottom: 0;
+		}
 		&:before{
 			display: block;
 			content: '';
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: url(../i/icon-envelope-white.svg) no-repeat left center;
 			background-size: contain;
 			width: px($icon-size);
 			height: px($icon-size);
+			background-repeat: no-repeat;
+			background-position: left center;
+		}
+		&--support{
+			&:before{
+				background-image: url(../i/icon-support-white.svg);
+			}
+		}
+		&--email{
+			&:before{
+				background-image: url(../i/icon-envelope-white.svg);
+			}
 		}
 		&-text{
-
+			@include daxline-extra-bold;
 		}
 		&-hyperlink{
 			transition: opacity $transition;
@@ -1656,4 +1808,353 @@ a{
 
 .mobile-only{
 	display: none;
+}
+
+/* Cookie */
+
+.cookie{
+	position: fixed;
+	z-index: $z-index-cookie;
+	width: 80vw;
+	max-width: 470px;
+	right: ($desktop-horizontal-space * 1px);
+	bottom: ($desktop-horizontal-space * 1px);
+	background: #fff;
+	padding: ($desktop-horizontal-space * 1px);
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid $dark-grey;
+	border-radius: 6px;
+	display: none;
+	&.active{
+		display: block;
+	}
+	&__text{
+		margin-bottom: 25px;
+	}
+	&__heading{
+		font-size: px(20);
+		line-height: (30 / 25);
+		text-transform: uppercase;
+		@include daxline-extra-bold;
+		margin-bottom: 25px;
+	}
+	p{
+		font-size: 15px;
+	}
+}
+
+/* Virtual anchor */
+
+.virtual-anchor{
+	$section-bottom-padding-value: px($desktop-vertical-space);
+	$menu-height-value: ($menu-height * 1px);
+	position: relative;
+	&--1{
+		top: calc(#{-$section-bottom-padding-value} - #{$menu-height-value});
+	}
+	&--2{
+		top: -$menu-height-value;
+	}
+}
+
+/* Achievements */
+
+.achievements{
+	$margin: 5;
+	$border-radius: 10;
+	$padding: 30;
+	$icon-size: 70;
+	background: $light-grey;
+	margin-bottom: px($desktop-vertical-space / 2);
+	&--items-2{
+		.achievements__item{
+			flex-basis: flex-basis(2, $margin);
+		}
+		.achievements__value{
+			font-size: px(30);
+			line-height: 1.2;
+		}
+	}
+	&--items-3{
+		.achievements__item{
+			flex-basis: flex-basis(3, $margin);
+		}
+		.achievements__value{
+			font-size: px(40);
+			line-height: 1;
+		}
+		.paragraph{
+			max-width: 190px;
+		}
+	}
+	&--blue{
+		.achievements__icon{
+			background: $medium-blue;
+		}
+		.achievements__text-holder{
+			background: $blue;
+		}
+	}
+	&--magenta{
+		.achievements__icon{
+			background: $medium-magenta;
+		}
+		.achievements__text-holder{
+			background: $magenta;
+		}
+	}
+	.container{
+		padding-bottom: px($desktop-vertical-space / 2);
+	}
+	&__holder{
+		display: flex;
+	}
+	&__item{
+		margin-right: ($margin * 1%);
+		margin-top: px(-$desktop-vertical-space / 2);
+		position: relative;
+		z-index: 2;
+		display: flex;
+		min-height: px(220);
+		box-shadow: 0 px(13) px(20) 0 rgba(0, 0, 0, 0.2);
+		border-radius: px($border-radius);
+		overflow: hidden;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	&__icon{
+		flex: 0 0 px($padding + $icon-size + $padding);
+		border-top-left-radius: px($border-radius);
+		border-bottom-left-radius: px($border-radius);
+		position: relative;
+		&:before{
+			position: absolute;
+			left: 50%;
+			top: px($padding);
+			transform: translateX(-50%);
+			display: block;
+			content: '';
+			width: px($icon-size);
+			height: px($icon-size);
+			background-position: center top;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		&--jackpot{
+			&:before{
+				background-image: url(../i/icon-jackpot-white.svg);
+			}
+		}
+		&--payout{
+			&:before{
+				background-image: url(../i/icon-payout-white.svg);
+			}
+		}
+		&--lotto-experience{
+			&:before{
+				background-image: url(../i/icon-lotto-experience-white.svg);
+			}
+		}
+		&--prize-promotion{
+			&:before{
+				background-image: url(../i/icon-prize-promotion-white.svg);
+			}
+		}
+	}
+	&__text-holder{
+		flex: 1 1 auto;
+		padding: px($padding);
+		color: #fff;
+		border-top-right-radius: px($border-radius);
+		border-bottom-right-radius: px($border-radius);
+	}
+	&__value{
+		text-transform: uppercase;
+		padding-bottom: px(27);
+		margin-bottom: px(25);
+		position: relative;
+		@include daxline-extra-bold;
+		&:before{
+			display: block;
+			content: '';
+			width: px(50);
+			height: 3px;
+			background: #fff;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+	}
+}
+
+/* Awards */
+
+.awards{
+	&__holder{
+
+	}
+	&__item{
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		margin-bottom: px($desktop-vertical-space);
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	&__logo{
+		flex-basis: box(3);
+		height: px(200);
+		/*background: #343a40;*/
+		/*margin-right: ($box-space * 1%);*/
+		margin-right: box(1);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: contain;
+		&--egr-operator-2018{
+			background-image: url(../i/award-egr-operator-2018.png);
+		}
+		&--egr-supplier-2018{
+			background-image: url(../i/award-egr-supplier-2018.png);
+		}
+	}
+	&__text-holder{
+		flex-basis: box(6);
+	}
+}
+
+/* Example deployments */
+
+.deployment{
+	&__item{
+		padding-top: px($desktop-vertical-space / 2);
+		padding-bottom: px($desktop-vertical-space / 2);
+		position: relative;
+		&:first-child{
+			padding-top: px($desktop-vertical-space);
+		}
+		&:last-child{
+			padding-bottom: 0;
+		}
+		&:before{
+			display: block;
+			content: '';
+			background: $light-grey;
+			width: 100%;
+			position: absolute;
+			left: 0;
+		}
+		&--unibet{
+			&:before{
+				height: 75%;
+				top: 0;
+			}
+		}
+		&--lottoland{
+			&:before{
+				height: 42%;
+				bottom: 0;
+			}
+		}
+		&--lottomart{
+			&:before{
+				height: 79%;
+				top: 0;
+			}
+		}
+		&--coral{
+			&:before{
+				/*height: 79%;
+				top: 0;*/
+				display: none;
+			}
+		}
+	}
+	&__holder{
+		display: flex;
+		&--left{
+			justify-content: flex-start;
+		}
+		&--right{
+			justify-content: flex-end;
+		}
+	}
+	&__wrapper{
+		position: relative;
+		z-index: 2;
+		flex-basis: 80%;
+	}
+	&__screenshot{
+		padding-top: 62%;
+		border-radius: px(10);
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15), 0 4px 10px 2px rgba(0, 0, 0, 0.1);
+		/*border: 1px solid rgba(0, 0, 0, 0.2);*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-color: #ddd;
+		position: relative;
+		&--unibet{
+			background-image: url(../i/example-deployment-unibet.jpg);
+		}
+		&--lottoland{
+			background-image: url(../i/example-deployment-lottoland.jpg);
+		}
+		&--lottomart{
+			background-image: url(../i/example-deployment-lottomart.jpg);
+		}
+		&--coral{
+			background-image: url(../i/example-deployment-coral.jpg);
+		}
+	}
+	&__logo{
+		display: block;
+		position: absolute;
+		top: 50%;
+		width: px(280);
+		height: px(170);
+		border-radius: 5px;
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 15px 2px rgba(0, 0, 0, 0.1);
+		transition: background-color 250ms ease-out;
+		background-size: 60% auto;
+		background-repeat: no-repeat;
+		background-position: center center;
+		&--unibet{
+			right: 0;
+			transform: translate(50%, -50%);
+			background-color: #147b45;
+			background-image:  url(../i/logo-unibet-white.svg);
+			&:hover{
+				background-color: #0e5f31;
+			}
+		}
+		&--lottoland{
+			left: 0;
+			transform: translate(-50%, -50%);
+			background-color: #91c01c;
+			background-image:  url(../i/logo-lottoland-white.svg);
+			&:hover{
+				background-color: #69a507;
+			}
+		}
+		&--lottomart{
+			right: 0;
+			transform: translate(50%, -50%);
+			background-color: #ff6600;
+			background-image: url(../i/logo-lottomart-white.png);
+			&:hover{
+				background-color: #bf3a00;
+			}
+		}
+		&--coral{
+			left: 0;
+			transform: translate(-50%, -50%);
+			background-color: #084d8d;
+			background-image: url(../i/logo-coral-white.svg);
+			&:hover{
+				background-color: #07294b;
+			}
+		}
+	}
 }

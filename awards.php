@@ -26,17 +26,17 @@
             <div class="awards__item">
                 <div class="awards__logo awards__logo--egr-operator-2018"></div>
                 <div class="awards__text-holder">
-                    <h3 class="heading-3">ALOT scooped Lottery Operator of the Year’ award for the second year running at the EGR Operator Awards 2018.</h3>
-                    <p class="paragraph">The EGR judging panel said this about ALOT; ALOT is a high-quality innovator and genuine disrupter in the marketplace. Its move into insurance reflects real domain expertise and leadership. The fact the company is willing to challenge lottery dominance and the hurdles associated with this demonstrates the confidence in its offering.</p>
+                    <h3 class="heading-3">ALOT's team scooped Lottery Operator of the Year’ award for the second year running at the EGR Operator Awards 2018.</h3>
+                    <p class="paragraph">The EGR judging panel said this about ALOT'a team: They are a high-quality innovator and genuine disrupter in the marketplace. Its move into insurance reflects real domain expertise and leadership. The fact the company is willing to challenge lottery dominance and the hurdles associated with this demonstrates the confidence in its offering.</p>
                 </div>
             </div>
             <div class="awards__item">
                 <div class="awards__logo awards__logo--egr-supplier-2018"></div>
                 <div class="awards__text-holder">
-                    <h3 class="heading-3">ALOT solutions wins online lottery supplier</h3>
-                    <p class="paragraph">ALOT Solutions is pleased to announce that it won Online Lottery Supplier at the EGR B2B Awards in London last night. ALOT Solutions beat off some strong competition in the category to take home the prestigious award.</p>
-                    <p class="paragraph">As a supplier, ALOT Solutions’ has revolutionised lottery betting for operators and their customers, creating a new vertical for operators to deploy containing a huge mix of low stakes high jackpot lottery products, including the new NOW range of high jackpot instant lotteries.</p>
-                    <p class="paragraph">ALOT Solutions Director Michael Bogie said: “We are thrilled to have won this award and I would like to thank the team for all their hard work. Our range of products is increasingly being tailored for sports and casino operators, all backed by the world’s leading lottery risk management infrastructure that guarantees these massive pay-outs. As the proud winner of EGR Online Lottery Supplier 2018, we look forward to working with our existing and new partners to grow their lottery business.”</p>
+                    <h3 class="heading-3">We have won online lottery supplier award!</h3>
+                    <p class="paragraph">We are pleased to announce that we have won Online Lottery Supplier at the EGR B2B Awards in London. ALOT beat off some strong competition in the category to take home the prestigious award.</p>
+                    <p class="paragraph">As a supplier, ALOT's team has revolutionised lottery betting for operators and their customers, creating a new vertical for operators to deploy containing a huge mix of low stakes high jackpot lottery products, including the new NOW range of high jackpot instant lotteries.</p>
+                    <p class="paragraph">ALOT's CEO Michael Bogie said: “We are thrilled to have won this award and I would like to thank the team for all their hard work. Our range of products is increasingly being tailored for sports and casino operators, all backed by the world’s leading lottery prize cover infrastructure that guarantees these massive pay-outs. As the proud winner of EGR Online Lottery Supplier 2018, we look forward to working with our existing and new partners to grow their lottery business.”</p>
                 </div>
             </div>
         </div>
