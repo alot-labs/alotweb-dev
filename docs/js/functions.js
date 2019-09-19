@@ -15,7 +15,7 @@ $(document).ready(function() {
     $('.header__hamburger').click(function(){
         $('.header__hamburger-icon').toggleClass('active');
         $('.header__mobile-plate').toggleClass('active');
-        $('body').toggleClass('menu-active');
+        $('html').toggleClass('menu-active');
     });
 
     /* Iframe game embed */
