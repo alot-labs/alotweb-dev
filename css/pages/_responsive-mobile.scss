@@ -13,6 +13,9 @@
 	}
 	html{
 		font-size: ($font-size-responsive * 1px);
+		&.menu-active{
+			overflow: hidden;
+		}
 	}
 	body{
 		padding-top: ($menu-height-mobile * 1px);
@@ -68,6 +71,11 @@
 						margin-bottom: ($item-bottom-margin * 1px);
 					}
 				}
+			}
+		}
+		&__mobile-plate{
+			&-scroll{
+				display: block;
 			}
 		}
 	}

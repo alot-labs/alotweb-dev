@@ -54,7 +54,7 @@
                 <div class="team__picture" style="background-image: url(i/team-michal-chovanec.jpg)"></div>
                 <h3 class="heading-2">Michal Chovanec</h3>
                 <p class="heading-3">CTO</p>
-                <p class="paragraph">Michal is an information technology pioneer with over 20 years of experience in managing software development teams in various sectors.  Thanks to his diligent and systematic approach to solving complex problems. Michal with ALOT dev team ensures robustness, security and scalability of ALOT Technology products and services.</p>
+                <p class="paragraph">Michal is an information technology pioneer with over 20 years of experience in managing software development teams in various sectors. Michal with ALOT dev team ensures robustness, security and scalability of ALOT Technology products and services.</p>
             </div>
             <div class="team__item">
                 <div class="team__picture" style="background-image: url(i/team-geaspar-brybe.jpg)"></div>
