@@ -3,7 +3,7 @@
         <div class="footer__holder">
             <div class="footer__column">
                 <a href="/" class="footer__logo"></a>
-                <p class="footer__paragraph">&copy; Copyright 2019 Alot</p>
+                <p class="footer__paragraph">&copy; Copyright 2019 ALOT Solutions</p>
             </div>
             <div class="footer__column">
                 <ul class="footer__list">
@@ -51,8 +51,8 @@
             </div>
             <div class="footer__column">
                 <p class="footer__paragraph">
-                    Alot Solutions Limited <br>
-                    5.089 World Trade Center, <br>
+                    ALOT Solutions Limited <br>
+                    5.08 World Trade Center, <br>
                     6 Bayside Road, <br>
                     Gibraltar
                 </p>
