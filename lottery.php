@@ -16,11 +16,12 @@
         <div class="hero__holder">
             <h1 class="heading-1">ALOT Lottery Systems</h1>
             <p class="paragraph-big">Complete solution combining technology, consulting and risk management for lotteries operating across all land-based and online channels, servicing governments and private enterprises&nbsp;alike.</p>
+            <a href="about-us<?=$ext?>#contact" class="button button--magenta">Contact us</a>
         </div>
     </div>
 </section>
 
-<section class="section achievements achievements--items-2 achievements--magenta">
+<!--section class="section achievements achievements--items-2 achievements--magenta">
     <div class="container">
         <div class="achievements__holder">
             <div class="achievements__item">
@@ -39,7 +40,7 @@
             </div>
         </div>
     </div>
-</section>
+</section-->
 
 <div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
 
@@ -74,7 +75,7 @@
                         <li>RNG Draw Simulation</li>
                         <li>eMarketing Module</li>
                         <li>Best practice workflow for lottery operation</li>
-                        <li>Ready-to-go manual for quick start-up of new lottery operation</li>
+                        <li>Ready-to-go manual for quick start-up of new lottery&nbsp;operation</li>
                     </ul>
                 </div>
             </div>
@@ -115,6 +116,7 @@
         <div class="lottery-terminals__holder">
             <div class="lottery-terminals__column">
                 <h2 class="heading-1">Lottery Terminals</h2>
+                <p class="paragraph">We provide networked physical ticketing systems so your agents can sell physical tickets wherever they are permitted.</p>
             </div>
             <div class="lottery-terminals__column">
                 <div class="lottery-terminals__item">
@@ -156,7 +158,30 @@
 
 <section class="section accessories">
     <div class="container">
-        <h2 class="heading-1">Accessories & Peripherals</h2>
+        <div class="heading-holder">
+            <div class="heading-holder__item">
+                <h2 class="heading-1">Accessories & Peripherals</h2>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">We also supply all the connected kit your agents need to operate.</p>
+                <a href="https://www.alotsystems.com/retail.php" target="_blank" class="button button--magenta">Find out more</a>
+            </div>
+        </div>
+        <div class="accessories__holder">
+            <div class="accessories__row accessories__row--very-large">
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--desktop"></div>
+                    </div>
+                </div>
+                <div class="accessories__item">
+                    <div class="accessories__image-holder">
+                        <div class="accessories__image accessories__image--mobile"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--h2 class="heading-1">Accessories & Peripherals</h2>
         <div class="accessories__holder">
             <div class="accessories__row accessories__row--large">
                 <div class="accessories__item">
@@ -204,7 +229,7 @@
                     <h3 class="accessories__name">Barcode Scanner</h3>
                 </div>
             </div>
-        </div>
+        </div-->
     </div>
 </section>
 

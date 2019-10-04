@@ -20,6 +20,10 @@
     <meta property="og:site_name" content="ALOT Solutions" />
     <meta property="og:type" content="website" /-->
 
+    <!-- Fonts -->
+    <!--link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet"-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/main.css" />
 

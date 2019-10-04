@@ -1,21 +1,28 @@
 /* Headings */
 
 .heading-1{
-	font-size: px(60);
+	/*font-size: px(60);*/
+	font-size: px(50);
 	line-height: (68 / 60);
 	text-transform: uppercase;
-	@include daxline-black;
+	/*@include daxline-black;*/
+	@include font-accent;
 	margin-bottom: px($desktop-vertical-space / 2);
 	&:last-child{
 		margin-bottom: 0;
 	}
+	&--true-case{
+		text-transform: none;
+	}
 }
 
 .heading-2{
-	font-size: px(30);
+	/*font-size: px(30);*/
+	font-size: px(25);
 	line-height: (36 / 30);
 	text-transform: uppercase;
-	@include daxline-extra-bold;
+	/*@include daxline-extra-bold;*/
+	@include font-accent;
 	margin-bottom: px(20);
 	&:last-child{
 		margin-bottom: 0;
@@ -23,10 +30,12 @@
 }
 
 .heading-3{
-	font-size: px(25);
+	/*font-size: px(25);*/
+	font-size: px(22);
 	line-height: (30 / 25);
 	text-transform: uppercase;
-	@include daxline-extra-bold;
+	/*@include daxline-extra-bold;*/
+	@include font-accent;
 	margin-bottom: px(20);
 	&:last-child{
 		margin-bottom: 0;
@@ -40,18 +49,21 @@
 	line-height: (25 / $font-size);
 	margin-bottom: px(30);
 	&--bold{
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		@include font-base-bold;
 	}
 	&:last-child{
 		margin-bottom: 0;
 	}
 	strong{
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		@include font-base-bold;
 	}
 }
 
 .paragraph-big{
-	@include daxline-extra-bold;
+	/*@include daxline-extra-bold;*/
+	@include font-base-bold;
 	font-size: px(22);
 	line-height: (30 / 22);
 }

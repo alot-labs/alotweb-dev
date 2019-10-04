@@ -15,7 +15,7 @@ $mobile-horizontal-space: 20;
 $mobile-vertical-space: 60; 											
 
 /* Responsive breakpoints and containers */
-$mobile-breakpoint-value: 650;
+$mobile-breakpoint-value: 700;
 $tablet-portrait-breakpoint-value: 900;
 $tablet-landscape-breakpoint-value: 1100;
 $desktop-breakpoint-value: ($container-width + $browser-scrollbar-width);	/* 1301 */
@@ -44,7 +44,7 @@ $magenta: #d60651;
 $medium-magenta: #a7033e;
 $dark-magenta: #990138;
 $violet: #403257;
-$yellow: #ffd205;
+$yellow: #ffb505;
 
 /* Z-index */
 $z-index-menu: 100;
@@ -61,28 +61,29 @@ $radius: 5px;
 $opacity: 0.5;
 $border: 1px solid $dark-grey;
 $players-experience-illustration-height: 630;
+$logo-aspect-ratio: 1.96;
 
 /* Fonts */
 
-@font-face {
+/*@font-face{
 	font-family: 'Daxline Light';
 	src: url('../fonts/daxline-light.woff2') format('woff2'),
 	url('../fonts/daxline-light.woff') format('woff');
 }
 
-@font-face {
+@font-face{
 	font-family: 'Daxline Black';
 	src: url('../fonts/daxline-black.woff2') format('woff2'),
 	url('../fonts/daxline-black.woff') format('woff');
 }
 
-@font-face {
+@font-face{
 	font-family: 'Daxline Extra Bold';
 	src: url('../fonts/daxline-extra-bold.woff2') format('woff2'),
 	url('../fonts/daxline-extra-bold.woff') format('woff');
-}
+}*/
 
-@mixin daxline-light{
+/*@mixin daxline-light{
 	font-family: 'Daxline Light', Arial, sans-serif;
 	font-weight: 400;
 }
@@ -95,4 +96,28 @@ $players-experience-illustration-height: 630;
 @mixin daxline-extra-bold{
 	font-family: 'Daxline Extra Bold', Arial, sans-serif;
 	font-weight: 400;
+}*/
+
+@font-face{
+	font-family: 'Brandon Grotesque Black', sans-serif;
+	src: url('../fonts/brandon-grotesque-black.woff2') format('woff2'),
+	url('../fonts/daxline-extra-bold.woff') format('woff'),
+	url('../fonts/daxline-extra-bold.otf') format('otf');
+}
+
+@mixin font-accent{
+	font-family: 'Brandon Grotesque Black', sans-serif;
+	font-weight: 400;
+}
+
+@mixin font-base-regular{
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+@mixin font-base-bold{
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
 }
