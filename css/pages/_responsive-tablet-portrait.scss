@@ -1,4 +1,4 @@
-/* Tablet Portrait: 651px - 900px */
+/* Tablet Portrait: 701px - 900px */
 
 @media (max-width: $tablet-portrait-breakpoint){
 	$font-size-responsive: 14;
@@ -18,6 +18,22 @@
 				.paragraph-big{
 					max-width: 400px;
 				}
+			}
+		}
+		&--homepage{
+			&:before{
+				background: linear-gradient(to right, rgba(80, 52, 47, 0.8) 0%, rgba(80, 52, 47, 0.2) 100%);
+			}
+		}
+		&--omnichannel-lottery{
+			&:before{
+				background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+			}
+		}
+		&--keno-games{
+			&:before{
+				display: block;
+				background: linear-gradient(to right, rgba(16, 24, 32, 0.5) 0%, rgba(16, 24, 32, 0) 100%);
 			}
 		}
 	}
@@ -108,10 +124,10 @@
 	.footer{
 		padding-top: 60px;
 		padding-bottom: 60px;
-		&__logo{
+		/*&__logo{
 			width: 70px;
 			height: 26px;
-		}
+		}*/
 		&__holder{
 			flex-wrap: wrap;
 		}
@@ -311,6 +327,17 @@
 			flex-basis: 48%;
 			margin-right: 0;
 		}
+		&__item{
+			$locations-item-count: 2;
+			flex-basis: 48%;
+			margin-right: 4%;
+			&:nth-child(#{$locations-item-count}n+1){
+				margin-left: 0;
+			}
+			&:nth-child(#{$locations-item-count}n){
+				margin-right: 0;
+			}
+		}
 	}
 	.team{
 		$margin: 4;
@@ -346,10 +373,17 @@
 			}
 		}
 		&__icon{
-			flex-basis: px(90 * $zoom);
+			flex-basis: px(75 * $zoom);
+			&:before{
+				width: px(40 * $zoom);
+				height: px(40 * $zoom);
+			}
 		}
 		&__item{
 			margin-right: 4%;
+		}
+		&__text-holder{
+			padding: 15px;
 		}
 	}
 	.deployment{
@@ -380,5 +414,25 @@
 		&__text-holder{
 			flex-basis: box(7);
 		}
+	}
+	.accessories{
+		&__row{
+			&--very-large{
+				$accessories-item-count: 2;
+				.accessories__item{
+					flex-basis: 48%;
+					margin-right: 4%;
+					&:nth-child(#{$accessories-item-count}n+1){
+						margin-left: 0;
+					}
+					&:nth-child(#{$accessories-item-count}n){
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+	.button{
+		font-size: 12px;
 	}
 }

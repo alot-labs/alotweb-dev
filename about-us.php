@@ -14,7 +14,8 @@
 <section class="section hero hero--about-us">
     <div class="container">
         <div class="hero__holder">
-            <p class="paragraph-big">The unique provider of prize cover, lottery systems and games – through all channels.</p>
+            <h1 class="heading-1">Alot Systems</h1>
+            <p class="paragraph-big">The unique provider of prize cover, lottery systems and games&nbsp;–&nbsp;through all channels.</p>
         </div>
     </div>
 </section>
@@ -91,20 +92,46 @@
     <div class="container">
         <h2 class="heading-1">Office locations</h2>
         <div class="locations__holder">
-            <div class="locations__column">
-                <div class="locations__item">
-                    <div class="locations__illustration" style="background-image: url(i/office-location-gibraltar.jpg)"></div>
-                    <div class="locations__text-holder">
-                        <h3 class="heading-2">Gibraltar (HQ)</h3>
-                        <p class="paragraph">
-                            <strong>ALOT Solutions Limited</strong><br>
-                            5.08 World Trade Center<br>
-                            6 Bayside Road<br>
-                            Gibraltar GX111AA
-                        </p>
-                    </div>
+
+            <div class="locations__item">
+                <div class="locations__illustration" style="background-image: url(i/office-location-gibraltar.jpg)"></div>
+                <div class="locations__text-holder">
+                    <h3 class="heading-2">Gibraltar (HQ)</h3>
+                    <p class="paragraph">
+                        <strong>ALOT Solutions Limited</strong><br>
+                        5.08 World Trade Center<br>
+                        6 Bayside Road<br>
+                        Gibraltar GX111AA
+                    </p>
                 </div>
             </div>
+
+            <div class="locations__item">
+                <div class="locations__illustration" style="background-image: url(i/office-location-hong-kong.jpg)"></div>
+                <div class="locations__text-holder">
+                    <h3 class="heading-2">Hong Kong</h3>
+                    <p class="paragraph">
+                        <strong>ALOT Solutions Limited</strong><br>
+                        5.08 World Trade Center<br>
+                        6 Bayside Road<br>
+                        Gibraltar GX111AA
+                    </p>
+                </div>
+            </div>
+
+            <!--div class="locations__item">
+                <div class="locations__illustration" style="background-image: url(i/office-location-slovakia.jpg)"></div>
+                <div class="locations__text-holder">
+                    <h3 class="heading-2">Slovakia</h3>
+                    <p class="paragraph">
+                        <strong>ALOT Solutions Limited</strong><br>
+                        5.08 World Trade Center<br>
+                        6 Bayside Road<br>
+                        Bratislava GX111AA
+                    </p>
+                </div>
+            </div-->
+
         </div>
     </div>
 </section>

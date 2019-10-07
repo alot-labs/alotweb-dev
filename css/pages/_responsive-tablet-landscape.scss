@@ -13,6 +13,16 @@
 		font-size: 18px;
 	}
 	.hero{
+		&--gaming-content{
+			&:before{
+				background: linear-gradient(to right, rgba(25, 13, 38, 0.7) 0%, rgba(25, 13, 38, 0.4) 100%);
+			}
+		}
+		&--omnichannel-lottery{
+			&:before{
+				background: linear-gradient(to right, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.15) 100%);
+			}
+		}
 		&__holder{
 			min-height: px(380 * $zoom);
 		}
@@ -31,26 +41,44 @@
 			left: 0;
 			top: 0;
 			width: 100%;
-			height: 100%;
+			/*height: 100%;*/
+			max-height: 100%;
 			background: #fff;
 			transition: opacity $transition;
-			padding-top: ($menu-height-mobile * 1px);
+			padding-top: ($menu-height * 1px);
+			box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.2);
+			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
 			/*padding-bottom: ($menu-height-mobile * 1px);*/
 			&-scroll{
-				overflow-y: auto;
-				-webkit-overflow-scrolling: touch;
-				height: 100%;
+				/*overflow-y: auto;*/
+				/*-webkit-overflow-scrolling: touch;*/
+				/*height: 100%;*/
 				background: $light-grey;
-				padding-top: 30px;
-				padding-bottom: 30px;
-				display: flex;
+				color: #fff;
+				/*padding-top: 30px;
+				padding-bottom: 30px;*/
+				padding: ($desktop-horizontal-space * 1px);
+				/*display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: center;
+				justify-content: center;*/
+				background: $very-dark-grey;
 			}
 			&.active{
 				opacity: 1;
 				pointer-events: auto;
+				&:before{
+					display: block;
+					content: '';
+					width: 100%;
+					height: ($menu-height * 1px);
+					background: #fff;
+					position: fixed;
+					left: 0;
+					top: 0;
+					z-index: ($z-index-menu + 1);
+				}
 				.header__submenu{
 					opacity: 1;
 					pointer-events: auto;
@@ -58,9 +86,10 @@
 			}
 		}
 		&__menu{
-			flex-direction: column;
+			/*flex-direction: column;
 			justify-content: center;
-			align-items: center;
+			align-items: center;*/
+			display: block;
 			li{
 				margin-right: 0;
 				margin-bottom: ($item-bottom-margin * 1px);
@@ -69,17 +98,21 @@
 				}
 				a{
 					font-size: 16px;
-					text-align: center;
+					/*text-align: center;*/
 					margin-bottom: ($item-bottom-margin * 1px);
 					&:last-child{
 						margin-bottom: 0;
 					}
 				}
 				.header__submenu{
+					padding-left: ($desktop-horizontal-space * 1px);
 					a{
 						margin-bottom: ($item-bottom-margin * 1px);
-						@include daxline-extra-bold;
-						text-transform: uppercase;
+						/*@include daxline-extra-bold;*/
+						/*@include font-base-bold;*/
+						@include font-base-regular;
+
+						/*text-transform: uppercase;*/
 					}
 				}
 			}
@@ -159,6 +192,19 @@
 			.achievements__item{
 				flex-basis: 47.5%;
 			}
+			.achievements__value{
+				font-size: px(30 * $zoom);
+			}
+		}
+		&__icon{
+			flex-basis: px(90 * $zoom);
+			&:before{
+				width: px(50 * $zoom);
+				height: px(50 * $zoom);
+			}
+		}
+		&__text{
+			font-size: 16px;
 		}
 	}
 }

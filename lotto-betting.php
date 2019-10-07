@@ -37,7 +37,7 @@
         <div class="overprint-image__holder">
             <div class="overprint-image__illustration-holder">
                 <div class="overprint-image__illustration-wrapper">
-                    <div class="overprint-image__illustration"></div>
+                    <div class="overprint-image__illustration overprint-image__illustration--1"></div>
                 </div>
             </div>
             <div class="overprint-image__text-holder">

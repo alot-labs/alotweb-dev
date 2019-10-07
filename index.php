@@ -15,7 +15,7 @@
     <section class="hero hero--homepage">
         <div class="container">
             <div class="hero__holder">
-                <h1 class="heading-1">ALOT SOLUTOINS HAS ARRIVED</h1>
+                <h1 class="heading-1">ALOT Solutoins has&nbsp;arrived</h1>
                 <p class="paragraph-big">To power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good&nbsp;causes.</p>
             </div>
         </div>
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="hero__holder">
                 <h1 class="heading-1">Prize Cover</h1>
-                <p class="paragraph-big">The proven provider of prize cover and risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot prizes.</p>
+                <p class="paragraph-big">The proven provider of prize cover and risk management for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large jackpot&nbsp;prizes.</p>
                 <a href="prize-cover<?=$ext?>#learn-more" class="button button--blue">Learn more</a>
             </div>
         </div>
@@ -137,7 +137,7 @@
                 <h2 class="heading-1">Our clients</h2>
             </div>
             <div class="heading-holder__item">
-                <p class="paragraph">Come and join the family of market leading operators who understand the importance of the innovation in jackpot-based gaming. We service state lottery operators, lottery service providers, casinos, betting shops, online sportsbooks, bingos, marketing prize promoters and more.</p>
+                <p class="paragraph">Come and join the family of market leading operators who understand the importance of the innovation in jackpot-based gaming. We service state lottery operators, lottery service providers, casinos, betting shops, online sportsbooks, bingos, marketing prize promoters and&nbsp;more.</p>
             </div>
         </div>
         <div class="clients__holder">
@@ -145,12 +145,14 @@
                 <div class="clients__logo clients__logo--lottoland"></div>
                 <div class="clients__logo clients__logo--kindred"></div>
                 <div class="clients__logo clients__logo--unibet"></div>
-                <div class="clients__logo clients__logo--bwin"></div>
+                <!--div class="clients__logo clients__logo--bwin"></div-->
+                <div class="clients__logo clients__logo--hero-gaming"></div>
             </div>
             <div class="clients__row clients__row--center">
                 <div class="clients__logo clients__logo--betvictor"></div>
-                <div class="clients__logo clients__logo--william-hill"></div>
+                <!--div class="clients__logo clients__logo--william-hill"></div-->
                 <div class="clients__logo clients__logo--bgt"></div>
+                <div class="clients__logo clients__logo--lottomart"></div>
             </div>
         </div>
     </div>
@@ -158,14 +160,15 @@
 
 <section class="section news">
     <div class="container">
-        <div class="heading-holder">
+        <h2 class="heading-1">News</h2>
+        <!--div class="heading-holder">
             <div class="heading-holder__item">
                 <h2 class="heading-1">News</h2>
             </div>
             <div class="heading-holder__item heading-holder__item--right desktop-only">
                 <a href="news<?=$ext?>" class="button button--blue">More news</a>
             </div>
-        </div>
+        </div-->
         <div class="news__holder">
             <div class="news__item">
                 <div class="article-preview">
@@ -180,7 +183,7 @@
                 </div>
             </div>
 
-            <!-- <div class="news__item">
+            <div class="news__item">
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?=$ext?>"></a>
                     <div class="article-preview__text">
@@ -191,12 +194,15 @@
                         <p class="paragraph">Jackpotjoy, one of the leading operators licensed in Malta, UK and Sweden has enchanced their portfolio with jackpot betting games provided by ALOT Solutions. This deal marks an important milestone for both companies.</p>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
         </div>
-        <div class="mobile-only">
+        <div class="button-holder">
             <a href="news<?=$ext?>" class="button button--blue">More news</a>
         </div>
+        <!--div class="mobile-only">
+            <a href="news<?=$ext?>" class="button button--blue">More news</a>
+        </div-->
     </div>
 </section>
 

@@ -11,7 +11,8 @@ html{
 
 body{
 	color: $black;
-	@include daxline-light;
+	/*@include daxline-light;*/
+	@include font-base-regular;
 	padding-top: ($menu-height * 1px);
 }
 
@@ -55,9 +56,10 @@ a{
 		align-items: center;
 	}
 	&__logo{
+		$logo-height: 50;
 		display: block;
-		width: 106px;
-		height: 40px;
+		width: ($logo-height * $logo-aspect-ratio * 1px);
+		height: ($logo-height * 1px);
 		background: url(../i/logo-alot.svg) no-repeat 0 0;
 		background-size: contain;
 		position: relative;
@@ -86,7 +88,9 @@ a{
 				display: block;
 				white-space: nowrap;
 				text-transform: uppercase;
-				@include daxline-extra-bold;
+				/*@include daxline-extra-bold;*/
+				/*@include font-base-bold;*/
+				@include font-accent;
 				font-size: 16px;
 				line-height: 30px;
 				transition: opacity $transition;
@@ -98,7 +102,8 @@ a{
 				a{
 					margin-bottom: 10px;
 					text-transform: none;
-					@include daxline-light;
+					/*@include daxline-light;*/
+					@include font-base-regular;
 					&:last-child{
 						margin-bottom: 0;
 					}
@@ -227,22 +232,31 @@ a{
 	}
 	&--risk-management{
 		margin-bottom: 0;
-		background-image: url(../i/hero-risk-management.jpg);
+		background-image: url(../i/hero-prize-cover.jpg);
 		&:before{
-			background: linear-gradient(to right, rgba(13, 30, 47, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+			background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 		}
 	}
 	&--gaming-content{
-		background-image: url(../i/hero-gaming-content.jpg);
+		/*background-image: url(../i/hero-gaming-content.jpg);*/
+		background-image: url(../i/hero-games.jpg);
 		&:before{
-			background: linear-gradient(to right, rgba(7, 26, 46, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);
+			/*background: linear-gradient(to right, rgba(7, 26, 46, 0.7) 0%, rgba(0, 0, 0, 0.3) 100%);*/
+			background: linear-gradient(to right, rgba(25, 13, 38, 0.7) 0%, rgba(25, 13, 38, 0) 100%);
+		}
+		.hero__holder{
+			.paragraph-big{
+				max-width: 530px;
+			}
 		}
 	}
 	&--omnichannel-lottery{
-		margin-bottom: 0;
-		background-image: url(../i/hero-omnichannel-lottery.jpg);
+		/*margin-bottom: 0;*/
+		/*background-image: url(../i/hero-omnichannel-lottery.jpg);*/
+		background-image: url(../i/hero-lottery-systems.jpg);
 		&:before{
-			background: linear-gradient(to right, rgba(40, 37, 46, 0.85) 0%, rgba(0, 0, 0, 0.25) 100%);
+			/*background: linear-gradient(to right, rgba(40, 37, 46, 0.85) 0%, rgba(0, 0, 0, 0.25) 100%);*/
+			background: linear-gradient(to right, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0) 100%);
 		}
 	}
 	&--lotto-betting{
@@ -259,7 +273,7 @@ a{
 		}
 	}
 	&--keno-games{
-		background-image: url(../i/hero-keno-games.png);
+		background-image: url(../i/hero-keno-games.jpg);
 		&:before{
 			display: none;
 		}
@@ -267,7 +281,12 @@ a{
 	&--about-us{
 		background-image: url(../i/hero-about-us.jpg);
 		&:before{
-			background: linear-gradient(to right, rgba(16, 24, 32, 0.85) 0%, rgba(16, 24, 32, 0.1) 100%);
+			background: linear-gradient(to right, rgba(16, 24, 32, 0.5) 0%, rgba(16, 24, 32, 0) 100%);
+		}
+		.hero__holder{
+			.paragraph-big{
+				max-width: 550px;
+			}
 		}
 	}
 	&--awards{
@@ -287,6 +306,12 @@ a{
 		margin-bottom: 0;
 		&:before{
 			background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.15) 100%);
+		}
+	}
+	&--promotions{
+		background-image: url(../i/hero-promotions.jpg);
+		&:before{
+			background: linear-gradient(to right, rgba(37, 20, 31, 0.6) 0%, rgba(37, 20, 31, 0) 100%);
 		}
 	}
 	&__holder{
@@ -361,7 +386,8 @@ a{
 		padding-bottom: px(27);
 		margin-bottom: px(25);
 		position: relative;
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		@include font-accent;
 		&:before{
 			display: block;
 			content: '';
@@ -521,21 +547,21 @@ a{
 				background-image: url(../i/logo-unibet.svg);
 			}
 		}
-		&--bwin{
+		/*&--bwin{
 			&:before{
 				background-image: url(../i/logo-bwin.png);
 			}
-		}
+		}*/
 		&--betvictor{
 			&:before{
 				background-image: url(../i/logo-betvictor.png);
 			}
 		}
-		&--william-hill{
+		/*&--william-hill{
 			&:before{
 				background-image: url(../i/logo-william-hill.png);
 			}
-		}
+		}*/
 		&--bgt{
 			&:before{
 				background-image: url(../i/logo-bgt.png);
@@ -544,6 +570,16 @@ a{
 		&--lottoland{
 			&:before{
 				background-image: url(../i/logo-lottoland.svg);
+			}
+		}
+		&--lottomart{
+			&:before{
+				background-image: url(../i/logo-lottomart-orange.png);
+			}
+		}
+		&--hero-gaming{
+			&:before{
+				background-image: url(../i/logo-hero-gaming.png);
 			}
 		}
 	}
@@ -558,6 +594,7 @@ a{
 	&__holder{
 		display: flex;
 		flex-wrap: wrap;
+		margin-bottom: px($desktop-vertical-space / 2);
 		/*justify-content: center;*/
 		/*padding-left: ($holder-side-padding * 1%);
 		padding-right: ($holder-side-padding * 1%);*/
@@ -579,7 +616,8 @@ a{
 .articles{
 	$overlap: 117;
 	&__header{
-		background: $very-dark-grey;
+		background: $very-dark-grey url(../i/hero-text.jpg) no-repeat center center;
+		background-size: cover;
 		padding-top: px($desktop-vertical-space);
 		padding-bottom: px($desktop-vertical-space / 2);
 		&--overlap{
@@ -644,10 +682,12 @@ a{
 			}
 		}
 		strong{
-			@include daxline-extra-bold;
+			/*@include daxline-extra-bold;*/
+			@include font-base-bold;
 		}
 		h1, h2, h3, h4, h5, h6{
-			@include daxline-extra-bold;
+			/*@include daxline-extra-bold;*/
+			@include font-accent;
 			margin-top: 70px;
 			text-transform: uppercase;
 			margin-bottom: 15px;
@@ -804,10 +844,11 @@ a{
 		}
 	}
 	&__logo{
+		$logo-height: 50;
+		width: ($logo-height * $logo-aspect-ratio * 1px);
+		height: ($logo-height * 1px);
 		display: block;
-		width: 106px;
-		height: 40px;
-		background: url(../i/logo-alot.svg) no-repeat 0 0;
+		background: url(../i/logo-alot-black.svg) no-repeat 0 0;
 		background-size: contain;
 		opacity: $opacity;
 		transition: opacity $transition;
@@ -817,8 +858,10 @@ a{
 		}
 	}
 	&__paragraph{
-		line-height: (21 / 15);
-		opacity: $opacity;
+		/*line-height: (21 / 15);*/
+		line-height: 1.55;
+		/*opacity: $opacity;*/
+		opacity: 0.7;
 		margin-bottom: px(25);
 		&:last-child{
 			margin-bottom: 0;
@@ -832,13 +875,22 @@ a{
 				margin-bottom: 0;
 			}
 			a{
-				opacity: $opacity;
-				transition: opacity $transition;
+				/*opacity: $opacity;*/
+				opacity: 0.7;
+				transition: all $transition;
 				&:hover{
 					opacity: 1;
+					color: $blue;
 				}
 			}
 		}
+	}
+	&__heading{
+		opacity: 0.7;
+		margin-bottom: 20px;
+		@include font-accent;
+		text-transform: uppercase;
+		font-size: px(17);
 	}
 }
 
@@ -871,7 +923,8 @@ a{
 		}
 	}
 	&__text{
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		/*@include font-base-bold;*/
 		font-size: px(20);
 		line-height: (30 / 20);
 	}
@@ -1099,6 +1152,9 @@ a{
 		background-position: center center;
 		background-repeat: no-repeat;
 	}
+	&--magenta{
+		background-color: $magenta;
+	}
 	&--luck-violet{
 		background-image: url(../i/icon-luck-violet.svg);
 		background-size: auto 65%;
@@ -1113,6 +1169,14 @@ a{
 	}
 	&--api-green{
 		background-image: url(../i/icon-api-green.svg);
+		background-size: auto 40%;
+	}
+	&--raffle-white{
+		background-image: url(../i/icon-raffle-white.svg);
+		background-size: auto 48%;
+	}
+	&--raffle-ticket-white{
+		background-image: url(../i/icon-raffle-ticket-white.svg);
 		background-size: auto 40%;
 	}
 }
@@ -1271,9 +1335,17 @@ a{
 		margin-left: (-$extended-side-space * 1px);
 	}
 	&__illustration{
-		background: url(../i/lottery-ticket.png) no-repeat center center;
+		background-position: center center;
+		background-repeat: no-repeat;
 		background-size: contain;
-		padding-top: 85.6%;
+		&--1{
+			padding-top: 85.6%;
+			background-image: url(../i/lottery-ticket.png);
+		}
+		&--2{
+			padding-top: 61.2%;
+			background-image: url(../i/quantum-rng.jpg);
+		}
 	}
 	&__text-holder{
 		flex-basis: box(5);
@@ -1562,6 +1634,10 @@ a{
 		&:last-child{
 			margin-right: 0;
 		}
+		.paragraph{
+			max-width: 300px;
+		}
+
 	}
 	&__item{
 
@@ -1620,6 +1696,25 @@ a{
 		&:last-child{
 			margin-bottom: 0;
 		}
+		&--very-large{
+			$accessories-item-width: box-value(5);
+			$accessories-item-count: 2;
+			$holder-side-space: ((100 - (($accessories-item-width * $accessories-item-count) + $box-space)) / 2);
+			.accessories__item{
+				flex-basis: ($accessories-item-width * 1%);
+				margin-right: ($box-space * 1%);
+				&:nth-child(#{$accessories-item-count}n+1){
+					margin-left: ($holder-side-space * 1%);
+				}
+				&:nth-child(#{$accessories-item-count}n){
+					margin-right: ($holder-side-space * 1%);
+				}
+			}
+			.accessories__image{
+				width: 80%;
+				height: 75%;
+			}
+		}
 		&--large{
 			.accessories__item{
 				@include flex-basis(3, $box-space);
@@ -1639,6 +1734,9 @@ a{
 		background: $light-grey;
 		position: relative;
 		margin-bottom: 10px;
+		&:last-child{
+			margin-bottom: 0;
+		}
 	}
 	&__image{
 		position: absolute;
@@ -1671,9 +1769,16 @@ a{
 		&--barcode-scanner{
 			background-image: url(../i/accessory-barcode-scanner.png);
 		}
+		&--desktop{
+			background-image: url(../i/accessory-desktop.png);
+		}
+		&--mobile{
+			background-image: url(../i/accessory-mobile.png);
+		}
 	}
 	&__name{
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		@include font-accent;
 		text-transform: uppercase;
 		font-size: px($font-size);
 	}
@@ -1706,7 +1811,8 @@ a{
 		border-radius: $radius;
 	}
 	.heading-2{
-		margin-bottom: 0;
+		/*margin-bottom: 0;*/
+		margin-bottom: 5px;
 	}
 	.heading-3{
 		/*color: $blue;*/
@@ -1756,7 +1862,10 @@ a{
 			}
 		}
 		&-text{
-			@include daxline-extra-bold;
+			/*@include daxline-extra-bold;*/
+			/*@include font-base-bold;*/
+			@include font-accent;
+			text-transform: uppercase;
 		}
 		&-hyperlink{
 			transition: opacity $transition;
@@ -1770,23 +1879,39 @@ a{
 /* Office locations */
 
 .locations{
+	$locations-item-width: box-value(5);
+	$locations-item-count: 2;
+	$holder-side-space: ((100 - (($locations-item-width * $locations-item-count) + $box-space)) / 2);
+
+
 	background: $blue;
 	padding-top: px($desktop-vertical-space);
 	padding-bottom: px($desktop-vertical-space);
 	margin-bottom: 0;
 	&__holder{
 		display: flex;
-		justify-content: center;
+		/*flex-wrap: wrap;*/
+		/*justify-content: center;*/
 	}
-	&__column{
+	/*&__column{
 		flex-basis: box(5);
 		margin-right: ($box-space * 1%);
 		&:last-child{
 			margin-right: 0;
 		}
-	}
+	}*/
 	&__item{
-		margin-bottom: px($desktop-vertical-space / 2);
+		flex-basis: ($locations-item-width * 1%);
+		margin-right: ($box-space * 1%);
+		&:nth-child(#{$locations-item-count}n+1){
+			margin-left: ($holder-side-space * 1%);
+		}
+		&:nth-child(#{$locations-item-count}n){
+			margin-right: ($holder-side-space * 1%);
+		}
+
+
+		/*margin-bottom: px($desktop-vertical-space / 2);*/
 		border-radius: $radius;
 		overflow: hidden;
 		&:last-child{
@@ -1842,11 +1967,13 @@ a{
 		font-size: px(20);
 		line-height: (30 / 25);
 		text-transform: uppercase;
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		@include font-accent;
 		margin-bottom: 25px;
 	}
 	p{
 		font-size: 15px;
+		line-height: 1.6;
 	}
 }
 
@@ -1968,6 +2095,11 @@ a{
 				background-image: url(../i/icon-prize-promotion-white.svg);
 			}
 		}
+		&--spaceship{
+			&:before{
+				background-image: url(../i/icon-spaceship-white.svg);
+			}
+		}
 	}
 	&__text-holder{
 		flex: 1 1 auto;
@@ -1981,7 +2113,8 @@ a{
 		padding-bottom: px(27);
 		margin-bottom: px(25);
 		position: relative;
-		@include daxline-extra-bold;
+		/*@include daxline-extra-bold;*/
+		@include font-accent;
 		&:before{
 			display: block;
 			content: '';
@@ -1992,6 +2125,11 @@ a{
 			left: 0;
 			bottom: 0;
 		}
+	}
+	&__text{
+		/*@include daxline-extra-bold;*/
+		/**@include font-base-bold;*/
+		/*font-size: px(20);*/
 	}
 }
 
@@ -2022,8 +2160,8 @@ a{
 		&--egr-operator-2018{
 			background-image: url(../i/award-egr-operator-2018.png);
 		}
-		&--egr-supplier-2018{
-			background-image: url(../i/award-egr-supplier-2018.png);
+		&--egr-supplier-2019{
+			background-image: url(../i/award-egr-supplier-2019.png);
 		}
 	}
 	&__text-holder{
@@ -2077,6 +2215,11 @@ a{
 				display: none;
 			}
 		}
+		&--ladbrokes{
+			&:before{
+				display: none;
+			}
+		}
 	}
 	&__holder{
 		display: flex;
@@ -2113,6 +2256,9 @@ a{
 		}
 		&--coral{
 			background-image: url(../i/example-deployment-coral.jpg);
+		}
+		&--ladbrokes{
+			background-image: url(../i/example-deployment-ladbrokes.jpg);
 		}
 	}
 	&__logo{
@@ -2161,6 +2307,15 @@ a{
 			background-image: url(../i/logo-coral-white.svg);
 			&:hover{
 				background-color: #07294b;
+			}
+		}
+		&--ladbrokes{
+			left: 0;
+			transform: translate(-50%, -50%);
+			background-color: #e72d1a;
+			background-image: url(../i/logo-ladbrokes-white.svg);
+			&:hover{
+				background-color: #c91907;
 			}
 		}
 	}

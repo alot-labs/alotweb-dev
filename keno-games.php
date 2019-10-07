@@ -14,14 +14,15 @@
 <section class="section hero hero--keno-games">
     <div class="container">
         <div class="hero__holder">
-            <div class="hero__illustration">
+            <h1 class="heading-1">Keno Games... <br>Differently</h1>
+            <!--div class="hero__illustration">
                 <div class="hero__illustration-text">
                     <h1 class="heading-1">Keno Games... Differently</h1>
                 </div>
                 <div class="hero__illustration-image">
                     <div class="hero__illustration-image-holder hero__illustration-image-holder--keno-games"></div>
                 </div>
-            </div>
+            </div-->
         </div>
     </div>
 </section>

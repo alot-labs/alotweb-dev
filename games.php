@@ -15,7 +15,7 @@
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">ALOT Games</h1>
-            <p class="paragraph-big">Unique portfolio of proprietary games ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and more.</p>
+            <p class="paragraph-big">Unique portfolio of proprietary games ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and&nbsp;more.</p>
         </div>
     </div>
 </section>

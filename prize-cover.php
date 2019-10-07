@@ -37,6 +37,12 @@
                     <p class="paragraph">Assisted in a 90 million single prize payout</p>
                 </div>
             </div>
+            <div class="achievements__item">
+                <div class="achievements__icon achievements__icon--spaceship"></div>
+                <div class="achievements__text-holder">
+                    <p class="achievements__text">Boost your prizes to boost your sales to boost funding to your good causes</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

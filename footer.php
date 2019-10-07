@@ -6,13 +6,14 @@
                 <p class="footer__paragraph">&copy; Copyright 2019 ALOT Solutions</p>
             </div>
             <div class="footer__column">
+                <h4 class="footer__heading">Solutions</h4>
                 <ul class="footer__list">
                     <li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                     </li>
-                    <li>
+                    <!--li>
                         <a href="games<?=$ext?>">Games</a>
-                    </li>
+                    </li-->
                     <li>
                         <a href="lotto-betting<?=$ext?>">Lotto betting</a>
                     </li>
@@ -23,11 +24,15 @@
                         <a href="keno-games<?=$ext?>">KENO</a>
                     </li>
                     <li>
+                        <a href="promotions<?=$ext?>">Promotions</a>
+                    </li>
+                    <li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
                     </li>
                 </ul>
             </div>
             <div class="footer__column">
+                <h4 class="footer__heading">Company</h4>
                 <ul class="footer__list">
                     <li>
                         <a href="about-us<?=$ext?>">About us</a>
@@ -41,21 +46,24 @@
                     <li>
                         <a href="news<?=$ext?>">News</a>
                     </li>
-                    <li>
-                        <a href="about-us<?=$ext?>#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="privacy-policy<?=$ext?>">Privacy policy</a>
-                    </li>
                 </ul>
             </div>
             <div class="footer__column">
+                <h4 class="footer__heading">Contact</h4>
                 <p class="footer__paragraph">
                     ALOT Solutions Limited <br>
                     5.08 World Trade Center, <br>
                     6 Bayside Road, <br>
                     Gibraltar
                 </p>
+                <ul class="footer__list">
+                    <li>
+                        <a href="about-us<?=$ext?>#contact">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="privacy-policy<?=$ext?>">Privacy policy</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -66,7 +74,7 @@
         <h6 class="cookie__heading">Cookie consent</h6>
         <p>We and our partners use technologies, such as cookies, and collect browsing data to give you the best online experience and to personalise the content and advertising shown to you. Please let us know if you agree.</p>
     </div>
-    <button class="button button--blue">Yes, I agree</button>
+    <button class="cookie__button button button--blue">Yes, I agree</button>
 </div>
 
 </body>

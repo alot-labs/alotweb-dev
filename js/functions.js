@@ -1,5 +1,36 @@
 $(document).ready(function() {
 
+    /* Cookie */
+    var cookiebar = document.querySelector('.cookie'),
+        cookieButton = document.querySelector('.cookie__button'),
+        cookieConsent = getCookie('cookie_consent');
+
+    if (cookiebar && cookieButton) {
+        cookieButton.addEventListener('click', cookieButtonClick);
+
+        if (cookieConsent !== '1') {
+            cookiebar.classList.add('active');
+        }
+    }
+
+    function cookieButtonClick(event) {
+        event.preventDefault();
+
+        cookiebar.classList.remove('active');
+
+        var now = new Date();
+
+        now.setTime(now.getTime() + 365 * 24 * 60 * 60 *1000);
+        document.cookie = 'cookie_consent=1; expires=' + now.toUTCString() + '; path=/';
+    }
+
+    function getCookie(name) {
+        var value = "; " + document.cookie,
+            parts = value.split("; " + name + "=");
+
+        if (parts.length == 2) return parts.pop().split(";").shift();
+    }
+
     /* Slideshow */
     $(".owl-carousel").owlCarousel({
         items: 1,

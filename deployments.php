@@ -57,7 +57,8 @@
             </div>
         </div>
     </div>
-    <div class="deployment__item deployment__item--coral">
+
+    <!--div class="deployment__item deployment__item--coral">
         <div class="container">
             <div class="deployment__holder deployment__holder--right">
                 <div class="deployment__wrapper">
@@ -68,7 +69,21 @@
                 </div>
             </div>
         </div>
+    </div-->
+
+    <div class="deployment__item deployment__item--ladbrokes">
+        <div class="container">
+            <div class="deployment__holder deployment__holder--right">
+                <div class="deployment__wrapper">
+                    <h2 class="heading-1">Self Service Betting Terminal</h2>
+                    <div class="deployment__screenshot deployment__screenshot--ladbrokes">
+                        <a class="deployment__logo deployment__logo--ladbrokes" href="http://ladbrokes.com" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 </section>
 
 <?php include 'footer.php'; ?>

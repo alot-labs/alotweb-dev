@@ -16,6 +16,9 @@
                         </div>
                     </li>
                     <li>
+                        <a href="promotions<?=$ext?>">Promotions</a>
+                    </li>
+                    <li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
                     </li>
                     <li>

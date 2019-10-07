@@ -1,6 +1,6 @@
 /* Desktop Large: 1302px - 1577px */
 
-@media (max-width: ($large-desktop-breakpoint + 1px)){
+@media (max-width: $large-desktop-breakpoint){
 	$font-size-responsive: 17;
 	$zoom: $font-size / $font-size-responsive;
 	html{
@@ -19,6 +19,13 @@
 		}
 	}
 	.hero{
+		&--omnichannel-lottery{
+			.hero__holder{
+				.paragraph-big{
+					max-width: 630px;
+				}
+			}
+		}
 		&__holder{
 			min-height: px(540 * $zoom);
 		}
