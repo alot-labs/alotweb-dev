@@ -1,4 +1,4 @@
-/* Mobile: 0 - 650px */
+/* Mobile: 0 - 700px */
 
 @media (max-width: $mobile-breakpoint){
 	$font-size-responsive: 13;
@@ -39,11 +39,13 @@
 	}
 	.paragraph{
 		&--bold{
-			@include daxline-light;
+			/*@include daxline-light;*/
+			@include font-base-regular;
 		}
 	}
 	.paragraph-big{
-		@include daxline-light;
+		/*@include daxline-light;*/
+		@include font-base-regular;
 		br{
 			display: none;
 		}
@@ -54,8 +56,10 @@
 	.header{
 		$item-bottom-margin: 15;
 		&__logo{
-			width: 70px;
-			height: 26px;
+			$logo-aspect-ratio: 1.96;
+			$logo-height: 38;
+			width: ($logo-height * $logo-aspect-ratio * 1px);
+			height: ($logo-height * 1px);
 		}
 		.container{
 			height: ($menu-height-mobile * 1px);
@@ -74,8 +78,14 @@
 			}
 		}
 		&__mobile-plate{
+			padding-top: ($menu-height-mobile * 1px);
 			&-scroll{
 				display: block;
+			}
+			&.active{
+				&:before{
+					height: ($menu-height-mobile * 1px);
+				}
 			}
 		}
 	}
@@ -105,6 +115,7 @@
 		}
 		&--omnichannel-lottery{
 			/*margin-bottom: 0;*/
+			background-image: url(../i/hero-lottery-systems-mobile.jpg);
 			&:before{
 				background: linear-gradient(to right, rgba(40, 37, 46, 0.85) 0%, rgba(0, 0, 0, 0.4) 100%);
 			}
@@ -130,6 +141,18 @@
 				.paragraph-big{
 					max-width: 75vw;
 				}
+			}
+		}
+		&--promotions{
+			&:before{
+				background: linear-gradient(to right, rgba(37, 20, 31, 0.7) 0%, rgba(37, 20, 31, 0.35) 100%);
+			}
+		}
+		&--keno-games{
+			/*background-image: url(../i/hero-keno-games-mobile.jpg);*/
+			&:before{
+				/*display: none;*/
+				background: linear-gradient(to right, rgba(16, 24, 32, 0.8) 0%, rgba(16, 24, 32, 0.5) 100%);
 			}
 		}
 		&__illustration{
@@ -303,6 +326,11 @@
 				margin-right: 0;
 			}
 		}
+		&__logo{
+			$logo-height: 38;
+			width: ($logo-height * $logo-aspect-ratio * 1px);
+			height: ($logo-height * 1px);
+		}
 	}
 	.image-with-description{
 		&__holder{
@@ -315,7 +343,8 @@
 			border-bottom-right-radius: 0;
 		}
 		&__text{
-			@include daxline-light;
+			/*@include daxline-light;*/
+			@include font-base-regular;
 		}
 		&__illustration{
 			width: 100%;
@@ -446,7 +475,8 @@
 	.ticket-features{
 		&__item{
 			.paragraph{
-				@include daxline-extra-bold;
+				/*@include daxline-extra-bold;*/
+				@include font-base-bold;
 			}
 		}
 	}
@@ -536,9 +566,18 @@
 	}
 	.accessories{
 		&__row{
+			display: block;
 			margin-bottom: (($mobile-vertical-space / 2) * 1px);
 			&:last-child{
 				margin-bottom: 0;
+			}
+			&--very-large{
+				.accessories__item{
+					margin-right: 0;
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
 			}
 			&--large{
 				display: block;
@@ -675,6 +714,10 @@
 				margin-bottom: 0;
 			}
 		}
+		&__item{
+			margin-right: 0;
+			margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		}
 	}
 	.owl-dots{
 		/*display: none;*/
@@ -758,6 +801,23 @@
 		&__logo{
 			margin-bottom: ($mobile-vertical-space / 2 * 1px);
 			background-position: 0 0;
+		}
+	}
+	.cookie{
+		right: 0;
+		bottom: 0;
+		max-width: initial;
+		width: 100%;
+		border-radius: 0;
+		padding: 30px ($mobile-horizontal-space * 1px);
+		border: none;
+		box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25);
+		&__heading{
+			margin-bottom: 15px;
+			font-size: px(23 * ($font-size / 16));
+		}
+		&__text{
+			margin-bottom: 20px;
 		}
 	}
 }

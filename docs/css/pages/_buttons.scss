@@ -9,9 +9,11 @@
 	padding: 0 px(30);
 	height: ($button-height * 1px);
 	line-height: ($button-height * 1px);
-	font-size: inherit;
+	/*font-size: inherit;*/
+	font-size: px(15);
 	border: none;
-	@include daxline-extra-bold;
+	/*@include daxline-extra-bold;*/
+	@include font-accent;
 	text-transform: uppercase;
 	border-radius: $radius;
 	white-space: nowrap;
@@ -29,6 +31,13 @@
 			background: $dark-green;
 		}
 	}
+	&--magenta{
+		background: $magenta;
+		color: #fff;
+		&:hover{
+			background: $dark-magenta;
+		}
+	}
 	&--white-green{
 		background: #fff;
 		color: $black;
@@ -37,4 +46,8 @@
 			color: #fff;
 		}
 	}
+}
+
+.button-holder{
+	text-align: center;
 }
