@@ -1,8 +1,15 @@
 #!/bin/bash
 
+# Extension can be overriden by an argument. e.g.: ./build html
+EXT=$1
+if [ -z "$EXT" ] 
+then
+    EXT="php"
+fi
+
 # Build script for serving static content instead of php files
 DEST="./docs"
-html=".html"
+html=".$EXT"
 
 # Create destination folder
 mkdir -p "$DEST/"
