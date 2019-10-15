@@ -11,14 +11,69 @@
     include 'menu.php';
 ?>
 
-<section class="section hero hero--gaming-content">
+<section class="section splitbox">
+    <a class="splitbox__item" href="lotto-betting<?=$ext?>">
+        <div class="splitbox__image splitbox__image--lotto-betting"></div>
+        <div class="splitbox__overlay"></div>
+        <div class="splitbox__text">
+            <h2 class="heading-1">Lotto Betting</h2>
+        </div>
+    </a>
+    <a class="splitbox__item" href="instant-win-games<?=$ext?>">
+        <div class="splitbox__image splitbox__image--instant-games"></div>
+        <div class="splitbox__overlay"></div>
+        <div class="splitbox__text">
+            <h2 class="heading-1">Instant Games</h2>
+        </div>
+    </a>
+    <a class="splitbox__item" href="keno-games<?=$ext?>">
+        <div class="splitbox__image splitbox__image--keno-betting"></div>
+        <div class="splitbox__overlay"></div>
+        <div class="splitbox__text">
+            <h2 class="heading-1">KENO Betting</h2>
+        </div>
+    </a>
+</section>
+
+<section class="section standalone-embed">
+    <div class="standalone-embed__mobile">
+        <div class="container">
+            <div class="standalone-embed__device-mobile">
+                <div class="standalone-embed__device-mobile-holder">
+                    <div class="standalone-embed__device-mobile-embed">
+                        <div class="standalone-embed__iframe standalone-embed__iframe--mobile standalone-embed__iframe--instant-games">
+                            <lottoland-app data-version="1.0" data-operator-id="rng" data-host="https://qa-ddd.lttlapp.com" data-event-router="eventRouter" data-query-user-token="8ulfvxh53cbfa73el5liwyp3jxbl2mc6ulq3ns8zyl0tc4tpdcsb2azm818hs6jk">
+                            </lottoland-app>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="standalone-embed__desktop">
+        <div class="container">
+            <div class="standalone-embed__device-desktop">
+                <div class="standalone-embed__device-desktop-holder">
+                    <div class="standalone-embed__device-desktop-embed">
+                        <div class="standalone-embed__iframe standalone-embed__iframe--desktop standalone-embed__iframe--instant-games">
+                            <lottoland-app data-version="1.0" data-operator-id="rng" data-host="https://qa-ddd.lttlapp.com" data-event-router="eventRouter" data-query-user-token="8ulfvxh53cbfa73el5liwyp3jxbl2mc6ulq3ns8zyl0tc4tpdcsb2azm818hs6jk">
+                            </lottoland-app>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section class="section hero hero--gaming-content">
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">ALOT Games</h1>
             <p class="paragraph-big">Unique portfolio of proprietary games ranging from lottery betting products and fixed odds lottery games to KENO, instant lotto, scratch cards and&nbsp;more.</p>
         </div>
     </div>
-</section>
+</section-->
 
 <div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
 

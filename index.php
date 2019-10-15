@@ -11,7 +11,15 @@
     include 'menu.php';
 ?>
 
-<div class="owl-carousel">
+<section class="hero hero--homepage">
+    <div class="container">
+        <div class="hero__holder">
+
+        </div>
+    </div>
+</section>
+
+<!--div class="owl-carousel">
     <section class="hero hero--homepage">
         <div class="container">
             <div class="hero__holder">
@@ -47,7 +55,20 @@
             </div>
         </div>
     </section>
-</div>
+</div-->
+
+<!--section class="section">
+    <div class="container">
+        <div class="heading-holder heading-holder--narrow-text">
+            <div class="heading-holder__item">
+                <h1 class="heading-1">ALOT Solutions</h1>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">Powers innovation in the Lottery, Gaming and Prize Promotions sector to benefit players, operators and their good causes.</p>
+            </div>
+        </div>
+    </div>
+</section-->
 
 <section class="section stats">
     <div class="container">
@@ -76,14 +97,70 @@
     </div>
 </section>
 
+
+
 <section class="section products-services">
     <div class="container">
         <h2 class="heading-1">Products and Services</h2>
+
+        <!--div class="heading-holder heading-holder--narrow-text">
+            <div class="heading-holder__item">
+                <h2 class="heading-1">Products &amp; Services</h2>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">ALOT Solutions powers innovation in the Lottery, Gaming and Prize Promotions sector to benefit players, operators and their good causes.</p>
+            </div>
+        </div-->
+
         <div class="products-services__illustration">
             <div class="products-services__illustration-image"></div>
         </div>
         <div class="products-services__holder">
-            <div class="products-services__column">
+
+                <div class="products-services__item">
+                    <div class="products-services__item-header">
+                        <h3 class="heading-2">ALOT Prize Cover</h3>
+                    </div>
+                    <div class="products-services__item-body">
+                        <p class="paragraph">Leverage the power of huge jackpots backed by our in-house insurance company. Impeccable track record in underwriting prize payout risk for gaming companies. </p>
+                        <p class="paragraph"> Over €350M in jackpot prizes paid out to date, €90M single largest payout, €20M jackpot for scratchcards.</p>
+                        <a href="prize-cover<?=$ext?>" class="button button--blue">ALOT Prize Cover</a>
+                    </div>
+                </div>
+                <div class="products-services__item">
+                    <div class="products-services__item-header">
+                        <h3 class="heading-2">ALOT Games</h3>
+                    </div>
+                    <div class="products-services__item-body">
+                        <p class="paragraph">License our catalogue of games unavailable anywhere else. KENO-style, fixed odds lotto, instant lottery and many other games offering huge prizes with unseen features.</p>
+                        <p class="paragraph">Enhance your player’s experience with engaging new content under your brand.</p>
+                        <a href="games<?=$ext?>" class="button button--blue">ALOT Games</a>
+                    </div>
+                </div>
+                <div class="products-services__item">
+                    <div class="products-services__item-header">
+                        <h3 class="heading-2">ALOT Lottery Systems</h3>
+                    </div>
+                    <div class="products-services__item-body">
+                        <p class="paragraph">Access your lottery customers in every way possible – web and online, retail terminals, compact handheld devices, interactive betting terminals.</p>
+                        <p class="paragraph">Turnkey solution, whether you sell online and/or on the streets.</p>
+                        <!--a href="lottery<?=$ext?>" class="button button--blue">ALOT Lottery Systems</a-->
+                    </div>
+                </div>
+                <div class="products-services__item">
+                    <div class="products-services__item-header">
+                        <h3 class="heading-2">Promotions</h3>
+                    </div>
+                    <div class="products-services__item-body">
+                        <p class="paragraph">Raffles, Sweepstakes or fixed odds games. With or without a fee to enter. One-time or continuous. </p>
+                        <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
+                    </div>
+                </div>
+
+
+
+
+            <!--div class="products-services__column">
                 <div class="products-services__item">
                     <div class="products-services__item-header">
                         <h3 class="heading-2">ALOT Prize Cover</h3>
@@ -125,7 +202,10 @@
                         <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
                     </div>
                 </div>
-            </div>
+            </div-->
+
+
+
         </div>
     </div>
 </section>
@@ -134,7 +214,7 @@
     <div class="container">
         <div class="heading-holder">
             <div class="heading-holder__item">
-                <h2 class="heading-1">Our clients</h2>
+                <h2 class="heading-1">Clients</h2>
             </div>
             <div class="heading-holder__item">
                 <p class="paragraph">Come and join the family of market leading operators who understand the importance of the innovation in jackpot-based gaming. We service state lottery operators, lottery service providers, casinos, betting shops, online sportsbooks, bingos, marketing prize promoters and&nbsp;more.</p>
