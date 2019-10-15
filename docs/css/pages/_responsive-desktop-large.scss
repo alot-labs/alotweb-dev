@@ -15,7 +15,8 @@
 			margin-right: 0;
 		}
 		&__holder{
-			margin-top: px(-180 * $zoom);
+			/*margin-top: px(-180 * $zoom);*/
+			margin-top: px(-121 * $zoom);
 		}
 	}
 	.hero{
@@ -46,6 +47,12 @@
 			margin-right: 0;
 		}
 	}
+	.standalone-embed{
+		&__device-desktop{
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
 	.hero{
 		&__illustration{
 			&-image{
@@ -53,6 +60,11 @@
 					margin-right: 0;
 				}
 			}
+		}
+	}
+	.splitbox{
+		&__text{
+			min-height: px(550 * $zoom);
 		}
 	}
 }

@@ -14,6 +14,11 @@
 			}
 		}
 	}
+	.splitbox{
+		&__text{
+			min-height: px(450 * $zoom);
+		}
+	}
 	.heading-1{
 		font-size: px(43 * $zoom);
 	}
@@ -40,6 +45,16 @@
 		padding-top: px(276);
 	}
 	.game-embed{
+		&__device-mobile{
+			max-width: 390px;
+		}
+		&__device-desktop{
+			&-embed{
+				width: 75.1%;
+			}
+		}
+	}
+	.standalone-embed{
 		&__device-mobile{
 			max-width: 390px;
 		}

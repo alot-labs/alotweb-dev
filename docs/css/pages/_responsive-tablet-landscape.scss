@@ -27,6 +27,12 @@
 			min-height: px(380 * $zoom);
 		}
 	}
+	.splitbox{
+		&__text{
+			min-height: px(350 * $zoom);
+			padding: 30px;
+		}
+	}
 	.stats{
 		&__value{
 			font-size: px(30 * $zoom);
@@ -136,6 +142,11 @@
 		}
 		&__hamburger{
 			display: block;
+		}
+	}
+	.products-services{
+		&__holder{
+			margin-top: px(-102 * $zoom);
 		}
 	}
 	.image-with-description{
