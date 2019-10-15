@@ -106,7 +106,7 @@
                 </div>
             </div>
 
-            <div class="locations__item">
+            <!--div class="locations__item">
                 <div class="locations__illustration" style="background-image: url(i/office-location-hong-kong.jpg)"></div>
                 <div class="locations__text-holder">
                     <h3 class="heading-2">Hong Kong</h3>
@@ -117,20 +117,20 @@
                         Gibraltar GX111AA
                     </p>
                 </div>
-            </div>
+            </div-->
 
-            <!--div class="locations__item">
+            <div class="locations__item">
                 <div class="locations__illustration" style="background-image: url(i/office-location-slovakia.jpg)"></div>
                 <div class="locations__text-holder">
                     <h3 class="heading-2">Slovakia</h3>
                     <p class="paragraph">
-                        <strong>ALOT Solutions Limited</strong><br>
-                        5.08 World Trade Center<br>
-                        6 Bayside Road<br>
-                        Bratislava GX111AA
+                        <strong>In-house development studio</strong><br>
+                        Digital Park<br>
+                        Einsteinova 23<br>
+                        Bratislava 821 05
                     </p>
                 </div>
-            </div-->
+            </div>
 
         </div>
     </div>

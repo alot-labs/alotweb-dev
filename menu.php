@@ -18,9 +18,9 @@
                     <li>
                         <a href="promotions<?=$ext?>">Promotions</a>
                     </li>
-                    <li>
+                    <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
-                    </li>
+                    </li-->
                     <li>
                         <a href="about-us<?=$ext?>">About Us</a>
                         <div class="header__submenu">

@@ -20,11 +20,11 @@
 				}
 			}
 		}
-		&--homepage{
+		/*&--homepage{
 			&:before{
 				background: linear-gradient(to right, rgba(80, 52, 47, 0.8) 0%, rgba(80, 52, 47, 0.2) 100%);
 			}
-		}
+		}*/
 		&--omnichannel-lottery{
 			&:before{
 				background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
@@ -37,23 +37,51 @@
 			}
 		}
 	}
+	.splitbox{
+		&__text{
+			min-height: px(300 * $zoom);
+			.heading-1{
+				font-size: 30px;
+			}
+		}
+	}
 	.products-services{
 		&__holder{
+			/*margin-top: px(-90 * $zoom);*/
 			margin-top: 0;
 		}
-		&__column{
+		&__item{
+			flex-basis: 48%;
+			margin-right: 4%;
+			margin-bottom: 4%;
+			&:nth-child(2n){
+				margin-right: 0;
+			}
+			&:nth-child(2n+1){
+				margin-left: 0;
+			}
+			&-header{
+				/*padding: 20px 25px;*/
+				padding: 20px ($desktop-horizontal-space * 1px);
+			}
+			&-body{
+				/*padding: 20px 25px;*/
+				padding: ($desktop-horizontal-space * 1px);
+			}
+		}
+		/*&__column{
 			flex-basis: 48%;
 			margin-right: 4%;
 			&:last-child{
 				padding-top: 0;
 			}
-		}
-		&__item{
+		}*/
+		/*&__item{
 			margin-bottom: ((100 / 48) * 4 * 1%);
 			&-body{
 				padding: ($desktop-horizontal-space * 1px);
 			}
-		}
+		}*/
 	}
 	/*.clients{
 		$margin: 4;
@@ -229,6 +257,14 @@
 				$plate-offset: px(150);
 				height: calc(100% - #{$plate-offset});
 			}
+		}
+		&__desktop{
+			display: none;
+		}
+	}
+	.standalone-embed{
+		&__mobile{
+			display: block;
 		}
 		&__desktop{
 			display: none;

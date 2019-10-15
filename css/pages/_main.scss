@@ -226,15 +226,16 @@ a{
 	&--homepage{
 		margin-bottom: 0;
 		background-image: url(../i/hero-homepage.jpg);
-		&:before{
+		/*&:before{
 			background: linear-gradient(to right, rgba(80, 52, 47, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
-		}
+		}*/
 	}
 	&--risk-management{
 		margin-bottom: 0;
 		background-image: url(../i/hero-prize-cover.jpg);
 		&:before{
-			background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+			/*background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);*/
+			background: linear-gradient(to right, rgba(43, 39, 37, 0.7) 25%, rgba(43, 39, 37, 0) 100%);
 		}
 	}
 	&--gaming-content{
@@ -372,6 +373,9 @@ a{
 	background: $yellow;
 	padding-top: px($desktop-vertical-space / 2);
 	padding-bottom: px($desktop-vertical-space / 2);
+	.heading-holder{
+		margin-bottom: 0;
+	}
 	&__holder{
 		display: flex;
 		justify-content: space-between;
@@ -407,6 +411,9 @@ a{
 /* Products & Services */
 
 .products-services{
+	$services-item-width: box-value(5);
+	$services-item-count: 2;
+	$holder-side-space: ((100 - (($services-item-width * $services-item-count) + $box-space)) / 2);
 	&__illustration{
 		margin-left: (-$extended-side-space * 1px);
 		margin-right: (-$extended-side-space * 1px);
@@ -417,27 +424,40 @@ a{
 		}
 	}
 	&__holder{
-		margin-top: px(-210);
+		margin-top: px(-137);
 		display: flex;
-		justify-content: center;
-		align-items: flex-start;
+		flex-wrap: wrap;
+		/*justify-content: center;
+		align-items: flex-start;*/
 	}
-	&__column{
+	&__item{
+
+	}
+	/*&__column{
 		flex-basis: box(5);
 		margin-right: ($box-space * 1%);
 		&:last-child{
 			padding-top: px(60);
 			margin-right: 0;
 		}
-	}
+	}*/
 	&__item{
 		background: #fff;
-		margin-bottom: 25px;
+		/*margin-bottom: 25px;*/
 		border: $border;
 		border-radius: $radius;
-		&:last-child{
-			margin-bottom: 0;
+		flex-basis: ($services-item-width * 1%);
+		margin-right: ($box-space * 1%);
+		margin-bottom: ($box-space * 1%);
+		&:nth-child(#{$services-item-count}n+1){
+			margin-left: ($holder-side-space * 1%);
 		}
+		&:nth-child(#{$services-item-count}n){
+			margin-right: ($holder-side-space * 1%);
+		}
+		/*&:last-child{
+			margin-bottom: 0;
+		}*/
 		&-header{
 			background: $light-grey;
 			padding: px(25) px(40);
@@ -2316,6 +2336,144 @@ a{
 			background-image: url(../i/logo-ladbrokes-white.svg);
 			&:hover{
 				background-color: #c91907;
+			}
+		}
+	}
+}
+
+/* Hero 3 split view */
+
+.splitbox{
+	display: flex;
+	&__item{
+		flex-basis: (100% / 3);
+		color: #fff;
+		position: relative;
+		overflow: hidden;
+		&:hover{
+			.splitbox__image{
+				width: 103%;
+				height: 103%;
+			}
+		}
+
+	}
+	&__image{
+		position: absolute;
+		z-index: 1;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-color: #333;
+		transition: all 250ms ease-out;
+		&--lotto-betting{
+			background-image: url(../i/splitbox-lotto-betting.jpg);
+		}
+		&--instant-games{
+			background-image: url(../i/splitbox-instant-games.jpg);
+		}
+		&--keno-betting{
+			background-image: url(../i/splitbox-keno-betting.jpg);
+		}
+	}
+	&__overlay{
+		position: absolute;
+		z-index: 2;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+	}
+	&__text{
+		position: relative;
+		z-index: 3;
+		min-height: px(650);
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: px($desktop-vertical-space / 2);
+		text-align: center;
+	}
+}
+
+/* Standalone games embed */
+
+.standalone-embed{
+	&__mobile{
+		display: none;
+	}
+	&__device-mobile{
+		width: 100%;
+		max-width: 431px;
+		margin: 0 auto px($desktop-vertical-space / 2) auto;
+		position: relative;
+		&-holder{
+			padding-top: 200%;
+			background: url(../i/device-mobile.png) no-repeat center top;
+			background-size: contain;
+			position: relative;
+			z-index: 4;
+		}
+		&-embed{
+			background: #e8e8e8;
+			position: absolute;
+			width: 86.8%;
+			left: 6.8%;
+			height: 78.39%;
+			top: 14.72%;
+		}
+	}
+	&__desktop{
+
+	}
+	&__device-desktop{
+		margin-left: (-$extended-side-space * 1px);
+		margin-right: (-$extended-side-space * 1px);
+		&-holder{
+			padding-top: 57.17%;
+			background: url(../i/device-desktop.png) no-repeat center top;
+			background-size: contain;
+			position: relative;
+		}
+		&-embed{
+			background: #e8e8e8;
+			position: absolute;
+			width: 53.3%;
+			left: 13.12%;
+			height: 72.06%;
+			top: 16.04%;
+		}
+	}
+	&__iframe{
+		width: 100%;
+		height: 100%;
+		&--mobile{
+
+		}
+		&--desktop{
+
+		}
+		&--lottery-games{
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+		&--instant-games{
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+		&--keno-games{
+			overflow: hidden;
+			iframe{
+				width: 100% !important;
+				height: 100% !important;
+				overflow-x: hidden;
+				overflow-y: auto;
 			}
 		}
 	}
