@@ -19,7 +19,8 @@ for f in *.php;
 do
     if [ $f != 'footer.php' ] && [ $f != 'header.php' ] && [ $f != 'menu.php' ]  && [ $f != 'config.php' ]
     then
-        php $f | sed 's:\(<a.*href=".*\)\.php\(".*</a>\):\1\.html\2:g' > "$DEST/${f/.php/$html}";
+        php $f | sed 's:\(<a.* href=".*\)\.php\(.*\):\1\.html\2:g' > "$DEST/${f/.php/$html}";
+        #php $f | sed 's:\(<a.* href=".*\)\.php\(.*".*</a>\):\1\.html\2:g' > "$DEST/${f/.php/$html}";
         echo "Processing $f into ${f/.php/$html}..";
     fi
 done
