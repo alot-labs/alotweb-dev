@@ -1,7 +1,7 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Games";
+    $title = "ALOT Content";
     $meta_desc = "Unique portfolio of games and gaming content with huge jackpot prizes, including lottery betting, fixed odds lottery games, KENO, bingo, scratch cards and more.";
     $meta_keywords = "Lottery, huge jackpot, jackpot games, KENO, bingo, scratch cards, lottery betting";
     $og_image = "";
@@ -136,11 +136,11 @@
                 </div>
             </div>
             <div class="other-games__column other-games__column--offset">
-                <h2 class="heading-1">KENO... Differently</h2>
+                <h2 class="heading-1">Numbers</h2>
                 <div class="other-games__item">
                     <div class="other-games__illustration" style="background-image: url(i/keno-game.jpg);"></div>
-                    <p class="paragraph">KENO from all over the world in one place. Players can participate in KENO games offered by operators from all over the world or join an RNG-based KENO-style games from one screen. Very popular in Asian markets!</p>
-                    <a href="keno-games<?=$ext?>" class="button button--green">KENO demo</a>
+                    <p class="paragraph">Many players like to place traditional fixed odds bets on specific numbers (instead of picking all numbers like traditional lottery). let your players bet on specific numbers and side bets from a huge range of draws!</p>
+                    <a href="numbers<?=$ext?>" class="button button--green">Numbers demo</a>
                 </div>
             </div>
         </div>

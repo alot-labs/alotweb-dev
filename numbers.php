@@ -1,11 +1,11 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Keno games";
+    $title = "ALOT Numbers";
     $meta_desc = "Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.";
     $meta_keywords = "side bets, Lottery, lotto, huge jackpot, jackpot games, KENO";
     $og_image = "";
-    $og_url = $url."/keno-games".$ext;
+    $og_url = $url."/numbers".$ext;
 
     include 'header.php';
     include 'menu.php';
@@ -14,7 +14,7 @@
 <section class="section hero hero--keno-games">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Keno Games... <br>Differently</h1>
+            <h1 class="heading-1">High frequency numbers games are here</h1>
             <!--div class="hero__illustration">
                 <div class="hero__illustration-text">
                     <h1 class="heading-1">Keno Games... Differently</h1>
@@ -39,7 +39,7 @@
             <div class="other-games__column">
                 <h2 class="heading-1">Unique UI</h2>
                 <div class="other-games__item">
-                    <p class="paragraph">This high-frequency game is designed to allow the players placing bets on multiple KENO markets swiftly and without any obstacles. This approach works particularly well in Asian markets, where this game has become incredibly popular. All features are fully responsive and available on desktop and mobile&nbsp;alike.</p>
+                    <p class="paragraph">This high-frequency game is designed to allow the players placing bets on multiple KENO markets swiftly and without any obstacles. All features are fully responsive and available on desktop and mobile&nbsp;alike.</p>
                 </div>
             </div>
         </div>

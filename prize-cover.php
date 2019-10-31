@@ -26,21 +26,21 @@
             <div class="achievements__item">
                 <div class="achievements__icon achievements__icon--jackpot"></div>
                 <div class="achievements__text-holder">
-                    <p class="achievements__value">€350M</p>
-                    <p class="paragraph">Facilitated over 350 million in prizes</p>
+                    <p class="achievements__value">€100M</p>
+                    <p class="paragraph">Supported more than €100m in prize pay-outs</p>
                 </div>
             </div>
             <div class="achievements__item">
                 <div class="achievements__icon achievements__icon--payout"></div>
                 <div class="achievements__text-holder">
                     <p class="achievements__value">€90M</p>
-                    <p class="paragraph">Assisted in a 90 million single prize payout</p>
+                    <p class="paragraph">The same cover that paid a €90M win</p>
                 </div>
             </div>
             <div class="achievements__item">
                 <div class="achievements__icon achievements__icon--spaceship"></div>
                 <div class="achievements__text-holder">
-                    <p class="achievements__text">Boost your prizes to boost your sales to boost funding to your good causes</p>
+                    <p class="achievements__text">Boost your prizes to grow your sales and return more funding to your good causes</p>
                 </div>
             </div>
         </div>
@@ -54,14 +54,14 @@
         <h2 class="heading-1">Boost your prizes</h2>
         <div class="image-with-description__holder">
             <div class="image-with-description__plate image-with-description__plate--blue">
-                <p class="image-with-description__text">You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering immense jackpots from the beginning.</p>
+                <p class="image-with-description__text">You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from the beginning.</p>
             </div>
             <div class="image-with-description__illustration" style="background-image: url(i/lottery-balls.jpg);"></div>
         </div>
     </div>
 </section>
 
-<section class="section why-choose">
+<!-- <section class="section why-choose">
     <div class="container">
         <h2 class="heading-1">Why choose ALOT for your <br>prize coverage?</h2>
         <div class="why-choose__holder">
@@ -85,11 +85,11 @@
             </ul>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="section use-cases">
     <div class="container">
-        <h2 class="heading-1">Use Cases</h2>
+        <h2 class="heading-1">How could you benefit from our Prize cover?</h2>
         <div class="use-cases__holder">
             <div class="use-cases__row">
                 <div class="use-cases__item">

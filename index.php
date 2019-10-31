@@ -98,16 +98,16 @@
     <div class="container">
         <div class="stats__holder">
             <div class="stats__item">
-                <p class="stats__value">€350m</p>
-                <p class="paragraph">In facilitated prize <br>pay outs</p>
+                <p class="stats__value">€100m</p>
+                <p class="paragraph">Supported more than €100m in prize <br>pay outs</p>
             </div>
-            <div class="stats__item">
+            <!-- <div class="stats__item">
                 <p class="stats__value">€90m</p>
                 <p class="paragraph">Jackpot<br>payment assistance</p>
-            </div>
+            </div> -->
             <div class="stats__item">
-                <p class="stats__value">€20M</p>
-                <p class="paragraph">Jackpot for scratchcards &amp; instant games</p>
+                <p class="stats__value">€200M</p>
+                <p class="paragraph">We arrange more than €200M of jackpot cover</p>
             </div>
             <div class="stats__item">
                 <p class="stats__value">150+</p>
@@ -115,7 +115,7 @@
             </div>
             <div class="stats__item">
                 <p class="stats__value">30+</p>
-                <p class="paragraph">World largest gaming and lottery clients</p>
+                <p class="paragraph">Of the world's largest gaming &amp; lottery companies</p>
             </div>
         </div>
     </div>
@@ -132,7 +132,7 @@
                 <h2 class="heading-1">Products &amp; Services</h2>
             </div>
             <div class="heading-holder__item">
-                <p class="paragraph">ALOT Solutions powers innovation in the Lottery, Gaming and Prize Promotions sector to benefit players, operators and their good causes.</p>
+                <p class="paragraph">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.</p>
             </div>
         </div>
 
@@ -146,38 +146,37 @@
                         <h3 class="heading-2">ALOT Prize Cover</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">Leverage the power of huge jackpots backed by our in-house insurance company. Impeccable track record in underwriting prize payout risk for gaming companies. </p>
-                        <p class="paragraph"> Over €350M in jackpot prizes paid out to date, €90M single largest payout, €20M jackpot for scratchcards.</p>
+                        <p class="paragraph">Leverage the power of huge PRIZES. WE HAVE AN AMAZING track record in ARRANGING prize payout risk for gaming companies, INCLUDING A €90M WIN.</p>
+                        <p class="paragraph"> &nbsp;</p>
                         <a href="prize-cover<?=$ext?>" class="button button--blue">ALOT Prize Cover</a>
                     </div>
                 </div>
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">ALOT Games</h3>
+                        <h3 class="heading-2">ALOT Content</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">License our catalogue of games unavailable anywhere else. KENO-style, fixed odds lotto, instant lottery and many other games offering huge prizes with unseen features.</p>
-                        <p class="paragraph">Enhance your player’s experience with engaging new content under your brand.</p>
+                        <p class="paragraph">WE SUPPLY OPERATORS WITH our catalogue of PROPRIETARY CONTENT: KENO-style, fixed odds lotto, instant lottery and many others.</p>
+                        <p class="paragraph">&nbsp;</p>
                         <a href="games<?=$ext?>" class="button button--blue">ALOT Games</a>
                     </div>
                 </div>
-                <div class="products-services__item">
+                <!-- <div class="products-services__item">
                     <div class="products-services__item-header">
                         <h3 class="heading-2">ALOT Lottery Systems</h3>
                     </div>
                     <div class="products-services__item-body">
                         <p class="paragraph">Access your lottery customers in every way possible – web and online, retail terminals, compact handheld devices, interactive betting terminals.</p>
                         <p class="paragraph">Turnkey solution, whether you sell online and/or on the streets.</p>
-                        <!--a href="lottery<?=$ext?>" class="button button--blue">ALOT Lottery Systems</a-->
                     </div>
-                </div>
+                </div> -->
                 <div class="products-services__item">
                     <div class="products-services__item-header">
-                        <h3 class="heading-2">Promotions</h3>
+                        <h3 class="heading-2">ALOT Promotions</h3>
                     </div>
                     <div class="products-services__item-body">
-                        <p class="paragraph">Raffles, Sweepstakes or fixed odds games. With or without a fee to enter. One-time or continuous. </p>
-                        <a href="deployments<?=$ext?>" class="button button--blue">Example Deployments</a>
+                        <p class="paragraph">We provide the technology to power your prize draw / sweepstakes promotion.</p>
+                        <a href="promotions<?=$ext?>" class="button button--blue">ALOT Promotions</a>
                     </div>
                 </div>
 
@@ -241,7 +240,7 @@
                 <h2 class="heading-1">Clients</h2>
             </div>
             <div class="heading-holder__item">
-                <p class="paragraph">Come and join the family of market leading operators who understand the importance of the innovation in jackpot-based gaming. We service state lottery operators, lottery service providers, casinos, betting shops, online sportsbooks, bingos, marketing prize promoters and&nbsp;more.</p>
+                <p class="paragraph">OUR SOLUTIONS ALREADY A SUPPORT A HUGE RANGE OF LEADING OPERATORS who understand the importance of BIG PRIZES. CONTACT US TO BECOME ONE OF THEM.</p>
             </div>
         </div>
         <div class="clients__holder">
@@ -278,9 +277,9 @@
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-1.jpg);" href="article<?=$ext?>"></a>
                     <div class="article-preview__text">
-                        <p class="article-preview__date">Gibraltar, 1<sup>st</sup> of October, 2019</p>
+                        <p class="article-preview__date">1<sup>st</sup> of October, 2019</p>
                         <h3 class="heading-2">
-                            <a href="article<?=$ext?>">ALOT Announcement</a>
+                            <a href="article<?=$ext?>">Lottoland Solutionis becomes ALOT</a>
                         </h3>
                         <p class="paragraph">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good causes.</p>
                     </div>

@@ -4,15 +4,22 @@
         <div class="header__mobile-plate">
             <div class="header__mobile-plate-scroll">
                 <ul class="header__menu">
+                <li>
+                        <a href="about-us<?=$ext?>">About Us</a>
+                        <div class="header__submenu">
+                            <a href="deployments<?=$ext?>">Example Deployments</a>
+                            <a href="awards<?=$ext?>">Awards</a>
+                        </div>
+                    </li>
                     <li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                     </li>
                     <li>
-                        <a href="games<?=$ext?>">Games</a>
+                        <a href="games<?=$ext?>">Content</a>
                         <div class="header__submenu">
                             <a href="lotto-betting<?=$ext?>">Lotto betting</a>
                             <a href="instant-win-games<?=$ext?>">Instant win games</a>
-                            <a href="keno-games<?=$ext?>">KENO</a>
+                            <a href="numbers<?=$ext?>">Numbers</a>
                         </div>
                     </li>
                     <li>
@@ -21,13 +28,6 @@
                     <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
                     </li-->
-                    <li>
-                        <a href="about-us<?=$ext?>">About Us</a>
-                        <div class="header__submenu">
-                            <a href="deployments<?=$ext?>">Example Deployments</a>
-                            <a href="awards<?=$ext?>">Awards</a>
-                        </div>
-                    </li>
                     <li>
                         <a href="news<?=$ext?>">News</a>
                     </li>
