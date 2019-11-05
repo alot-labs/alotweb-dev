@@ -112,7 +112,15 @@
 			}
 		}
 		&--lotto-betting{
-			margin-bottom: 0;
+			/*margin-bottom: 0;*/
+			&:before{
+				background: linear-gradient(to right, rgba(1, 0, 40, 0.5) 0%, rgba(1, 0, 40, 0.2) 100%);
+			}
+		}
+		&--instant-win-games{
+			&:before{
+				background: linear-gradient(to right, rgba(13, 16, 28, 0.5) 0%, rgba(42, 11, 29, 0.3) 100%);
+			}
 		}
 		&--omnichannel-lottery{
 			/*margin-bottom: 0;*/
@@ -191,6 +199,9 @@
 	}
 	.splitbox{
 		display: block;
+		&--homepage{
+			margin-bottom: 0;
+		}
 		&__item{
 			display: block;
 		}
@@ -231,6 +242,11 @@
 	.heading-holder{
 		display: block;
 		margin-bottom: (($mobile-vertical-space / 2) * 1px);
+		&--extended-mobile-margin{
+			.heading-holder__item{
+				margin-bottom: ($mobile-vertical-space * 1px);
+			}
+		}
 		&__item{
 			margin-right: 0;
 			margin-bottom: ($mobile-horizontal-space * 1px);
@@ -280,6 +296,17 @@
 			display: block;
 			margin-bottom: (($mobile-vertical-space / 2) * 1px);
 		}
+		&__item{
+			margin-right: 0;
+			margin-bottom: 40px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+	.split-content-narrow{
+		display: block;
+		margin-bottom: (($mobile-vertical-space / 2) * 1px);
 		&__item{
 			margin-right: 0;
 			margin-bottom: 40px;
@@ -852,6 +879,19 @@
 		}
 		&__text{
 			margin-bottom: 20px;
+		}
+	}
+	.logo-description{
+		&__holder{
+			align-items: flex-start;
+		}
+		&__icon{
+			width: 90px;
+			height: 90px;
+			margin-right: ($mobile-horizontal-space * 1px);
+		}
+		&__text{
+
 		}
 	}
 }
