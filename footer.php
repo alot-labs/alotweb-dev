@@ -21,7 +21,7 @@
                         <a href="instant-win-games<?=$ext?>">Instant win games</a>
                     </li>
                     <li>
-                        <a href="keno-games<?=$ext?>">KENO</a>
+                        <a href="numbers<?=$ext?>">Numbers</a>
                     </li>
                     <li>
                         <a href="promotions<?=$ext?>">Promotions</a>
@@ -38,10 +38,10 @@
                         <a href="about-us<?=$ext?>">About us</a>
                     </li>
                     <li>
-                        <a href="deployments<?=$ext?>">Example Deployments</a>
+                        <a href="awards<?=$ext?>">Awards</a>
                     </li>
                     <li>
-                        <a href="awards<?=$ext?>">Awards</a>
+                        <a href="deployments<?=$ext?>">Example Deployments</a>
                     </li>
                     <li>
                         <a href="news<?=$ext?>">News</a>
@@ -58,7 +58,7 @@
                 </p>
                 <ul class="footer__list">
                     <li>
-                        <a href="about-us<?=$ext?>#contact">Contact us</a>
+                        <a href="contact-us<?=$ext?>">Contact us</a>
                     </li>
                     <li>
                         <a href="privacy-policy<?=$ext?>">Privacy policy</a>

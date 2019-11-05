@@ -14,12 +14,47 @@
 <section class="section hero hero--lotto-betting">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT Lotto Betting</h1>
+            <h1 class="heading-1">ALOT <br>Lotto Betting</h1>
         </div>
     </div>
 </section>
 
-<section class="section overplate-text">
+<section class="section">
+    <div class="container">
+        <div class="heading-holder">
+            <div class="heading-holder__item">
+                <h2 class="heading-1">Online lottery</h2>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">Lotto betting involves making a bet on the outcome of an official lottery draw. Players pick which lottery draw to bet on and which lottery balls (numbers) they think will be drawn - if they guess correctly, they win cash prizes.</p>
+                <p class="paragraph">The size of the winnings depends on the number of balls correctly guessed for the chosen draw and usually matches the official lottery prize, including the jackpot.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="heading-holder heading-holder--extended-mobile-margin">
+            <div class="heading-holder__item">
+                <div class="heading-holder__item-narrow-content">
+                    <div class="text-icon text-icon--circle text-icon--green text-icon--luck-white"></div>
+                    <h3 class="heading-2">Lotto betting games</h3>
+                    <p class="paragraph">Avoid the hassle of building your own user interface and bring these awesome products online in the shortest possible time. Integrate our game client in the same way as you would any other game provided by traditional game studios. Brand it, configure and launch!</p>
+                </div>
+            </div>
+            <div class="heading-holder__item">
+                <div class="heading-holder__item-narrow-content">
+                    <div class="text-icon text-icon--circle text-icon--green text-icon--api-white"></div>
+                    <h3 class="heading-2">Build your own UI (API)</h3>
+                    <p class="paragraph">Do you want to be in complete control of the user experience? We provide you with all the necessary data (such as draw times, jackpot sizes, cut-off times, etc.) and APIs to submit your transactions to us, while your design & development team builds a unique user interface.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section class="section overplate-text">
     <div class="container">
         <div class="overplate-text__plate overplate-text__plate--green">
             <div class="overplate-text__column">
@@ -30,7 +65,24 @@
             </div>
         </div>
     </div>
-</section>
+</section-->
+
+<!--section class="section">
+    <div class="container">
+        <div class="split-content-narrow">
+            <div class="split-content-narrow__item">
+                <div class="text-icon text-icon--circle text-icon--green text-icon--luck-white"></div>
+                <h3 class="heading-2">Lotto betting games</h3>
+                <p class="paragraph">Avoid the hassle of building your own user interface and bring these awesome products online in the shortest possible time. Integrate our game client in the same way as you would any other game provided by traditional game studios. Brand it, configure and launch!</p>
+            </div>
+            <div class="split-content-narrow__item">
+                <div class="text-icon text-icon--circle text-icon--green text-icon--api-white"></div>
+                <h3 class="heading-2">Build your own UI (API)</h3>
+                <p class="paragraph">Do you want to be in complete control of the user experience? We provide you with all the necessary data (such as draw times, jackpot sizes, cut-off times, etc.) and APIs to submit your transactions to us, while your design & development team builds a unique user interface.</p>
+            </div>
+        </div>
+    </div>
+</section-->
 
 <section class="section game-embed">
     <div class="game-embed__mobile">
@@ -65,5 +117,44 @@
     </div>
 </section>
 
+<section class="section related-products">
+    <div class="container">
+        <h2 class="heading-1">Want to see more content?</h2>
+        <div class="related-products__wrapper">
+            <div class="related-products__holder">
+                <div class="related-products__item">
+                    <a href="instant-win-games<?=$ext?>" class="related-products__illustration related-products__illustration--instant-win"></a>
+                    <div class="related-products__text-holder">
+                        <h3 class="heading-3">
+                            <a href="instant-win-games<?=$ext?>">Instant Win Games</a>
+                        </h3>
+                        <p class="paragraph">Scratch cards and fast paced games.</p>
+                    </div>
+                </div>
+                <div class="related-products__item">
+                    <a href="numbers<?=$ext?>" class="related-products__illustration related-products__illustration--keno"></a>
+                    <div class="related-products__text-holder">
+                        <h3 class="heading-3">
+                            <a href="keno-games<?=$ext?>">Keno Games</a>
+                        </h3>
+                        <p class="paragraph">KENO....differently.</p>
+                    </div>
+                </div>
+                <!--div class="related-products__item">
+                    <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
+                    <div class="related-products__text-holder">
+                        <h3 class="heading-3">
+                            <a href="game-content<?=$ext?>">API</a>
+                        </h3>
+                        <p class="paragraph">API Integrations</p>
+                    </div>
+                </div-->
+            </div>
+            <div class="related-products__button-holder">
+                <a href="contact-us<?=$ext?>" class="button button--white-green">Contact us</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include 'footer.php'; ?>

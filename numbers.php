@@ -79,7 +79,7 @@
 
 <section class="section related-products">
     <div class="container">
-        <h2 class="heading-1">Still not decided?</h2>
+        <h2 class="heading-1">Want to see more content?</h2>
         <div class="related-products__wrapper">
             <div class="related-products__holder">
                 <div class="related-products__item">
@@ -111,7 +111,7 @@
                 </div-->
             </div>
             <div class="related-products__button-holder">
-                <a href="about-us<?=$ext?>" class="button button--white-green">Contact us</a>
+                <a href="contact-us<?=$ext?>" class="button button--white-green">Contact us</a>
             </div>
         </div>
     </div>

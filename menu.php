@@ -4,18 +4,19 @@
         <div class="header__mobile-plate">
             <div class="header__mobile-plate-scroll">
                 <ul class="header__menu">
-                <li>
+                    <li>
                         <a href="about-us<?=$ext?>">About Us</a>
                         <div class="header__submenu">
-                            <a href="deployments<?=$ext?>">Example Deployments</a>
+                            <a href="about-us<?=$ext?>#team">Meet the team</a>
                             <a href="awards<?=$ext?>">Awards</a>
+                            <a href="deployments<?=$ext?>">Example Deployments</a>
                         </div>
                     </li>
                     <li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                     </li>
                     <li>
-                        <a href="games<?=$ext?>">Content</a>
+                        <a href="content<?=$ext?>">Content</a>
                         <div class="header__submenu">
                             <a href="lotto-betting<?=$ext?>">Lotto betting</a>
                             <a href="instant-win-games<?=$ext?>">Instant win games</a>
@@ -30,6 +31,9 @@
                     </li-->
                     <li>
                         <a href="news<?=$ext?>">News</a>
+                    </li>
+                    <li>
+                        <a href="contact-us<?=$ext?>">Contact us</a>
                     </li>
                 </ul>
             </div>

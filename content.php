@@ -17,6 +17,7 @@
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
             <h2 class="heading-1">Lotto Betting</h2>
+            <p class="splitbox__text-description">Demo implementation</p>
         </div>
     </a>
     <a class="splitbox__item" href="instant-win-games<?=$ext?>">
@@ -24,16 +25,79 @@
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
             <h2 class="heading-1">Instant Games</h2>
+            <p class="splitbox__text-description">Demo implementation</p>
         </div>
     </a>
-    <a class="splitbox__item" href="keno-games<?=$ext?>">
+    <a class="splitbox__item" href="numbers<?=$ext?>">
         <div class="splitbox__image splitbox__image--keno-betting"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">KENO Betting</h2>
+            <h2 class="heading-1">Numbers</h2>
+            <p class="splitbox__text-description">Demo implementation</p>
         </div>
     </a>
 </section>
+
+<section class="section">
+    <div class="container">
+        <div class="heading-holder">
+            <div class="heading-holder__item">
+                <h2 class="heading-1">Lotto Betting</h2>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">Plug in our proprietary content catalogue to offer your players a winning experience. Some games also benefit from access to our prize cover, so you can offer high jackpot games with the pay-out risk taken by us.</p>
+                <p class="paragraph">Let your players bet on the world’s largest lottery jackpots and other popular lottery-style games. A great acquisition and retention product, but also an amazing revenue generator in its own right.</p>
+                <p class="paragraph">Prizes are guaranteed by our superior Jackpot Prize Cover, so you can rest assured that the payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
+                <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
+            </div>
+        </div>
+        <!--div class="heading-holder heading-holder--narrow-text">
+            <div class="heading-holder__item">
+                <h2 class="heading-1">Lotto Betting</h2>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">Plug in our proprietary content catalogue to offer your players a winning experience. Some games also benefit from access to our prize cover, so you can offer high jackpot games with the pay-out risk taken by us.</p>
+                <p class="paragraph">Let your players bet on the world’s largest lottery jackpots and other popular lottery-style games. A great acquisition and retention product, but also an amazing revenue generator in its own right.</p>
+                <p class="paragraph">Prizes are guaranteed by our superior Jackpot Prize Cover, so you can rest assured that the payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
+                <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
+            </div>
+        </div-->
+    </div>
+</section>
+
+<!--section class="section other-games">
+    <div class="container">
+        <div class="other-games__holder">
+            <div class="other-games__column">
+                <h2 class="heading-1">Winning experience</h2>
+                <div class="other-games__item">
+                    <p class="paragraph">Plug in our proprietary content catalogue to offer your players a winning experience. Some games also benefit from access to our prize cover, so you can offer high jackpot games with the pay-out risk taken by us.</p>
+                </div>
+            </div>
+            <div class="other-games__column">
+                <h2 class="heading-1">Lotto Betting</h2>
+                <div class="other-games__item">
+                    <p class="paragraph">Let your players bet on the world’s largest lottery jackpots and other popular lottery-style games. A great acquisition and retention product, but also an amazing revenue generator in its own right.</p>
+                    <p class="paragraph">Prizes are guaranteed by our superior Jackpot Prize Cover, so you can rest assured that the payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
+                    <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section-->
+
+<!--section class="section">
+    <div class="container">
+        <div class="heading-holder heading-holder--narrow-text">
+            <div class="heading-holder__item">
+                <h2 class="heading-1">Winning experience</h2>
+            </div>
+            <div class="heading-holder__item">
+                <p class="paragraph">Plug in our proprietary content catalogue to offer your players a winning experience. Some games also benefit from access to our prize cover, so you can offer high jackpot games with the pay-out risk taken by us.</p>
+            </div>
+        </div>
+    </div>
+</section-->
 
 <section class="section standalone-embed">
     <div class="standalone-embed__mobile">
@@ -77,7 +141,7 @@
 
 <div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
 
-<section class="section players-experience">
+<!--section class="section players-experience">
     <div class="container">
         <div class="heading-holder heading-holder--narrow-text">
             <div class="heading-holder__item">
@@ -89,12 +153,18 @@
         </div>
         <div class="players-experience__illustration"></div>
     </div>
-</section>
+</section-->
 
-<section class="section lotto-betting">
+<!--section class="section lotto-betting">
     <div class="container">
+
         <h2 class="heading-1">Lotto Betting</h2>
         <div class="split-content">
+            <div class="split-content__item">
+                <p class="paragraph">Let your players bet on the world’s largest lottery jackpots and other popular lottery-style games. A great acquisition and retention product, but also an amazing revenue generator in its own right.</p>
+                <p class="paragraph">Prizes are guaranteed by our superior Jackpot Prize Cover, so you can rest assured that the payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
+                <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
+            </div>
             <div class="split-content__item">
                 <div class="lottery-icons">
                     <div class="lottery-icons__item lottery-icons__item--euromillions"></div>
@@ -103,12 +173,8 @@
                     <div class="lottery-icons__item lottery-icons__item--powerball"></div>
                 </div>
             </div>
-            <div class="split-content__item">
-                <p class="paragraph">Let your players bet on the world’s largest lottery jackpots and other popular lottery-style games. A great acquisition and retention product, but also an amazing revenue generator in its own right.</p>
-                <p class="paragraph">Prizes are guaranteed by our superior Jackpot Prize Cover, so you can rest assured that the payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
-                <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
-            </div>
         </div>
+
         <div class="split-content">
             <div class="split-content__item">
                 <div class="text-icon text-icon--circle text-icon--luck-green"></div>
@@ -121,8 +187,9 @@
                 <p class="paragraph">Do you want to be in complete control of the user experience? We provide you with all the necessary data (such as draw times, jackpot sizes, cut-off times, etc.) and APIs to submit your transactions to us, while your design & development team builds a unique user interface.</p>
             </div>
         </div>
+
     </div>
-</section>
+</section-->
 
 <section class="section other-games">
     <div class="container">

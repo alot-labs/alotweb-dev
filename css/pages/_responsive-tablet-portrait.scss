@@ -134,9 +134,25 @@
 			}
 		}
 	}
+	.split-content-narrow{
+		$split-item-count: 2;
+		&__item{
+			flex-basis: 48%;
+			margin-right: 4%;
+			&:nth-child(#{$split-item-count}n+1){
+				margin-left: 0;
+			}
+			&:nth-child(#{$split-item-count}n){
+				margin-right: 0;
+			}
+		}
+	}
 	.article-preview{
 		&__text{
 			padding: ($desktop-horizontal-space * 1px);
+		}
+		&__more-news-text{
+			font-size: 16px;
 		}
 	}
 	.stats{

@@ -261,11 +261,11 @@ a{
 		}
 	}
 	&--lotto-betting{
-		margin-bottom: 0;
+		/*margin-bottom: 0;*/
 		background-image: url(../i/hero-lotto-betting.jpg);
-		&:before{
+		/*&:before{
 			background: linear-gradient(to right, rgba(40, 37, 46, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
-		}
+		}*/
 	}
 	&--instant-win-games{
 		background-image: url(../i/hero-instant-win-games.jpg);
@@ -498,6 +498,9 @@ a{
 		}
 		&--right{
 			text-align: right;
+		}
+		&-narrow-content{
+			max-width: px(500);
 		}
 	}
 	&:last-child{
@@ -801,6 +804,20 @@ a{
 	border-radius: $radius;
 	overflow: hidden;
 	height: 100%;
+	&--more-news{
+		border-style: dashed;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: px(30);
+		min-height: 150px;
+		background: #fff;
+	}
+	&__more-news-text{
+		font-size: px(20);
+		opacity: 0.25;
+	}
 	&__image{
 		display: block;
 		height: px(235);
@@ -1160,6 +1177,34 @@ a{
 	}
 }
 
+.split-content-narrow{
+	$split-item-width: box-value(5);
+	$split-item-count: 2;
+	$holder-side-space: ((100 - (($split-item-width * $split-item-count) + $box-space)) / 2);
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: flex-end;*/
+	margin-bottom: px($desktop-vertical-space);
+	&:last-child{
+		margin-bottom: 0;
+	}
+	&__item{
+		/*flex-basis: box(5);
+		margin-right: (($box-width + (2 * $box-space)) * 1%);
+		&:last-child{
+			margin-right: 0;
+		}*/
+		flex-basis: ($split-item-width * 1%);
+		margin-right: ($box-space * 1%);
+		&:nth-child(#{$split-item-count}n+1){
+			margin-left: ($holder-side-space * 1%);
+		}
+		&:nth-child(#{$split-item-count}n){
+			margin-right: ($holder-side-space * 1%);
+		}
+	}
+}
+
 /* Text icons */
 
 .text-icon{
@@ -1175,6 +1220,9 @@ a{
 	&--magenta{
 		background-color: $magenta;
 	}
+	&--green{
+		background-color: $green;
+	}
 	&--luck-violet{
 		background-image: url(../i/icon-luck-violet.svg);
 		background-size: auto 65%;
@@ -1187,8 +1235,16 @@ a{
 		background-image: url(../i/icon-luck-green.svg);
 		background-size: auto 65%;
 	}
+	&--luck-white{
+		background-image: url(../i/icon-luck-white.svg);
+		background-size: auto 65%;
+	}
 	&--api-green{
 		background-image: url(../i/icon-api-green.svg);
+		background-size: auto 40%;
+	}
+	&--api-white{
+		background-image: url(../i/icon-api-white.svg);
 		background-size: auto 40%;
 	}
 	&--raffle-white{
@@ -1423,9 +1479,10 @@ a{
 	}
 	&__icons{
 		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
 		flex-basis: box(4);
 		margin-right: ($box-space * 1%);
-		flex-wrap: wrap;
 		&-item{
 			flex-basis: 40%;
 			padding-top: 40%;
@@ -2411,6 +2468,16 @@ a{
 		justify-content: flex-end;
 		padding: px($desktop-vertical-space / 2);
 		text-align: center;
+		&-description{
+			font-size: px(20);
+			text-transform: uppercase;
+			@include font-base-bold;
+		}
+	}
+	.heading-1{
+		/*margin-bottom: 0;*/
+		line-height: 1;
+		margin-bottom: 10px;
 	}
 }
 

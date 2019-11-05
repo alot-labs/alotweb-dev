@@ -10,6 +10,7 @@
     include 'header.php';
     include 'menu.php';
 ?>
+
 <section class="section hero hero--instant-win-games">
     <div class="container">
         <div class="hero__holder">
@@ -23,15 +24,10 @@
         <div class="logo-text__holder">
             <div class="logo-text__icons">
                 <div class="logo-text__icons-item logo-text__icons-item--ring"></div>
-                <div class="logo-text__icons-item logo-text__icons-item--itech"></div>
+                <!--div class="logo-text__icons-item logo-text__icons-item--itech"></div-->
             </div>
             <div class="logo-text__description">
-                <p class="paragraph">With instant win games players know how much they have won IMMEDIATELY. 
-
-Our certified Random Insured Number Generator (RiNG) produces game results for every Instant Win game and can BE COMBINED WITH OUR PRIZE COVER TO determine winningsup to 100M EUR. 
-
-If you are a game developer, you can take advantage of RiNG in your own games, boosting the potential winnings to sky-high levels.
-</p>
+                <p class="paragraph">With instant win games players know how much they have won IMMEDIATELY. Our certified Random Insured Number Generator (RiNG) produces game results for every Instant Win game and can BE COMBINED WITH OUR PRIZE COVER TO determine winningsup to 100M EUR. If you are a game developer, you can take advantage of RiNG in your own games, boosting the potential winnings to sky-high levels.</p>
             </div>
         </div>
     </div>
@@ -70,5 +66,44 @@ If you are a game developer, you can take advantage of RiNG in your own games, b
     </div>
 </section>
 
+<section class="section related-products">
+    <div class="container">
+        <h2 class="heading-1">Want to see more content?</h2>
+        <div class="related-products__wrapper">
+            <div class="related-products__holder">
+                <div class="related-products__item">
+                    <a href="lotto-betting<?=$ext?>" class="related-products__illustration related-products__illustration--lottery"></a>
+                    <div class="related-products__text-holder">
+                        <h3 class="heading-3">
+                            <a href="lotto-betting<?=$ext?>">Lottery Game Client</a>
+                        </h3>
+                        <p class="paragraph">Fastest route to market for your brand.</p>
+                    </div>
+                </div>
+                <div class="related-products__item">
+                    <a href="numbers<?=$ext?>" class="related-products__illustration related-products__illustration--keno"></a>
+                    <div class="related-products__text-holder">
+                        <h3 class="heading-3">
+                            <a href="keno-games<?=$ext?>">Keno Games</a>
+                        </h3>
+                        <p class="paragraph">KENO....differently</p>
+                    </div>
+                </div>
+                <!--div class="related-products__item">
+                    <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
+                    <div class="related-products__text-holder">
+                        <h3 class="heading-3">
+                            <a href="game-content<?=$ext?>">API</a>
+                        </h3>
+                        <p class="paragraph">Our API Integrations</p>
+                    </div>
+                </div-->
+            </div>
+            <div class="related-products__button-holder">
+                <a href="contact-us<?=$ext?>" class="button button--white-green">Contact us</a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include 'footer.php'; ?>

@@ -78,7 +78,7 @@
             <h2 class="heading-1">Prize Cover</h2>
         </div>
     </a>
-    <a class="splitbox__item" href="games<?=$ext?>">
+    <a class="splitbox__item" href="content<?=$ext?>">
         <div class="splitbox__image splitbox__image--games"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
@@ -282,11 +282,18 @@
                             <a href="article<?=$ext?>">Lottoland Solutionis becomes ALOT</a>
                         </h3>
                         <p class="paragraph">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good causes.</p>
+                        <a href="article<?=$ext?>" class="button button--blue">Read the full story</a>
                     </div>
                 </div>
             </div>
 
             <div class="news__item">
+                <div class="article-preview article-preview--more-news">
+                    <p class="article-preview__more-news-text">More news coming soon</p>
+                </div>
+            </div>
+
+            <!--div class="news__item">
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?=$ext?>"></a>
                     <div class="article-preview__text">
@@ -297,12 +304,12 @@
                         <p class="paragraph">Jackpotjoy, one of the leading operators licensed in Malta, UK and Sweden has enchanced their portfolio with jackpot betting games provided by ALOT Solutions. This deal marks an important milestone for both companies.</p>
                     </div>
                 </div>
-            </div>
+            </div-->
 
         </div>
-        <div class="button-holder">
+        <!--div class="button-holder">
             <a href="news<?=$ext?>" class="button button--blue">More news</a>
-        </div>
+        </div-->
         <!--div class="mobile-only">
             <a href="news<?=$ext?>" class="button button--blue">More news</a>
         </div-->

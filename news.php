@@ -20,21 +20,28 @@
     <div class="articles__content">
         <div class="container">
             <div class="articles__holder">
+
                 <div class="articles__item">
                     <div class="article-preview">
                         <a class="article-preview__image" style="background-image: url(i/news-1.jpg);" href="article<?=$ext?>"></a>
                         <div class="article-preview__text">
-                            <p class="article-preview__date">Athens, 1<sup>st</sup> of August, 2019</p>
+                            <p class="article-preview__date">1<sup>st</sup> of October, 2019</p>
                             <h3 class="heading-2">
-                                <a href="article<?=$ext?>">ALOT signs Intralot</a>
+                                <a href="article<?=$ext?>">Lottoland Solutionis becomes ALOT</a>
                             </h3>
-                            <p class="paragraph">Intralot, the leading lottery operator operating popular games such as Brazilian Mega-Sena or American Powerball has signed an exclusive deal with ALOT Solutions to enhance their lottery games with unique features backed by ALOT'S world leading risk management solutions.</p>
+                            <p class="paragraph">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good causes.</p>
+                            <a href="article<?=$ext?>" class="button button--blue">Read more</a>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="articles__item">
+                    <div class="article-preview article-preview--more-news">
+                        <p class="article-preview__more-news-text">More news coming soon</p>
+                    </div>
+                </div>
+
+                <!--div class="articles__item">
                     <div class="article-preview">
                         <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?=$ext?>"></a>
                         <div class="article-preview__text">
@@ -81,7 +88,7 @@
                             <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a augue id tellus venenatis consequat vitae ac nisl. Cras imperdiet at lacus id tincidunt. Morbi facilisis pretium ex ultrices blandit.</p>
                         </div>
                     </div>
-                </div>
+                </div-->
 
 
             </div>

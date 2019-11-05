@@ -11,14 +11,16 @@
     include 'menu.php';
 ?>
 
-<section class="section hero hero--about-us">
+<!--section class="section hero hero--about-us">
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">Alot Systems</h1>
             <p class="paragraph-big">The unique provider of prize cover, lottery systems and games&nbsp;–&nbsp;through all channels.</p>
         </div>
     </div>
-</section>
+</section-->
+
+<section class="section push-hero"></section>
 
 <section class="section about-us">
     <div class="container">
@@ -34,12 +36,14 @@
     </div>
 </section>
 
+<div class="virtual-anchor virtual-anchor--1" id="team"></div>
+
 <section class="section team">
     <div class="container">
         <h2 class="heading-1">MEET THE TEAM</h2>
         <div class="team__holder">
             <div class="team__item">
-                <div class="team__picture" style="background-image: url(i/team-michael-bogie.jpg)"></div>
+                <div class="team__picture" style="background-image: url(i/team-michael-carruthers.jpg)"></div>
                 <h3 class="heading-2">Mike Carruthers</h3>
                 <p class="heading-3">CEO</p>
                 <p class="paragraph">Mike has spent over a decade working with leading operators & suppliers in the digital gambling industry, building teams and implementing business development plans.</p>
@@ -62,11 +66,17 @@
                 <p class="heading-3">COO</p>
                 <p class="paragraph">With over 20 years of management experience, Marek is a senior digital leader, product development and operations specialist overseeing ALOTs business operations ensuring that effective operational, control and reporting procedures are in place and all systems can scale with our partners requirements.</p>
             </div> -->
+            <div class="team__item">
+                <div class="team__picture" style="background-image: url(i/team-anastasia-quaranta.jpg)"></div>
+                <h3 class="heading-2">Anastasia Quaranta</h3>
+                <p class="heading-3">Head of Account Management</p>
+                <!--p class="paragraph"></p-->
+            </div>
         </div>
     </div>
 </section>
 
-<div class="virtual-anchor virtual-anchor--2" id="contact"></div>
+<!--div class="virtual-anchor virtual-anchor--2" id="contact"></div>
 
 <section class="section contact">
     <div class="container">
@@ -106,7 +116,7 @@
                 </div>
             </div>
 
-            <!--div class="locations__item">
+            <div class="locations__item">
                 <div class="locations__illustration" style="background-image: url(i/office-location-hong-kong.jpg)"></div>
                 <div class="locations__text-holder">
                     <h3 class="heading-2">Hong Kong</h3>
@@ -117,7 +127,7 @@
                         Gibraltar GX111AA
                     </p>
                 </div>
-            </div-->
+            </div>
 
             <div class="locations__item">
                 <div class="locations__illustration" style="background-image: url(i/office-location-slovakia.jpg)"></div>
@@ -134,6 +144,6 @@
 
         </div>
     </div>
-</section>
+</section-->
 
 <?php include 'footer.php'; ?>
