@@ -269,9 +269,9 @@ a{
 	}
 	&--instant-win-games{
 		background-image: url(../i/hero-instant-win-games.jpg);
-		&:before{
+		/*&:before{
 			background: linear-gradient(to right, rgba(40, 37, 46, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-		}
+		}*/
 	}
 	&--keno-games{
 		background-image: url(../i/hero-keno-games.jpg);
@@ -1500,6 +1500,30 @@ a{
 	}
 	&__description{
 		flex-basis: box(6);
+	}
+}
+
+/* One logo and long description */
+
+.logo-description{
+	&__holder{
+		display: flex;
+		/*justify-content: flex-start;*/
+		align-items: center;
+	}
+	&__icon{
+		width: 150px;
+		height: 150px;
+		margin-right: 4%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		&--ring{
+			background: url(../i/logo-ring.png) no-repeat center center;
+			background-size: contain;
+		}
+	}
+	&__text{
+		flex: 1 1 auto;
 	}
 }
 

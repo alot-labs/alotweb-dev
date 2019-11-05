@@ -82,7 +82,7 @@
         <div class="splitbox__image splitbox__image--games"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Games</h2>
+            <h2 class="heading-1">Content</h2>
         </div>
     </a>
     <a class="splitbox__item" href="promotions<?=$ext?>">

@@ -19,19 +19,30 @@
     </div>
 </section>
 
-<section class="section logo-text">
+<section class="section logo-description">
+    <div class="container">
+        <div class="logo-description__holder">
+            <div class="logo-description__icon logo-description__icon--ring"></div>
+            <div class="llogo-description__text">
+                <p class="paragraph">With instant win games players know how much they have won IMMEDIATELY. Our certified Random Insured Number Generator (RiNG) produces game results for every Instant Win game and can BE COMBINED WITH OUR PRIZE COVER TO determine winningsup to 100M EUR. If you are a game developer, you can take advantage of RiNG in your own games, boosting the potential winnings to sky-high levels.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section class="section logo-text">
     <div class="container">
         <div class="logo-text__holder">
             <div class="logo-text__icons">
                 <div class="logo-text__icons-item logo-text__icons-item--ring"></div>
-                <!--div class="logo-text__icons-item logo-text__icons-item--itech"></div-->
+                <div class="logo-text__icons-item logo-text__icons-item--itech"></div>
             </div>
             <div class="logo-text__description">
                 <p class="paragraph">With instant win games players know how much they have won IMMEDIATELY. Our certified Random Insured Number Generator (RiNG) produces game results for every Instant Win game and can BE COMBINED WITH OUR PRIZE COVER TO determine winningsup to 100M EUR. If you are a game developer, you can take advantage of RiNG in your own games, boosting the potential winnings to sky-high levels.</p>
             </div>
         </div>
     </div>
-</section>
+</section-->
 
 <section class="section game-embed">
     <div class="game-embed__mobile">

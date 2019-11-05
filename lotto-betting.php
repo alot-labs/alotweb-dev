@@ -14,7 +14,7 @@
 <section class="section hero hero--lotto-betting">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT <br>Lotto Betting</h1>
+            <h1 class="heading-1">ALOT Lotto <br>Betting</h1>
         </div>
     </div>
 </section>

@@ -99,7 +99,8 @@
     </div>
 </section-->
 
-<section class="section standalone-embed">
+<!-- UNCOMMENT THIS SECTION FOR GAME EMBED -->
+<!--section class="section standalone-embed">
     <div class="standalone-embed__mobile">
         <div class="container">
             <div class="standalone-embed__device-mobile">
@@ -128,7 +129,7 @@
             </div>
         </div>
     </div>
-</section>
+</section-->
 
 <!--section class="section hero hero--gaming-content">
     <div class="container">
