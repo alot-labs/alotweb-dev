@@ -128,17 +128,17 @@ include 'menu.php';
 
 
         <div class="heading-holder heading-holder--narrow-text">
-            <div class="heading-holder__item">
+            <!-- <div class="heading-holder__item">
                 <h2 class="heading-1">Products &amp; Services</h2>
-            </div>
+            </div> -->
             <div class="heading-holder__item">
                 <p class="paragraph">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.</p>
             </div>
         </div>
 
-        <div class="products-services__illustration">
+        <!-- <div class="products-services__illustration">
             <div class="products-services__illustration-image"></div>
-        </div>
+        </div> -->
         <!-- <div class="products-services__holder">
 
             <div class="products-services__item">
