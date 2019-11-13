@@ -125,7 +125,7 @@ include 'menu.php';
 
 <section class="section products-services">
     <div class="container">
-        <!--h2 class="heading-1">Products and Services</h2-->
+
 
         <div class="heading-holder heading-holder--narrow-text">
             <div class="heading-holder__item">
@@ -139,7 +139,7 @@ include 'menu.php';
         <div class="products-services__illustration">
             <div class="products-services__illustration-image"></div>
         </div>
-        <div class="products-services__holder">
+        <!-- <div class="products-services__holder">
 
             <div class="products-services__item">
                 <div class="products-services__item-header">
@@ -160,7 +160,7 @@ include 'menu.php';
                     <p class="paragraph">&nbsp;</p>
                     <a href="games<?= $ext ?>" class="button button--blue">ALOT Games</a>
                 </div>
-            </div>
+            </div> -->
             <!-- <div class="products-services__item">
                     <div class="products-services__item-header">
                         <h3 class="heading-2">ALOT Lottery Systems</h3>
@@ -170,7 +170,7 @@ include 'menu.php';
                         <p class="paragraph">Turnkey solution, whether you sell online and/or on the streets.</p>
                     </div>
                 </div> -->
-            <div class="products-services__item">
+            <!-- <div class="products-services__item">
                 <div class="products-services__item-header">
                     <h3 class="heading-2">ALOT Systems</h3>
                 </div>
@@ -178,7 +178,7 @@ include 'menu.php';
                     <p class="paragraph">We provide the technology to power your lottery or prize draw promotions.</p>
                     <a href="systems<?= $ext ?>" class="button button--blue">ALOT Systems</a>
                 </div>
-            </div>
+            </div> -->
 
 
 
@@ -229,11 +229,11 @@ include 'menu.php';
 
 
 
-        </div>
+        <!-- </div>
     </div>
-</section>
+</section> -->
 
-<section class="section clients">
+<!-- <section class="section clients">
     <div class="container">
         <div class="heading-holder">
             <div class="heading-holder__item">
@@ -248,30 +248,30 @@ include 'menu.php';
                 <div class="clients__logo clients__logo--lottoland"></div>
                 <div class="clients__logo clients__logo--kindred"></div>
                 <div class="clients__logo clients__logo--unibet"></div>
-                <!--div class="clients__logo clients__logo--bwin"></div-->
+                div class="clients__logo clients__logo--bwin"></div>
                 <div class="clients__logo clients__logo--hero-gaming"></div>
             </div>
             <div class="clients__row clients__row--center">
                 <div class="clients__logo clients__logo--betvictor"></div>
-                <!--div class="clients__logo clients__logo--william-hill"></div-->
+                <div class="clients__logo clients__logo--william-hill"></div>
                 <div class="clients__logo clients__logo--bgt"></div>
                 <div class="clients__logo clients__logo--lottomart"></div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="section news">
+<!-- <section class="section news">
     <div class="container">
         <h2 class="heading-1">News</h2>
-        <!--div class="heading-holder">
+        div class="heading-holder">
             <div class="heading-holder__item">
                 <h2 class="heading-1">News</h2>
             </div>
             <div class="heading-holder__item heading-holder__item--right desktop-only">
                 <a href="news<?= $ext ?>" class="button button--blue">More news</a>
             </div>
-        </div-->
+    </div>
         <div class="news__holder">
             <div class="news__item">
                 <div class="article-preview">
@@ -293,7 +293,7 @@ include 'menu.php';
                 </div>
             </div>
 
-            <!--div class="news__item">
+            div class="news__item">
                 <div class="article-preview">
                     <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="article<?= $ext ?>"></a>
                     <div class="article-preview__text">
@@ -312,8 +312,8 @@ include 'menu.php';
         </div-->
         <!--div class="mobile-only">
             <a href="news<?= $ext ?>" class="button button--blue">More news</a>
-        </div-->
+</div>
     </div>
-</section>
+</section> -->
 
 <?php include 'footer.php'; ?>
