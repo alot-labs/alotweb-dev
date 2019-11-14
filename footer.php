@@ -14,7 +14,7 @@
                     <li>
                         <a href="games<?=$ext?>">Games</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="lotto-betting<?=$ext?>">Lotto Games</a>
                     </li>
                     <li>
@@ -22,7 +22,7 @@
                     </li>
                     <li>
                         <a href="instant-win-games<?=$ext?>">Instant games</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="tech<?=$ext?>">Tech</a>
                     </li>

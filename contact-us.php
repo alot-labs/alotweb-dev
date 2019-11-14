@@ -23,7 +23,7 @@
                     <a href="mailto:info@alot-solutions.com" class="contact__anchor-hyperlink">info@alot-solutions.com</a>
                 </div>
                 <div class="contact__anchor contact__anchor--support">
-                    <p class="contact__anchor-text">Customer Support</p>
+                    <p class="contact__anchor-text">Partner Support</p>
                     <a href="mailto:support@alot-solutions.com" class="contact__anchor-hyperlink">support@alot-solutions.com</a>
                 </div>
             </div>

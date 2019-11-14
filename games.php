@@ -16,29 +16,29 @@
         <div class="splitbox__image splitbox__image--lotto-betting"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Lotto Games</h2>
-            <p class="splitbox__text-description">Demo implementation</p>
+            <h2 class="heading-1">Lotto <br />Games</h2>
+            <!-- <p class="splitbox__text-description">Demo implementation</p> -->
         </div>
     </a>
     <a class="splitbox__item" href="hfg<?=$ext?>">
         <div class="splitbox__image splitbox__image--keno-betting"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">High Frequency Games</h2>
-            <p class="splitbox__text-description">Demo implementation</p>
+            <h2 class="heading-1">High Frequency <br />Games</h2>
+            <!-- <p class="splitbox__text-description">Demo implementation</p> -->
         </div>
     </a>
     <a class="splitbox__item" href="instant-win-games<?=$ext?>">
         <div class="splitbox__image splitbox__image--instant-games"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Instant Games</h2>
-            <p class="splitbox__text-description">Demo implementation</p>
+            <h2 class="heading-1">Instant <br />Games</h2>
+            <!-- <p class="splitbox__text-description">Demo implementation</p> -->
         </div>
     </a>
 </section>
 
-<section class="section">
+<!-- <section class="section">
     <div class="container">
         <div class="heading-holder">
             <div class="heading-holder__item">
@@ -51,7 +51,7 @@
                 <a href="lotto-betting<?=$ext?>" class="button button--green">Lotto betting demo</a>
             </div>
         </div>
-        <!--div class="heading-holder heading-holder--narrow-text">
+        <div class="heading-holder heading-holder--narrow-text">
             <div class="heading-holder__item">
                 <h2 class="heading-1">Lotto Betting</h2>
             </div>
@@ -61,9 +61,9 @@
                 <p class="paragraph">Prizes are guaranteed by our superior Jackpot Prize Cover, so you can rest assured that the payout is guaranteed, and you can focus on your business as&nbsp;usual.</p>
                 <a href="lotto-betting<?=$ext?>" class="button button--green">Lottery demo</a>
             </div>
-        </div-->
+        </div>
     </div>
-</section>
+</section> -->
 
 <!--section class="section other-games">
     <div class="container">
@@ -140,7 +140,7 @@
     </div>
 </section-->
 
-<div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
+<!-- <div class="virtual-anchor virtual-anchor--1" id="learn-more"></div> -->
 
 <!--section class="section players-experience">
     <div class="container">
@@ -192,7 +192,7 @@
     </div>
 </section-->
 
-<section class="section other-games">
+<!-- <section class="section other-games">
     <div class="container">
         <div class="other-games__holder">
             <div class="other-games__column">
@@ -213,6 +213,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include 'footer.php'; ?>

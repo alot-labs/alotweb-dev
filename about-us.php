@@ -29,8 +29,7 @@
                 <h2 class="heading-1">About Us</h2>
             </div>
             <div class="heading-holder__item">
-                <p class="paragraph">We are building, acquiring and combining assets and know-how from risk management, lottery, technology and gaming to become a world-leading prize cover, content & systems provider.</p>
-                <p class="paragraph">We are expanding rapidly and taking a unique approach to powering innovation in the lottery, gaming and prize promotion sectors to benefit players, operators and their good causes.</p>
+                <p class="paragraph">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.</p>
             </div>
         </div>
     </div>
@@ -69,7 +68,7 @@
             <div class="team__item">
                 <div class="team__picture" style="background-image: url(i/team-anastasia-quaranta.jpg)"></div>
                 <h3 class="heading-2">Anastasia Quaranta</h3>
-                <p class="heading-3">Head of Account Management</p>
+                <p class="heading-3">Partner Manager</p>
                 <!--p class="paragraph"></p-->
             </div>
         </div>

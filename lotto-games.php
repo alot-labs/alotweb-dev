@@ -1,20 +1,20 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Lotto betting solutions";
+    $title = "ALOT Lotto Games";
     $meta_desc = "Lottery betting involves making a bet on the outcome of an official lottery draw. You pick which lottery draw to bet on and which lottery balls (numbers) you think will be drawn - if you guess correctly you win cash prizes.";
     $meta_keywords = "Lottery, lotto, huge jackpot, jackpot games, lottery betting";
     $og_image = "";
-    $og_url = $url."/lotto-betting".$ext;
+    $og_url = $url."/lotto-games".$ext;
 
     include 'header.php';
     include 'menu.php';
 ?>
 
-<section class="section hero hero--lotto-betting">
+<!-- <section class="section hero hero--lotto-betting">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT Lotto <br>Betting</h1>
+            <h1 class="heading-1">ALOT Lotto <br>Games</h1>
         </div>
     </div>
 </section>
@@ -23,7 +23,7 @@
     <div class="container">
         <div class="heading-holder">
             <div class="heading-holder__item">
-                <h2 class="heading-1">Online lottery</h2>
+                <h2 class="heading-1">Online lotto</h2>
             </div>
             <div class="heading-holder__item">
                 <p class="paragraph">Lotto betting involves making a bet on the outcome of an official lottery draw. Players pick which lottery draw to bet on and which lottery balls (numbers) they think will be drawn - if they guess correctly, they win cash prizes.</p>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--section class="section overplate-text">
     <div class="container">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="heading-1">Lotto Betting Game Client</h2>
+            <h2 class="heading-1">Lotto Games</h2>
         </div>
     </div>
     <div class="game-embed__desktop">
@@ -119,7 +119,7 @@
 
 <section class="section related-products">
     <div class="container">
-        <h2 class="heading-1">Want to see more content?</h2>
+        <!-- <h2 class="heading-1">Want to see more content?</h2>
         <div class="related-products__wrapper">
             <div class="related-products__holder">
                 <div class="related-products__item">
@@ -139,7 +139,7 @@
                         </h3>
                         <p class="paragraph">KENO....differently.</p>
                     </div>
-                </div>
+                </div> -->
                 <!--div class="related-products__item">
                     <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
@@ -149,7 +149,7 @@
                         <p class="paragraph">API Integrations</p>
                     </div>
                 </div-->
-            </div>
+            <!-- </div> -->
             <div class="related-products__button-holder">
                 <a href="contact-us<?=$ext?>" class="button button--white-green">Contact us</a>
             </div>

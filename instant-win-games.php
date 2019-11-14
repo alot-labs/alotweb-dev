@@ -1,7 +1,7 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Instant win games";
+    $title = "ALOT Instant games";
     $meta_desc = "Instead of waiting for a win notification to arrive by mail, email, or telephone you find out whether you've won or not as soon as your entry has gone through.";
     $meta_keywords = "Instant win games, Lottery, lotto, huge jackpot, jackpot games, KENO, bingo, scratch cards";
     $og_image = "";
@@ -14,7 +14,7 @@
 <section class="section hero hero--instant-win-games">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">Instant Win <br>Games</h1>
+            <h1 class="heading-1">ALOT Instant <br>Games</h1>
         </div>
     </div>
 </section>
@@ -22,9 +22,9 @@
 <section class="section logo-description">
     <div class="container">
         <div class="logo-description__holder">
-            <div class="logo-description__icon logo-description__icon--ring"></div>
+            <!-- <div class="logo-description__icon logo-description__icon--ring"></div> -->
             <div class="llogo-description__text">
-                <p class="paragraph">With instant win games players know how much they have won IMMEDIATELY. Our certified Random Insured Number Generator (RiNG) produces game results for every Instant Win game and can BE COMBINED WITH OUR PRIZE COVER TO determine winningsup to 100M EUR. If you are a game developer, you can take advantage of RiNG in your own games, boosting the potential winnings to sky-high levels.</p>
+                <p class="paragraph">With instant win games players know how much they have won immediately. Instant Win games can be combined with our Prize Cover to offer winnings up to 100M EUR. If you are a game developer, you can take advantage of our Draw Technology in your own games, boosting the potential winnings to sky-high levels.</p>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
 </section>
 
 <section class="section related-products">
-    <div class="container">
+    <!-- <div class="container">
         <h2 class="heading-1">Want to see more content?</h2>
         <div class="related-products__wrapper">
             <div class="related-products__holder">
@@ -99,7 +99,7 @@
                         </h3>
                         <p class="paragraph">KENO....differently</p>
                     </div>
-                </div>
+                </div> -->
                 <!--div class="related-products__item">
                     <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
@@ -109,7 +109,7 @@
                         <p class="paragraph">Our API Integrations</p>
                     </div>
                 </div-->
-            </div>
+            <!-- </div> -->
             <div class="related-products__button-holder">
                 <a href="contact-us<?=$ext?>" class="button button--white-green">Contact us</a>
             </div>

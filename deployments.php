@@ -21,18 +21,6 @@
 </section>
 
 <section class="section deployment">
-    <div class="deployment__item deployment__item--unibet">
-        <div class="container">
-            <div class="deployment__holder deployment__holder--left">
-                <div class="deployment__wrapper">
-                    <h2 class="heading-1">Games</h2>
-                    <div class="deployment__screenshot deployment__screenshot--unibet">
-                        <a class="deployment__logo deployment__logo--unibet" href="https://www.unibet.co.uk/" target="_blank"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="deployment__item deployment__item--lottoland">
         <div class="container">
             <div class="deployment__holder deployment__holder--right">
@@ -45,6 +33,19 @@
             </div>
         </div>
     </div>
+    <div class="deployment__item deployment__item--unibet">
+        <div class="container">
+            <div class="deployment__holder deployment__holder--left">
+                <div class="deployment__wrapper">
+                    <h2 class="heading-1">Games</h2>
+                    <div class="deployment__screenshot deployment__screenshot--unibet">
+                        <a class="deployment__logo deployment__logo--unibet" href="https://www.unibet.co.uk/" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="deployment__item deployment__item--lottomart">
         <div class="container">
             <div class="deployment__holder deployment__holder--left">

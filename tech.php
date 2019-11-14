@@ -14,7 +14,8 @@
 <section class="section hero hero--promotions">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT <br>Tech</h1>
+            <h1 class="heading-1">ALOT Tech</h1>
+            <p>Our technology powers lotteries and prize draws end to end.</p>
         </div>
     </div>
 </section>

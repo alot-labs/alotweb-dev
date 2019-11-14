@@ -20,7 +20,7 @@
     </div>
 </section>
 
-<section class="section achievements achievements--items-3 achievements--blue">
+<!-- <section class="section achievements achievements--items-3 achievements--blue">
     <div class="container">
         <div class="achievements__holder">
             <div class="achievements__item">
@@ -45,9 +45,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
+<!-- <div class="virtual-anchor virtual-anchor--1" id="learn-more"></div>
 
 <section class="section image-with-description">
     <div class="container">
@@ -59,7 +59,7 @@
             <div class="image-with-description__illustration" style="background-image: url(i/lottery-balls.jpg);"></div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- <section class="section why-choose">
     <div class="container">
@@ -90,6 +90,7 @@
 <section class="section use-cases">
     <div class="container">
         <h2 class="heading-1">How could you benefit from our Prize cover?</h2>
+        <p>You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from the beginning.</p>
         <div class="use-cases__holder">
             <div class="use-cases__row">
                 <div class="use-cases__item">
