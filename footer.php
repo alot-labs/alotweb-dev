@@ -11,20 +11,20 @@
                     <li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                     </li>
-                    <!--li>
+                    <li>
                         <a href="games<?=$ext?>">Games</a>
-                    </li-->
-                    <li>
-                        <a href="lotto-betting<?=$ext?>">Lotto betting</a>
                     </li>
                     <li>
-                        <a href="instant-win-games<?=$ext?>">Instant win games</a>
+                        <a href="lotto-betting<?=$ext?>">Lotto Games</a>
                     </li>
                     <li>
-                        <a href="numbers<?=$ext?>">Numbers</a>
+                        <a href="hfg<?=$ext?>">HF Games</a>
                     </li>
                     <li>
-                        <a href="promotions<?=$ext?>">Promotions</a>
+                        <a href="instant-win-games<?=$ext?>">Instant games</a>
+                    </li>
+                    <li>
+                        <a href="tech<?=$ext?>">Tech</a>
                     </li>
                     <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
@@ -35,11 +35,11 @@
                 <h4 class="footer__heading">Company</h4>
                 <ul class="footer__list">
                     <li>
-                        <a href="about-us<?=$ext?>">About us</a>
+                        <a href="about-us<?=$ext?>">Meet the Team</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="awards<?=$ext?>">Awards</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="deployments<?=$ext?>">Example Deployments</a>
                     </li>

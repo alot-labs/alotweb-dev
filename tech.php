@@ -1,11 +1,11 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Systems";
+    $title = "ALOT Tech";
     $meta_desc = "";
     $meta_keywords = "";
     $og_image = "";
-    $og_url = $url."/systems".$ext;
+    $og_url = $url."/tech".$ext;
 
     include 'header.php';
     include 'menu.php';
@@ -14,7 +14,7 @@
 <section class="section hero hero--promotions">
     <div class="container">
         <div class="hero__holder">
-            <h1 class="heading-1">ALOT <br>Systems</h1>
+            <h1 class="heading-1">ALOT <br>Tech</h1>
         </div>
     </div>
 </section>
@@ -24,12 +24,12 @@
         <div class="split-content">
             <div class="split-content__item">
                 <div class="text-icon text-icon--circle text-icon--magenta text-icon--raffle-white"></div>
-                <h3 class="heading-2">Lottery Technology</h3>
+                <h3 class="heading-2">Lottery Tech</h3>
                 <p class="paragraph">ALOT Solutions is the trusted partner to power lotteries and lotto betting operators. We provide state of the art entry, draw & resulting technology as well as leveraging our Prize Cover to enable your offer to stand-out.</p>
             </div>
             <div class="split-content__item">
                 <div class="text-icon text-icon--circle text-icon--magenta text-icon--raffle-ticket-white"></div>
-                <h3 class="heading-2">Online &amp; retail promotions</h3>
+                <h3 class="heading-2">Prize Draw Tech</h3>
                 <p class="paragraph">Collaborate with us to build the biggest prize promotions, raffles and sweepstakes globally enabling consumers to enter via any online or retail channels.</p>
             </div>
         </div>

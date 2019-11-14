@@ -1,11 +1,11 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT Numbers";
+    $title = "ALOT HG Games";
     $meta_desc = "Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.";
     $meta_keywords = "side bets, Lottery, lotto, huge jackpot, jackpot games, KENO";
     $og_image = "";
-    $og_url = $url."/numbers".$ext;
+    $og_url = $url."/hfg".$ext;
 
     include 'header.php';
     include 'menu.php';
@@ -31,9 +31,9 @@
     <div class="container">
         <div class="other-games__holder">
             <div class="other-games__column">
-                <h2 class="heading-1">About Keno</h2>
+                <h2 class="heading-1">About Hight Frequency Games</h2>
                 <div class="other-games__item">
-                    <p class="paragraph">Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.  With RTP (Return To Player) as high as 97.5%, these games keep players engaged for longer and offer an amazing winning experience.</p>
+                    <p class="paragraph">Our HF games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.  With RTP (Return To Player) as high as 97.5%, these games keep players engaged for longer and offer an amazing winning experience.</p>
                 </div>
             </div>
             <div class="other-games__column">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="heading-1">Our Keno Games</h2>
+            <h2 class="heading-1">Our HF Games</h2>
         </div>
     </div>
     <div class="game-embed__desktop">
@@ -86,7 +86,7 @@
                     <a href="lotto-betting<?=$ext?>" class="related-products__illustration related-products__illustration--lottery"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
-                            <a href="lotto-betting<?=$ext?>">Lottery client</a>
+                            <a href="lotto-betting<?=$ext?>">Lotto Games</a>
                         </h3>
                         <p class="paragraph">Fastest route to market for your brand.</p>
                     </div>

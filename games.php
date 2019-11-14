@@ -16,15 +16,7 @@
         <div class="splitbox__image splitbox__image--lotto-betting"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Lotto</h2>
-            <p class="splitbox__text-description">Demo implementation</p>
-        </div>
-    </a>
-    <a class="splitbox__item" href="instant-win-games<?=$ext?>">
-        <div class="splitbox__image splitbox__image--instant-games"></div>
-        <div class="splitbox__overlay"></div>
-        <div class="splitbox__text">
-            <h2 class="heading-1">Instant</h2>
+            <h2 class="heading-1">Lotto Games</h2>
             <p class="splitbox__text-description">Demo implementation</p>
         </div>
     </a>
@@ -32,7 +24,15 @@
         <div class="splitbox__image splitbox__image--keno-betting"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">High Frequency</h2>
+            <h2 class="heading-1">High Frequency Games</h2>
+            <p class="splitbox__text-description">Demo implementation</p>
+        </div>
+    </a>
+    <a class="splitbox__item" href="instant-win-games<?=$ext?>">
+        <div class="splitbox__image splitbox__image--instant-games"></div>
+        <div class="splitbox__overlay"></div>
+        <div class="splitbox__text">
+            <h2 class="heading-1">Instant Games</h2>
             <p class="splitbox__text-description">Demo implementation</p>
         </div>
     </a>
@@ -42,7 +42,7 @@
     <div class="container">
         <div class="heading-holder">
             <div class="heading-holder__item">
-                <h2 class="heading-1">Lotto Betting</h2>
+                <h2 class="heading-1">Lotto Games</h2>
             </div>
             <div class="heading-holder__item">
                 <p class="paragraph">Plug in our proprietary content catalogue to offer your players a winning experience. Some games also benefit from access to our prize cover, so you can offer high jackpot games with the pay-out risk taken by us.</p>

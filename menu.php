@@ -18,13 +18,13 @@
                     <li>
                         <a href="games<?=$ext?>">Games</a>
                         <div class="header__submenu">
-                            <a href="lotto-betting<?=$ext?>">Lotto</a>
-                            <a href="instant-win-games<?=$ext?>">Instant</a>
-                            <a href="hfg<?=$ext?>">High Frequency</a>
+                            <a href="lotto-betting<?=$ext?>">Lotto Games</a>
+                            <a href="hfg<?=$ext?>">HF Games</a>
+                            <a href="instant-win-games<?=$ext?>">Instant Games</a>
                         </div>
                     </li>
                     <li>
-                        <a href="systems<?=$ext?>">Systems</a>
+                        <a href="tech<?=$ext?>">Tech</a>
                     </li>
                     <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
