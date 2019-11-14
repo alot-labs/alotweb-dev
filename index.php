@@ -85,11 +85,11 @@ include 'menu.php';
             <h2 class="heading-1">Games</h2>
         </div>
     </a>
-    <a class="splitbox__item" href="systems<?= $ext ?>">
+    <a class="splitbox__item" href="tech<?= $ext ?>">
         <div class="splitbox__image splitbox__image--promotions"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Systems</h2>
+            <h2 class="heading-1">Tech</h2>
         </div>
     </a>
 </section>
@@ -123,18 +123,18 @@ include 'menu.php';
 
 
 
-<section class="section products-services">
+<!-- <section class="section products-services">
     <div class="container">
 
 
-        <div class="heading-holder heading-holder--narrow-text">
+        <div class="heading-holder heading-holder--narrow-text"> -->
             <!-- <div class="heading-holder__item">
                 <h2 class="heading-1">Products &amp; Services</h2>
             </div> -->
-            <div class="heading-holder__item">
+            <!-- <div class="heading-holder__item">
                 <p class="paragraph">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.</p>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="products-services__illustration">
             <div class="products-services__illustration-image"></div>
