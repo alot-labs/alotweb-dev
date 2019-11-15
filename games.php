@@ -12,7 +12,7 @@
 ?>
 
 <section class="section splitbox">
-    <a class="splitbox__item" href="lotto-betting<?=$ext?>">
+    <a class="splitbox__item" href="lotto-games<?=$ext?>">
         <div class="splitbox__image splitbox__image--lotto-betting"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">

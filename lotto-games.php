@@ -11,7 +11,7 @@
     include 'menu.php';
 ?>
 
-<!-- <section class="section hero hero--lotto-betting">
+<section class="section hero hero--lotto-betting">
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">ALOT Lotto <br>Games</h1>
@@ -19,7 +19,7 @@
     </div>
 </section>
 
-<section class="section">
+<!-- <section class="section">
     <div class="container">
         <div class="heading-holder">
             <div class="heading-holder__item">
@@ -31,9 +31,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="section">
+<!-- <section class="section">
     <div class="container">
         <div class="heading-holder heading-holder--extended-mobile-margin">
             <div class="heading-holder__item">

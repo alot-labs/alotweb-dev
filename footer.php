@@ -15,7 +15,7 @@
                         <a href="games<?=$ext?>">Games</a>
                     </li>
                     <!-- <li>
-                        <a href="lotto-betting<?=$ext?>">Lotto Games</a>
+                        <a href="lotto-games<?=$ext?>">Lotto Games</a>
                     </li>
                     <li>
                         <a href="hfg<?=$ext?>">HF Games</a>
