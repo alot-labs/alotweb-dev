@@ -46,6 +46,14 @@
 			margin-left: 0;
 			margin-right: 0;
 		}
+		&__iframe{
+			&--desktop{
+				width: 111.3%;
+				height: 111.3%;
+				transform: scale3d(0.9, 0.9, 0.9);
+				transform-origin: left top;
+			}
+		}
 	}
 	.standalone-embed{
 		&__device-desktop{

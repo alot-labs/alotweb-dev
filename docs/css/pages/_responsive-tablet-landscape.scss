@@ -224,4 +224,14 @@
 			height: 130px;
 		}
 	}
+	.game-embed {
+		&__iframe{
+			&--desktop{
+				width: 150%;
+				height: 150%;
+				transform: scale3d(0.666, 0.666, 0.666);
+				transform-origin: left top;
+			}
+		}
+	}
 }
