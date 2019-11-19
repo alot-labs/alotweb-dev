@@ -231,7 +231,7 @@ a{
 		}*/
 	}
 	&--risk-management{
-		margin-bottom: 0;
+		/*margin-bottom: 0;*/
 		background-image: url(../i/hero-prize-cover.jpg);
 		&:before{
 			/*background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);*/
@@ -1612,7 +1612,8 @@ a{
 		&-embed{
 			background: #e8e8e8;
 			position: absolute;
-			width: 53.3%;
+			//width: 53.3%;
+			width: 75.1%;
 			left: 13.12%;
 			height: 72.06%;
 			top: 16.04%;
@@ -1625,7 +1626,14 @@ a{
 
 		}
 		&--desktop{
+			width: 100%;
+			height: 100%;
+			transform: none;
+			transform-origin: left top;
 
+			iframe {
+				min-height: 100% !important; // Instant games needs to have full height
+			}
 		}
 		&--lottery-games{
 			overflow-x: hidden;
@@ -1636,13 +1644,15 @@ a{
 			overflow-y: auto;
 		}
 		&--keno-games{
-			overflow: hidden;
-			iframe{
-				width: 100% !important;
-				height: 100% !important;
-				overflow-x: hidden;
-				overflow-y: auto;
-			}
+			overflow-x: hidden;
+			overflow-y: auto;
+			//overflow: hidden;
+			//iframe{
+				//width: 100% !important;
+				//height: 100% !important;
+				//overflow-x: hidden;
+				//overflow-y: auto;
+			//}
 		}
 	}
 }
@@ -2560,7 +2570,6 @@ a{
 
 		}
 		&--desktop{
-
 		}
 		&--lottery-games{
 			overflow-x: hidden;
