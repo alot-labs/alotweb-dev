@@ -50,6 +50,13 @@
 			display: none;
 		}
 	}
+	.main-claim{
+		text-align: left;
+		&__paragraph{
+			max-width: initial;
+			font-size: 16px;
+		}
+	}
 	.section{
 		margin-bottom: ($mobile-vertical-space * 1px);
 	}
@@ -200,6 +207,9 @@
 	.splitbox{
 		display: block;
 		&--homepage{
+			margin-bottom: 0;
+		}
+		&--no-margin{
 			margin-bottom: 0;
 		}
 		&__item{

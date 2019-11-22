@@ -25,6 +25,11 @@
 	.heading-2{
 		font-size: px(23 * $zoom);
 	}
+	.main-claim{
+		&__heading{
+			font-size: px(23 * $zoom);
+		}
+	}
 	.header{
 		&__menu{
 			li{
