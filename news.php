@@ -25,11 +25,11 @@
                     <div class="article-preview">
                         <a class="article-preview__image" style="background-image: url(i/news-1.jpg);" href="article<?=$ext?>"></a>
                         <div class="article-preview__text">
-                            <p class="article-preview__date">1<sup>st</sup> of October, 2019</p>
+                            <p class="article-preview__date">25<sup>th</sup> of November, 2019</p>
                             <h3 class="heading-2">
-                                <a href="article<?=$ext?>">Lottoland Solutionis becomes ALOT</a>
+                                <a href="article<?=$ext?>">Lottoland Solutions rebrands as ‘ALOT Solutions’</a>
                             </h3>
-                            <p class="paragraph">ALOT Solutions has arrived to power innovation in the lottery, gaming and prize promotions sector to benefit players, operators and their good causes.</p>
+                            <p class="paragraph">Lottoland’s business-to-business division rebrands as ALOT Solutions. The new name provides a clear distinction between the Lottoland consumer-facing division and the newly-named ALOT Solutions B2B and B2G division.</p>
                             <a href="article<?=$ext?>" class="button button--blue">Read more</a>
                         </div>
                     </div>

@@ -69,7 +69,7 @@
                 <div class="team__picture" style="background-image: url(i/team-anastasia-quaranta.jpg)"></div>
                 <h3 class="heading-2">Anastasia Quaranta</h3>
                 <p class="heading-3">Partner Manager</p>
-                <!--p class="paragraph"></p-->
+                <p class="paragraph">Anastasia has gained years of experience within the B2B environment, building and maintaining strong relationships between partners in different sectors, while leading and contributing to projects which develop and grow successful partnerships.</p>
             </div>
         </div>
     </div>

@@ -68,7 +68,7 @@
                 </ul>
                 <h4>Legal Basis for Processing Personal Data under the General Data Protection Regulation (GDPR)</h4>
                 <p>If you are from the European Economic Area (EEA), the legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.</p>
-                <p>EU Lotto may process your Personal Data because:</p>
+                <p>ALOT Solutions Ltd may process your Personal Data because:</p>
                 <ul>
                     <li>We need to perform a contract with you</li>
                     <li>You have given us permission to do so</li>

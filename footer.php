@@ -34,15 +34,15 @@
             <div class="footer__column">
                 <h4 class="footer__heading">Company</h4>
                 <ul class="footer__list">
-                    <li>
+                    <!--li>
                         <a href="about-us<?=$ext?>">Meet the Team</a>
-                    </li>
+                    </li-->
                     <!-- <li>
                         <a href="awards<?=$ext?>">Awards</a>
                     </li> -->
-                    <li>
+                    <!--li>
                         <a href="deployments<?=$ext?>">Example Deployments</a>
-                    </li>
+                    </li-->
                     <li>
                         <a href="news<?=$ext?>">News</a>
                     </li>
