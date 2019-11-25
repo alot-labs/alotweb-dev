@@ -29,7 +29,7 @@
 
 <section class="section main-claim">
     <div class="container">
-        <h3 class="main-claim__paragraph">Our HF games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.  With RTP (Return To Player) as high as 97.5%, these games keep players engaged for longer and offer an amazing winning experience.</h3>
+        <h3 class="main-claim__paragraph">Our HF Games are simple to integrate and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.  With higher RTP (Return To Player), these games keep players engaged for longer and offer an amazing winning experience.</h3>
     </div>
 </section>
 

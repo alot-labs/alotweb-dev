@@ -15,7 +15,7 @@
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">ALOT Prize Cover</h1>
-            <p class="paragraph-big">The proven provider of prize cover for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large prizes.</p>
+            <p class="paragraph-big">The provider of prize cover for state lotteries, lottery service providers, gaming companies, sportsbooks, casinos and promotional companies offering large prizes.</p>
         </div>
     </div>
 </section>
@@ -90,7 +90,7 @@
 <section class="section standalone-text">
     <div class="container">
         <h2 class="heading-1">How could you benefit from our Prize&nbsp;cover?</h2>
-        <p class="paragraph standalone-text__paragraph">You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from the beginning.</p>
+        <p class="paragraph standalone-text__paragraph">You can offer jackpot prizes to your customers without risking your own capital. Choose how much you wish to risk and let us cover the rest. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from day one.</p>
     </div>
 </section>
 

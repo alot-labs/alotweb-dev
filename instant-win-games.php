@@ -21,7 +21,7 @@
 
 <section class="section main-claim">
     <div class="container">
-        <h3 class="main-claim__paragraph">With instant win games players know how much they have won immediately. Instant Win games can be combined with our Prize Cover to offer winnings up to 100M EUR. If you are a game developer, you can take advantage of our Draw Technology in your own games, boosting the potential winnings to sky-high levels.</h3>
+        <h3 class="main-claim__paragraph">With instant win games players know how much they have won instantly. Instant Win games can be combined with our Prize Cover to offer winnings up to 100M EUR. If you are a game developer, you can take advantage of our Draw Technology in your own games, boosting the potential winnings to sky-high levels.</h3>
     </div>
 </section>
 

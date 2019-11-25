@@ -31,7 +31,7 @@
             <div class="split-content__item">
                 <div class="text-icon text-icon--circle text-icon--magenta text-icon--raffle-ticket-white"></div>
                 <h3 class="heading-2">Prize Draw Technology</h3>
-                <p class="paragraph">Collaborate with us to build the biggest prize promotions, raffles and sweepstakes globally enabling consumers to enter via any online or retail channels.</p>
+                <p class="paragraph">Collaborate with us to build the biggest prize promotions, raffles and sweepstakes enabling consumers to enter via online or retail channels.</p>
             </div>
         </div>
     </div>

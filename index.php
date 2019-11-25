@@ -107,7 +107,7 @@ include 'menu.php';
             </div> -->
             <div class="stats__item">
                 <p class="stats__value">€200M</p>
-                <p class="paragraph">We arrange more than €200M of jackpot cover</p>
+                <p class="paragraph">We can arrange more than €200M of Prize Cover</p>
             </div>
             <div class="stats__item">
                 <p class="stats__value">150+</p>

@@ -45,7 +45,7 @@
                 <div class="team__picture" style="background-image: url(i/team-michael-carruthers.jpg)"></div>
                 <h3 class="heading-2">Mike Carruthers</h3>
                 <p class="heading-3">CEO</p>
-                <p class="paragraph">Mike has spent over a decade working with leading operators & suppliers in the digital gambling industry, building teams and implementing business development plans.</p>
+                <p class="paragraph">Mike has spent over a decade working with leading operators & suppliers in the digital gambling industry, identifying business development opportunities and creating the teams, technology and partnerships required to deliver.</p>
             </div>
             <!-- <div class="team__item">
                 <div class="team__picture" style="background-image: url(i/team-markus-stricker.jpg)"></div>
