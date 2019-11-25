@@ -20,7 +20,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-153264986-1');
     </script>
-    
+
     <!-- OG Tags -->
     <!--meta property="og:title" content="$<?=$title?>" />
     <meta property="og:description" content="<?=$meta_desc?>" />
