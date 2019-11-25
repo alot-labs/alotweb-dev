@@ -87,10 +87,17 @@
     </div>
 </section> -->
 
+<section class="section standalone-text">
+    <div class="container">
+        <h2 class="heading-1">How could you benefit from our Prize&nbsp;cover?</h2>
+        <p class="paragraph standalone-text__paragraph">You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from the beginning.</p>
+    </div>
+</section>
+
 <section class="section use-cases">
     <div class="container">
-        <h2 class="heading-1">How could you benefit from our Prize cover?</h2>
-        <p class="paragraph">You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from the beginning.</p>
+        <!--h2 class="heading-1">How could you benefit from our Prize cover?</h2>
+        <p class="paragraph">You can offer jackpot prizes to your customers without risking your own capital or choose how much you wish to risk. Enhance your existing games, license our game content or build your own lottery and start offering huge jackpots from the beginning.</p-->
         <div class="use-cases__holder">
             <div class="use-cases__row">
                 <div class="use-cases__item">
@@ -104,7 +111,7 @@
                     <p class="paragraph">Enhance your games by offering unique features such as “Double your jackpot”. You operator clients will open a new revenue stream, while introducing exciting new ways to enhance the player experience.</p>
                 </div>
             </div>
-            <div class="use-cases__row use-cases__row--reverse">
+            <div class="use-cases__row"> <!-- use-cases__row--reverse -->
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-3.jpg)"></div>
                     <h3 class="heading-3">Casinos & Sportsbooks</h3>

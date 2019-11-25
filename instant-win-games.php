@@ -19,16 +19,29 @@
     </div>
 </section>
 
-<section class="section logo-description">
+<section class="section main-claim">
+    <div class="container">
+        <h3 class="main-claim__paragraph">With instant win games players know how much they have won immediately. Instant Win games can be combined with our Prize Cover to offer winnings up to 100M EUR. If you are a game developer, you can take advantage of our Draw Technology in your own games, boosting the potential winnings to sky-high levels.</h3>
+    </div>
+</section>
+
+<!--section class="section standalone-text">
+    <div class="container">
+        <h2 class="heading-1">Instant winnings</h2>
+        <p class="paragraph standalone-text__paragraph">With instant win games players know how much they have won immediately. Instant Win games can be combined with our Prize Cover to offer winnings up to 100M EUR. If you are a game developer, you can take advantage of our Draw Technology in your own games, boosting the potential winnings to sky-high levels.</p>
+    </div>
+</section-->
+
+<!--section class="section logo-description">
     <div class="container">
         <div class="logo-description__holder">
-            <!-- <div class="logo-description__icon logo-description__icon--ring"></div> -->
+            <div class="logo-description__icon logo-description__icon--ring"></div>
             <div class="llogo-description__text">
                 <p class="paragraph">With instant win games players know how much they have won immediately. Instant Win games can be combined with our Prize Cover to offer winnings up to 100M EUR. If you are a game developer, you can take advantage of our Draw Technology in your own games, boosting the potential winnings to sky-high levels.</p>
             </div>
         </div>
     </div>
-</section>
+</section-->
 
 <!--section class="section logo-text">
     <div class="container">
@@ -78,10 +91,10 @@
 </section>
 
 <section class="section related-products">
-    <!-- <div class="container">
-        <h2 class="heading-1">Want to see more content?</h2>
+    <div class="container">
+        <!--h2 class="heading-1">Want to see more content?</h2-->
         <div class="related-products__wrapper">
-            <div class="related-products__holder">
+            <!--div class="related-products__holder">
                 <div class="related-products__item">
                     <a href="lotto-betting<?=$ext?>" class="related-products__illustration related-products__illustration--lottery"></a>
                     <div class="related-products__text-holder">
@@ -99,8 +112,8 @@
                         </h3>
                         <p class="paragraph">KENO....differently</p>
                     </div>
-                </div> -->
-                <!--div class="related-products__item">
+                </div>
+                <div class="related-products__item">
                     <a href="game-content<?=$ext?>" class="related-products__illustration related-products__illustration--api"></a>
                     <div class="related-products__text-holder">
                         <h3 class="heading-3">
@@ -108,8 +121,8 @@
                         </h3>
                         <p class="paragraph">Our API Integrations</p>
                     </div>
-                </div-->
-            <!-- </div> -->
+                </div>
+            </div-->
             <div class="related-products__button-holder">
                 <a href="contact-us<?=$ext?>" class="button button--white-green">Contact us</a>
             </div>

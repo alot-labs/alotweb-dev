@@ -89,7 +89,7 @@ include 'menu.php';
         <div class="splitbox__image splitbox__image--promotions"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Tech</h2>
+            <h2 class="heading-1">Technology</h2>
         </div>
     </a>
 </section>
@@ -121,7 +121,11 @@ include 'menu.php';
     </div>
 </section>
 
-
+<section class="section main-claim">
+    <div class="container">
+        <h3 class="main-claim__heading">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.</h3>
+    </div>
+</section>
 
 <!-- <section class="section products-services">
     <div class="container">

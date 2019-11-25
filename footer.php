@@ -24,7 +24,7 @@
                         <a href="instant-win-games<?=$ext?>">Instant games</a>
                     </li> -->
                     <li>
-                        <a href="tech<?=$ext?>">Tech</a>
+                        <a href="tech<?=$ext?>">Technology</a>
                     </li>
                     <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
