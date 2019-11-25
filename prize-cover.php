@@ -108,19 +108,19 @@
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-2.jpg)"></div>
                     <h3 class="heading-3">Lottery System Providers</h3>
-                    <p class="paragraph">Enhance your games by offering unique features such as “Double your jackpot”. You operator clients will open a new revenue stream, while introducing exciting new ways to enhance the player experience.</p>
+                    <p class="paragraph">Enhance your games by offering unique features such as “Double your jackpot”. Your operator clients will open a new revenue stream, while introducing exciting new ways to enhance the player experience.</p>
                 </div>
             </div>
             <div class="use-cases__row"> <!-- use-cases__row--reverse -->
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-3.jpg)"></div>
                     <h3 class="heading-3">Casinos & Sportsbooks</h3>
-                    <p class="paragraph">Boost your player’s favorite slot, scratch card game, bingo or other draw/RNG-based games with exciting new prize tiers. A 5M scratch? A 10M slot? Not a problem with ALOT Prize Cover.</p>
+                    <p class="paragraph">Boost your player’s favorite slot, scratch card game, bingo or other draw/RNG-based games with exciting new prize tiers. A &euro;5M scratch? A &euro;10M slot? Not a problem with ALOT Prize&nbsp;Cover.</p>
                 </div>
                 <div class="use-cases__item">
                     <div class="use-cases__illustration" style="background-image: url(i/use-case-4.jpg)"></div>
                     <h3 class="heading-3">Prize promoters</h3>
-                    <p class="paragraph">Are you marketing your services by offering potential customers a chance to win exciting prizes? How about offering a 5M prize instead of a mobile phone? There are no limits to your imagination.</p>
+                    <p class="paragraph">Are you marketing your services by offering potential customers a chance to win exciting prizes? How about offering a &euro;5M prize instead of a mobile phone? There are no limits to your imagination.</p>
                 </div>
             </div>
         </div>

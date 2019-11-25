@@ -4,14 +4,17 @@
         <div class="header__mobile-plate">
             <div class="header__mobile-plate-scroll">
                 <ul class="header__menu">
-                    <li>
+                    <!--li>
                         <a href="about-us<?=$ext?>">About Us</a>
                         <div class="header__submenu">
                             <a href="about-us<?=$ext?>#team">Meet the team</a>
-                            <!-- <a href="awards<?=$ext?>">Awards</a> -->
+                            <a href="awards<?=$ext?>">Awards</a>
                             <a href="deployments<?=$ext?>">Example Deployments</a>
                         </div>
-                    </li>
+                    </li-->
+                    <!--li>
+                        <a href="deployments<?=$ext?>">Example Deployments</a>
+                    </li-->
                     <li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                     </li>

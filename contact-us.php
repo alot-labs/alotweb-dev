@@ -19,7 +19,7 @@
             </div>
             <div class="heading-holder__item">
                 <div class="contact__anchor contact__anchor--email">
-                    <p class="contact__anchor-text">General Enquires</p>
+                    <p class="contact__anchor-text">General Enquiries</p>
                     <a href="mailto:info@alot-solutions.com" class="contact__anchor-hyperlink">info@alot-solutions.com</a>
                 </div>
                 <div class="contact__anchor contact__anchor--support">
