@@ -12,6 +12,15 @@
     <meta name="author" content="Alot" />
     <link rel="shortcut icon" type="image/png" href="i/favicon.png"/>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153264986-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-153264986-1');
+    </script>
+    
     <!-- OG Tags -->
     <!--meta property="og:title" content="$<?=$title?>" />
     <meta property="og:description" content="<?=$meta_desc?>" />

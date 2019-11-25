@@ -1,6 +1,6 @@
 <header class="header">
     <div class="container">
-        <a href="index<?=$ext?>" class="header__logo"></a>
+        <a href="/" class="header__logo"></a>
         <div class="header__mobile-plate">
             <div class="header__mobile-plate-scroll">
                 <ul class="header__menu">

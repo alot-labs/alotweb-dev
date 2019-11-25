@@ -23,14 +23,14 @@
 
                 <div class="articles__item">
                     <div class="article-preview">
-                        <a class="article-preview__image" style="background-image: url(i/news-1.jpg);" href="article<?=$ext?>"></a>
+                        <a class="article-preview__image" style="background-image: url(i/news-1.jpg);" href="news-lottoland-solutions-rebrands-to-alot-solutions<?=$ext?>"></a>
                         <div class="article-preview__text">
                             <p class="article-preview__date">25<sup>th</sup> of November, 2019</p>
                             <h3 class="heading-2">
-                                <a href="article<?=$ext?>">Lottoland Solutions rebrands as ‘ALOT Solutions’</a>
+                                <a href="news-lottoland-solutions-rebrands-to-alot-solutions<?=$ext?>">Lottoland Solutions rebrands as ‘ALOT Solutions’</a>
                             </h3>
                             <p class="paragraph">Lottoland’s business-to-business division rebrands as ALOT Solutions. The new name provides a clear distinction between the Lottoland consumer-facing division and the newly-named ALOT Solutions B2B and B2G division.</p>
-                            <a href="article<?=$ext?>" class="button button--blue">Read more</a>
+                            <a href="news-lottoland-solutions-rebrands-to-alot-solutions<?=$ext?>" class="button button--blue">Read more</a>
                         </div>
                     </div>
                 </div>
