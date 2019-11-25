@@ -12,6 +12,11 @@
 	.paragraph-big{
 		font-size: 18px;
 	}
+	.main-claim{
+		&__paragraph{
+			font-size: 18px;
+		}
+	}
 	.hero{
 		&--gaming-content{
 			&:before{

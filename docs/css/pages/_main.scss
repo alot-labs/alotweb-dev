@@ -312,7 +312,8 @@ a{
 	&--promotions{
 		background-image: url(../i/hero-promotions.jpg);
 		&:before{
-			background: linear-gradient(to right, rgba(37, 20, 31, 0.6) 0%, rgba(37, 20, 31, 0) 100%);
+			/*background: linear-gradient(to right, rgba(37, 20, 31, 0.6) 0%, rgba(37, 20, 31, 0) 100%);*/
+			background: linear-gradient(to right, rgba(37, 20, 31, 0.8) 0%, rgba(37, 20, 31, 0.1) 100%);
 		}
 	}
 	&__holder{
@@ -866,7 +867,8 @@ a{
 /* Footer */
 
 .footer{
-	background: $light-grey;
+	/*background: $light-grey;*/
+	background: linear-gradient(to bottom, $light-grey, #fff);
 	padding-top: px($desktop-vertical-space);
 	padding-bottom: px($desktop-vertical-space);
 	font-size: 15px;
@@ -1911,6 +1913,9 @@ a{
 	&__item{
 		@include flex-basis(3, $box-width);
 		margin-bottom: px($desktop-vertical-space / 2);
+		.paragraph{
+			text-align: justify;
+		}
 	}
 	&__picture{
 		padding-top: 120%;
@@ -2439,6 +2444,9 @@ a{
 	&--homepage{
 		margin-bottom: 0;
 	}
+	&--no-margin{
+		margin-bottom: 0;
+	}
 	&__item{
 		flex-basis: (100% / 3);
 		color: #fff;
@@ -2588,5 +2596,41 @@ a{
 				overflow-y: auto;
 			}
 		}
+	}
+}
+
+/* Main claim */
+
+.main-claim{
+	color: #6e6e6e;
+	text-align: center;
+	&__heading{
+		font-size: px(25);
+		text-transform: uppercase;
+		@include font-accent;
+		max-width: 670px;
+		line-height: 1.35;
+		margin: 0 auto px(20) auto;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	&__paragraph{
+		@include font-base-bold;
+		font-size: px(19);
+		line-height: 1.5;
+		max-width: 670px;
+		margin: 0 auto px(20) auto;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Standalone text */
+
+.standalone-text{
+	&__paragraph{
+		max-width: 750px;
 	}
 }
