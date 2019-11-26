@@ -1,4 +1,4 @@
 <?php  
-$ext = ""; 
+$ext = ".php"; 
 $url = "https://alot-solutions.com";
 ?>
