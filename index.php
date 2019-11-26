@@ -2,7 +2,7 @@
 include 'config.php';
 
 $title = "ALOT Solutions";
-$meta_desc = "The leading provider of jackpot solutions, prize cover, lottery systems and unique games.";
+$meta_desc = "Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.";
 $meta_keywords = "Lottery, jackpot, hedging, insurance, prize cover, retail lottery, online lottery, mobile lottery, jackpot games";
 $og_image = "";
 $og_url = $url;
