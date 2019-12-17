@@ -123,7 +123,7 @@ include 'menu.php';
 
 <section class="section main-claim">
     <div class="container">
-        <h3 class="main-claim__heading">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes.</h3>
+        <h3 class="main-claim__heading">Powering innovation in the Lottery, Gaming and Prize Promotion sectors to benefit players, operators and their good causes</h3>
     </div>
 </section>
 
