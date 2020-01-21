@@ -70,7 +70,17 @@ include 'menu.php';
     </div>
 </section-->
 
-<section class="section splitbox splitbox--homepage">
+<section class="section hero hero--ice2020">
+    <div class="container">
+        <div class="hero__holder">
+            <h1 class="heading-1">Meet us at ICE 2020</h1>
+            <p class="paragraph-big">Alot Solutions will be exhibiting on 4th-6th February in London. Come and meets us at stand&nbsp;N7&nbsp;-&nbsp;215.</p>
+            <a class="hero__logo-anchor hero__logo-anchor--ice2020" href="https://www.icelondon.uk.com/welcome" target="_blank"></a>
+        </div>
+    </div>
+</section>
+
+<!--section class="section splitbox splitbox--homepage">
     <a class="splitbox__item" href="prize-cover<?= $ext ?>">
         <div class="splitbox__image splitbox__image--prize-cover"></div>
         <div class="splitbox__overlay"></div>
@@ -92,7 +102,7 @@ include 'menu.php';
             <h2 class="heading-1">Technology</h2>
         </div>
     </a>
-</section>
+</section-->
 
 <section class="section stats">
     <div class="container">
