@@ -2533,6 +2533,7 @@ a{
 	&__text{
 		position: relative;
 		z-index: 3;
+		height: 100%; /* Slideshow correction */
 		min-height: px(650);
 		display: flex;
 		flex-direction: column;
