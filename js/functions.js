@@ -32,7 +32,6 @@ $(document).ready(function() {
     }
 
     /* Slideshow */
-    /*
     $(".owl-carousel").owlCarousel({
         items: 1,
         loop: true,
@@ -41,7 +40,7 @@ $(document).ready(function() {
         autoplayTimeout: 10000,
         autoplaySpeed: 1000,
         autoplayHoverPause: false
-    });*/
+    });
 
     /* Menu hamburger */
     $('.header__hamburger').click(function(){

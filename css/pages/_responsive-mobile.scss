@@ -219,7 +219,9 @@
 			display: block;
 		}
 		&__text{
-			min-height: 53vw;
+			/*min-height: 53vw;*/
+			min-height: 46vw;
+			padding: 30px;
 		}
 		&__overlay{
 			background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, transparent 100%);
