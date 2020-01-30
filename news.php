@@ -36,6 +36,20 @@
                 </div>
 
                 <div class="articles__item">
+                    <div class="article-preview">
+                        <a class="article-preview__image" style="background-image: url(i/news-2.jpg);" href="news-alot-solutions-expands-management-team<?=$ext?>"></a>
+                        <div class="article-preview__text">
+                            <p class="article-preview__date">30<sup>th</sup> of January, 2020</p>
+                            <h3 class="heading-2">
+                                <a href="news-alot-solutions-expands-management-team<?=$ext?>">ALOT Solutions Expands Management Team</a>
+                            </h3>
+                            <p class="paragraph">ALOT Solutions have today announced two senior hires - Chief Operations Officer Marek Mahdal and Chief Risk Officer Dr Markus Stricker. These appointments follow the ALOT Solutions rebrand last month with more announcements coming soon as CEO Mike Carruthers positions the business to provide prize cover, technology and content to a wider range of customers.</p>
+                            <a href="news-alot-solutions-expands-management-team<?=$ext?>" class="button button--blue">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__item">
                     <div class="article-preview article-preview--more-news">
                         <p class="article-preview__more-news-text">More news coming soon</p>
                     </div>

@@ -109,7 +109,7 @@ include 'menu.php';
         <div class="container">
             <div class="hero__holder">
                 <h1 class="heading-1">Meet us at ICE 2020</h1>
-                <p class="paragraph-big">Alot Solutions will be exhibiting on 4th-6th February in London. Come and meet us at stand&nbsp;N7&nbsp;-&nbsp;215.</p>
+                <p class="paragraph-big">ALOT Solutions will be exhibiting on 4th-6th February in London. Come and meet us at stand&nbsp;N7&nbsp;-&nbsp;215.</p>
                 <a class="hero__logo-anchor hero__logo-anchor--ice2020" href="https://www.icelondon.uk.com/welcome" target="_blank"></a>
             </div>
         </div>
