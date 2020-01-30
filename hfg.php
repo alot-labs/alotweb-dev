@@ -1,7 +1,7 @@
 <?php 
     include 'config.php';
 
-    $title = "ALOT HG Games";
+    $title = "ALOT Solutions HFG";
     $meta_desc = "Our Keno games run in a separate game client instance and offer a number of side bet options to players interested in a faster-paced, number-drawn gaming experience.";
     $meta_keywords = "side bets, Lottery, lotto, huge jackpot, jackpot games, KENO";
     $og_image = "";
