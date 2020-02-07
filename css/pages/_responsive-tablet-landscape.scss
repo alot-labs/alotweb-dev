@@ -39,6 +39,9 @@
 		&__text{
 			min-height: px(350 * $zoom);
 			padding: 30px 30px 40px 30px;
+			.heading-1{
+				font-size: 35px;
+			}
 		}
 	}
 	.stats{
