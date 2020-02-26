@@ -50,6 +50,20 @@
                 </div>
 
                 <div class="articles__item">
+                    <div class="article-preview">
+                        <a class="article-preview__image" style="background-image: url(i/news-3.jpg);" href="news-alot-launches-new-retail-lottery-division<?=$ext?>"></a>
+                        <div class="article-preview__text">
+                            <p class="article-preview__date">27<sup>th</sup> of February, 2020</p>
+                            <h3 class="heading-2">
+                                <a href="news-alot-launches-new-retail-lottery-division<?=$ext?>">ALOT launches new retail lottery division</a>
+                            </h3>
+                            <p class="paragraph">ALOT Solutions has today announced the launch of ALOT Systems. This new division specialises in the provision of digital land-based lottery solutions to power retail lottery operations for licensed lottery operators.</p>
+                            <a href="news-alot-launches-new-retail-lottery-division<?=$ext?>" class="button button--blue">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__item">
                     <div class="article-preview article-preview--more-news">
                         <p class="article-preview__more-news-text">More news coming soon</p>
                     </div>
