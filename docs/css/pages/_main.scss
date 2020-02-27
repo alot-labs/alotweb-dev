@@ -733,6 +733,13 @@ a{
 			&:last-child{
 				margin-bottom: 0;
 			}
+			a{
+				color: $blue;
+				text-decoration: underline;
+				&:hover{
+					text-decoration: none;
+				}
+			}
 		}
 		strong{
 			/*@include daxline-extra-bold;*/
