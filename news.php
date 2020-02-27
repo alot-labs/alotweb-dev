@@ -51,7 +51,7 @@
 
                 <div class="articles__item">
                     <div class="article-preview">
-                        <a class="article-preview__image" style="background-image: url(i/news-3-alot-systems.png);" href="news-alot-launches-new-retail-lottery-division<?=$ext?>"></a>
+                        <a class="article-preview__image" style="background-image: url(i/news-3-alot-systems-v2.png);" href="news-alot-launches-new-retail-lottery-division<?=$ext?>"></a>
                         <div class="article-preview__text">
                             <p class="article-preview__date">27<sup>th</sup> of February, 2020</p>
                             <h3 class="heading-2">
