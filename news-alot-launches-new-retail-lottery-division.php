@@ -19,7 +19,7 @@
     </div>
     <div class="articles__content">
         <div class="container">
-            <div class="articles__hero" style="background-image: url(i/article-hero-3.jpg);"></div>
+            <div class="articles__hero" style="background-image: url(i/article-hero-3-alot-systems.png);"></div>
             <article class="articles__text">
                 <p class="date">27<sup>th</sup> of February, 2020</p>
                 <p>New division provides retail lottery systems, games and terminals.</p>
