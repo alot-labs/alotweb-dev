@@ -23,6 +23,20 @@
 
                 <div class="articles__item">
                     <div class="article-preview">
+                        <a class="article-preview__image" style="background-image: url(i/news-5.jpg);" href="news-alot-solutions-makes-significant-investment-in-g-games<?=$ext?>"></a>
+                        <div class="article-preview__text">
+                            <p class="article-preview__date">4<sup>th</sup> of August, 2020</p>
+                            <h3 class="heading-2">
+                                <a href="news-alot-solutions-makes-significant-investment-in-g-games<?=$ext?>">ALOT Solutions Makes Significant Investment in G Games</a>
+                            </h3>
+                            <p class="paragraph">ALOT Solutions has today announced that it has made a significant equity investment in G Games - a leading game design and development company that ‘puts fun at the heart of real-money games’ for state and private lotteries around the world, as well as online casinos and sportsbooks. G Games will continue to operate independently.</p>
+                            <a href="news-alot-solutions-makes-significant-investment-in-g-games<?=$ext?>" class="button button--blue">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__item">
+                    <div class="article-preview">
                         <a class="article-preview__image" style="background-image: url(i/news-4.jpg);" href="news-alot-solutions-announces-new-appointment-head-of-legal-and-compliance<?=$ext?>"></a>
                         <div class="article-preview__text">
                             <p class="article-preview__date">24<sup>th</sup> of June, 2020</p>
