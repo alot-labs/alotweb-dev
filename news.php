@@ -23,6 +23,20 @@
 
                 <div class="articles__item">
                     <div class="article-preview">
+                        <a class="article-preview__image" style="background-image: url(i/news-6.jpg);" href="news-alot-solutions-announces-appointment-of-chief-financial-officer<?=$ext?>"></a>
+                        <div class="article-preview__text">
+                            <p class="article-preview__date">11<sup>th</sup> of August, 2020</p>
+                            <h3 class="heading-2">
+                                <a href="news-alot-solutions-announces-appointment-of-chief-financial-officer<?=$ext?>">ALOT Solutions announces appointment of Chief Financial Officer</a>
+                            </h3>
+                            <p class="paragraph">ALOT Solutions today announces the appointment of Mr. Geaspar Byrne as Chief Financial Officer of the Company, effective 1st August, 2020. Geaspar has been a senior consultant to ALOT Solutions and its predecessor, Lottoland Solutions, since 2017.</p>
+                            <a href="news-alot-solutions-announces-appointment-of-chief-financial-officer<?=$ext?>" class="button button--blue">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__item">
+                    <div class="article-preview">
                         <a class="article-preview__image" style="background-image: url(i/news-5.jpg);" href="news-alot-solutions-makes-significant-investment-in-g-games<?=$ext?>"></a>
                         <div class="article-preview__text">
                             <p class="article-preview__date">4<sup>th</sup> of August, 2020</p>
