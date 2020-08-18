@@ -11,7 +11,7 @@
     include 'menu.php';
 ?>
 
-<section class="section splitbox splitbox--no-margin">
+<section class="section splitbox splitbox--3 splitbox--no-margin">
     <a class="splitbox__item" href="lotto-games<?=$ext?>">
         <div class="splitbox__image splitbox__image--lotto-betting"></div>
         <div class="splitbox__overlay"></div>

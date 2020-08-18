@@ -104,7 +104,7 @@ include 'menu.php';
     </a>
 </section-->
 
-<section class="section splitbox splitbox--homepage">
+<section class="section splitbox splitbox--3 splitbox--homepage">
     <a class="splitbox__item" href="prize-cover<?= $ext ?>">
         <div class="splitbox__image splitbox__image--prize-cover"></div>
         <div class="splitbox__overlay"></div>

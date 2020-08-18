@@ -105,11 +105,11 @@
                     </div>
                 </div>
 
-                <div class="articles__item">
+                <!--div class="articles__item">
                     <div class="article-preview article-preview--more-news">
                         <p class="article-preview__more-news-text">More news coming soon</p>
                     </div>
-                </div>
+                </div-->
 
                 <!--div class="articles__item">
                     <div class="article-preview">

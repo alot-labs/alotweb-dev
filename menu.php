@@ -15,8 +15,15 @@
                     <!--li>
                         <a href="deployments<?=$ext?>">Example Deployments</a>
                     </li-->
+                    <!--li>
+                        <a href="prize-cover<?=$ext?>">Prize Cover</a>
+                    </li-->
                     <li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
+                        <div class="header__submenu">
+                            <a href="lottery-prize-cover<?=$ext?>">Lotteries</a>
+                            <a href="prize-draws<?=$ext?>">Prize draws</a>
+                        </div>
                     </li>
                     <li>
                         <a href="games<?=$ext?>">Games</a>
