@@ -11,11 +11,11 @@
     include 'menu.php';
 ?>
 
-<section class="section hero hero--risk-management">
+<section class="section hero hero--lottery-prize-cover">
     <div class="container">
         <div class="hero__holder">
             <h1 class="heading-1">Lottery Prize Cover</h1>
-            <p class="paragraph-big">The provider of prize cover for state lotteries, lottery service providers, gaming companies, sportsbooks and casinos.</p>
+            <p class="paragraph-big">The provider of prize cover for state lotteries, lottery service providers, gaming companies, sportsbooks and&nbsp;casinos.</p>
         </div>
     </div>
 </section>

@@ -335,6 +335,12 @@ a{
 			background: linear-gradient(to right, rgba(32, 29, 33, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
 		}
 	}
+	&--lottery-prize-cover{
+		background-image: url(../i/hero-lottery-prize-cover.jpg);
+		&:before{
+			background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+		}
+	}
 	&__holder{
 		min-height: px(650);
 		display: flex;
