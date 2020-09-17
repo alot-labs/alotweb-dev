@@ -23,7 +23,7 @@
         <div class="splitbox__image splitbox__image--prize-draws"></div>
         <div class="splitbox__overlay"></div>
         <div class="splitbox__text">
-            <h2 class="heading-1">Prize draws</h2>
+            <h2 class="heading-1">Free prize draws</h2>
         </div>
     </a>
 </section>

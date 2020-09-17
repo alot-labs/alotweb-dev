@@ -331,6 +331,7 @@ a{
 	&--prize-draw{
 		background-image: url(../i/hero-prize-draw.jpg);
 		background-position: right center;
+		margin-bottom: 0;
 		&:before{
 			background: linear-gradient(to right, rgba(32, 29, 33, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
 		}
@@ -2011,7 +2012,6 @@ a{
 		padding-left: px($icon-size + $icon-offset);
 		min-height: px($icon-size);
 		position: relative;
-
 		margin-bottom: px(30);
 		&:last-child{
 			margin-bottom: 0;
@@ -2048,6 +2048,14 @@ a{
 			transition: opacity $transition;
 			&:hover{
 				opacity: $opacity;
+			}
+		}
+	}
+	.paragraph{
+		a{
+			text-decoration: underline;
+			&:hover{
+				text-decoration: none;
 			}
 		}
 	}
@@ -2214,6 +2222,41 @@ a{
 			background: $magenta;
 		}
 	}
+	&--white{
+		.achievements__item{
+			background: #fff;
+			box-shadow: 0 px(13) px(20) 0 rgba(0, 0, 0, 0.1);
+		}
+		.achievements__value{
+			color: $blue;
+			&:before{
+				background: $blue;
+			}
+		}
+		.paragraph{
+			color: $black;
+		}
+	}
+	&--no-icons{
+		.achievements__item{
+			display: block;
+			margin-top: 0;
+			text-align: center;
+		}
+		.achievements__value{
+			font-size: px(25);
+			&:before{
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+		.container{
+			padding-top: px($desktop-vertical-space / 2);
+		}
+		.paragraph{
+			max-width: none;
+		}
+	}
 	.container{
 		padding-bottom: px($desktop-vertical-space / 2);
 	}
@@ -2232,6 +2275,25 @@ a{
 		overflow: hidden;
 		&:last-child{
 			margin-right: 0;
+		}
+	}
+	&__pictogram{
+		width: px(60);
+		height: px(60);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left center;
+		margin-bottom: px(25);
+		margin-left: auto;
+		margin-right: auto;
+		&--marketing{
+			background-image: url(../i/icon-marketing-blue.svg);
+		}
+		&--brand{
+			background-image: url(../i/icon-brand-blue.svg);
+		}
+		&--cart{
+			background-image: url(../i/icon-cart-blue.svg);
 		}
 	}
 	&__icon{
@@ -2710,4 +2772,18 @@ a{
 	&__paragraph{
 		max-width: 750px;
 	}
+}
+
+.logo-excel-london{
+	$logo-excel-aspect-ratio: 0.37;
+	$logo-excel-width: 130;
+	display: inline-block;
+	width: px($logo-excel-width);
+	height: px($logo-excel-width * $logo-excel-aspect-ratio);
+	background: url(../i/logo-excel-london-white.png) no-repeat left top;
+	background-size: contain;
+}
+
+.nowrap{
+	white-space: nowrap;
 }

@@ -22,7 +22,7 @@
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                         <div class="header__submenu">
                             <a href="lottery-prize-cover<?=$ext?>">Lotteries</a>
-                            <a href="prize-draws<?=$ext?>">Prize Draws</a>
+                            <a href="prize-draws<?=$ext?>">Free Prize Draws</a>
                         </div>
                     </li>
                     <li>
