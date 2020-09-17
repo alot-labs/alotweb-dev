@@ -42,6 +42,17 @@
 	}
 }
 
+.heading-4{
+	font-size: px(20);
+	/*line-height: (68 / 60);*/
+	text-transform: uppercase;
+	@include font-accent;
+	margin-bottom: px(30);
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
 /* Paragraphs */
 
 .paragraph{

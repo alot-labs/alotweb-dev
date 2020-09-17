@@ -37,6 +37,13 @@
 				background: linear-gradient(to right, rgba(16, 24, 32, 0.5) 0%, rgba(16, 24, 32, 0) 100%);
 			}
 		}
+		&--prize-draw{
+			/*background-image: url(../i/hero-prize-draw-no-text.jpg);*/
+			background-position: right -240px center;
+			&:before{
+				background: linear-gradient(to right, rgba(32, 29, 33, 0.8) 20%, rgba(32, 29, 33, 0.2) 100%);
+			}
+		}
 	}
 	.splitbox{
 		&__text{
@@ -424,6 +431,9 @@
 			.achievements__item{
 				flex-basis: 48%;
 			}
+		}
+		&--white{
+			background: $light-grey;
 		}
 		&__icon{
 			flex-basis: px(75 * $zoom);
