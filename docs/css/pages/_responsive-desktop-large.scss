@@ -27,6 +27,10 @@
 				}
 			}
 		}
+		&--prize-draw{
+			background-position: right -80px center;
+			background-image: url(../i/hero-prize-draw-no-text.jpg);
+		}
 		&__holder{
 			min-height: px(540 * $zoom);
 		}

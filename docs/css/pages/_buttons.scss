@@ -46,6 +46,14 @@
 			color: #fff;
 		}
 	}
+	&--white-blue{
+		background: #fff;
+		color: $black;
+		&:hover{
+			background: $blue;
+			color: #fff;
+		}
+	}
 }
 
 .button-holder{

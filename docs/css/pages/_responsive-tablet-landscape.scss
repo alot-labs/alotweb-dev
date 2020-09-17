@@ -28,6 +28,13 @@
 				background: linear-gradient(to right, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.15) 100%);
 			}
 		}
+		&--prize-draw{
+			/*background-image: url(../i/hero-prize-draw-no-text.jpg);*/
+			background-position: right -160px center;
+			/*&:before{
+				background: linear-gradient(to right, rgba(32, 29, 33, 0.8) 20%, rgba(32, 29, 33, 0.2) 100%);
+			}*/
+		}
 		&__holder{
 			min-height: px(380 * $zoom);
 		}
@@ -216,6 +223,11 @@
 			}
 			.achievements__value{
 				font-size: px(30 * $zoom);
+			}
+		}
+		&--no-icons{
+			.achievements__value{
+				font-size: px(20 * $zoom);
 			}
 		}
 		&__icon{
