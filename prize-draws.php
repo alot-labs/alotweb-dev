@@ -68,7 +68,7 @@
                 <p class="paragraph">Contact us to discuss how our £1 million<br> free to enter prize draws can drive your business.</p>
                 <a href="contact-us<?=$ext?>" class="button button--white-blue">Contact us</a>
             </div>
-            <div class="heading-holder__item">
+            <!--div class="heading-holder__item">
                 <h2 class="heading-1">Meet Us</h2>
                 <p class="paragraph">
                     Meet us at the <a href="https://www.excel.london/visitor/whats-on/the-b2b-marketing-expo-2020" target="_blank">B2B Marketing Exhibition</a>, Excel London<br>
@@ -76,7 +76,7 @@
                     Stand 535
                 </p>
                 <div class="logo-excel-london"></div>
-            </div>
+            </div-->
         </div>
     </div>
 </section>
