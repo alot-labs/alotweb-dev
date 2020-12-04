@@ -85,6 +85,7 @@
 </section-->
 
 <section class="section game-embed">
+
     <div class="game-embed__mobile">
         <div class="game-embed__mobile-plate"></div>
         <div class="container">
@@ -101,6 +102,7 @@
             <h2 class="heading-1">Lotto Games</h2>
         </div>
     </div>
+
     <div class="game-embed__desktop">
         <div class="container">
             <div class="game-embed__device-desktop">
@@ -115,6 +117,24 @@
             </div>
         </div>
     </div>
+
+    <div class="game-embed__mobile game-embed__mobile--alternative">
+        <div class="game-embed__mobile-plate"></div>
+        <div class="container">
+            <h2 class="heading-1 tablet-portrait-up-only">Pick n Win</h2>
+            <div class="game-embed__device-mobile">
+                <div class="game-embed__device-mobile-holder">
+                    <div class="game-embed__device-mobile-embed">
+                        <div class="game-embed__iframe game-embed__iframe--mobile game-embed__iframe--picknwin">
+                            <lottoland-app data-version="1.0" data-operator-id="ddd" data-host="https://test-demo.alotapp.io/game/irishPick" data-query-user-token="32f10f526d6c3ef225d5178fdce6acde5f63c28532aec73e967541cdac3bc2f6"></lottoland-app>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="heading-1 tablet-portrait-down-only">Pick n Win</h2>
+        </div>
+    </div>
+
 </section>
 
 <section class="section related-products">

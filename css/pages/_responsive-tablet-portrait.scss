@@ -6,6 +6,12 @@
 	html{
 		font-size: ($font-size-responsive * 1px);
 	}
+	.tablet-portrait-up-only{
+		display: none;
+	}
+	.tablet-portrait-down-only{
+		display: block;
+	}
 	.hero{
 		&__holder{
 			/*min-height: 52vw;*/
@@ -280,6 +286,12 @@
 			&-plate{
 				$plate-offset: px(150);
 				height: calc(100% - #{$plate-offset});
+			}
+			&--alternative{
+				padding-top: 0;
+				.game-embed__mobile-plate{
+					height: 100%;
+				}
 			}
 		}
 		&__desktop{
