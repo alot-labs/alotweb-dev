@@ -536,6 +536,14 @@
 				top: 0;
 			}
 		}
+		&__iframe {
+			&--picknwin {
+				iframe {
+					height: 100%;
+					transform: inherit;
+				}
+			}
+		}
 	}
 	.standalone-embed{
 		&__device-mobile{

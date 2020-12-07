@@ -126,7 +126,8 @@
                 <div class="game-embed__device-mobile-holder">
                     <div class="game-embed__device-mobile-embed">
                         <div class="game-embed__iframe game-embed__iframe--mobile game-embed__iframe--picknwin">
-                            <lottoland-app data-version="1.0" data-operator-id="ddd" data-host="https://test-demo.alotapp.io/game/irishPick" data-query-user-token="32f10f526d6c3ef225d5178fdce6acde5f63c28532aec73e967541cdac3bc2f6"></lottoland-app>
+                            <iframe src="https://test-demo.alotapp.io/game/irishPick/?userToken=32f10f526d6c3ef225d5178fdce6acde5f63c28532aec73e967541cdac3bc2f6&amp;operatorId=ddd&amp;website=alot-solutions.com" frameborder="0"></iframe>
+                            <?php // <lottoland-app data-event-router="eventRouter" data-version="1.0" data-operator-id="ddd" data-host="https://test-demo.alotapp.io/game/irishPick" data-query-user-token="32f10f526d6c3ef225d5178fdce6acde5f63c28532aec73e967541cdac3bc2f6"></lottoland-app> ?>
                         </div>
                     </div>
                 </div>
