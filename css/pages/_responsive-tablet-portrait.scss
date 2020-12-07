@@ -285,7 +285,7 @@
 		&__mobile{
 			&-plate{
 				$plate-offset: px(150);
-				height: calc(100% - #{$plate-offset});
+				height: calc(100% - #{$plate-offset} + 1px); /* rounding problem */
 			}
 			&--alternative{
 				padding-top: 0;
