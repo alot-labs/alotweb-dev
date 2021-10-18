@@ -183,6 +183,9 @@
 				background: linear-gradient(to right, rgba(32, 29, 33, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
 			}*/
 		}
+		&--careers{
+			margin-bottom: 0;
+		}
 		&__illustration{
 			flex-direction: column-reverse;
 			&-image{
@@ -843,6 +846,11 @@
 				padding-bottom: ($mobile-vertical-space * 1px);
 			}
 		}
+		/*&--items-1{
+			.achievements__text-holder{
+				padding: 35px;
+			}
+		}*/
 		&__holder{
 			display: block;
 		}
@@ -936,6 +944,19 @@
 		}
 		&__text{
 
+		}
+	}
+	.corporate-values{
+		&__holder{
+			max-width: 450px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		&__row{
+			display: block;
+		}
+		&__item{
+			min-height: 230px;
 		}
 	}
 }

@@ -510,4 +510,9 @@
 	.button{
 		font-size: 12px;
 	}
+	.corporate-values{
+		&__item{
+			min-height: px(270 * $zoom);
+		}
+	}
 }
