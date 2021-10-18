@@ -43,6 +43,9 @@
                         <a href="news<?=$ext?>">News</a>
                     </li>
                     <li>
+                        <a href="careers<?=$ext?>">Careers</a>
+                    </li>
+                    <li>
                         <a href="contact-us<?=$ext?>">Contact us</a>
                     </li>
                 </ul>
