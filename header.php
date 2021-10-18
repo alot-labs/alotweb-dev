@@ -35,7 +35,7 @@
 
     <!-- CSS -->
     <!--link rel="stylesheet" href="css/main.css" /-->
-    <link rel="stylesheet" href="css/main.css?<? echo time()?>" />
+    <link rel="stylesheet" href="css/main.css?<?php echo time()?>" />
 
     <!-- JS -->
     <script src="js/jquery.js"></script>
