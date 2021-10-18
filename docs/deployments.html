@@ -34,7 +34,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css" />
+    <!--link rel="stylesheet" href="css/main.css" /-->
+    <link rel="stylesheet" href="css/main.css?<? echo time()?>" />
 
     <!-- JS -->
     <script src="js/jquery.js"></script>
