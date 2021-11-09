@@ -966,6 +966,11 @@ a{
 	}
 	&__list{
 		list-style-type: none;
+		/*margin-bottom: px(25);*/
+		margin-bottom: 25px;
+		&:last-child{
+			margin-bottom: 0;
+		}
 		li{
 			margin-bottom: 10px;
 			&:last-child{
