@@ -19,23 +19,26 @@
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                     </li-->
                     <li>
+                        <a href="tech<?=$ext?>">Technology</a>
+                    </li>
+                    <li>
+                        <a href="lottery-prize-cover<?=$ext?>">Prize Cover</a>
+                    </li>
+                    <!--li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
                         <div class="header__submenu">
                             <a href="lottery-prize-cover<?=$ext?>">Lotteries</a>
                             <a href="prize-draws<?=$ext?>">Free Prize Draws</a>
                         </div>
-                    </li>
-                    <li>
+                    </li-->
+                    <!--li>
                         <a href="games<?=$ext?>">Games</a>
                         <div class="header__submenu">
                             <a href="lotto-games<?=$ext?>">Lotto Games</a>
                             <a href="hfg<?=$ext?>">HF Games</a>
                             <a href="instant-win-games<?=$ext?>">Instant Games</a>
                         </div>
-                    </li>
-                    <li>
-                        <a href="tech<?=$ext?>">Technology</a>
-                    </li>
+                    </li-->
                     <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
                     </li-->

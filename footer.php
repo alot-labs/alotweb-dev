@@ -8,12 +8,18 @@
             <div class="footer__column">
                 <h4 class="footer__heading">Solutions</h4>
                 <ul class="footer__list">
-                    <li>
+                    <!--li>
                         <a href="prize-cover<?=$ext?>">Prize Cover</a>
+                    </li-->
+                    <li>
+                        <a href="tech<?=$ext?>">Technology</a>
                     </li>
                     <li>
-                        <a href="games<?=$ext?>">Games</a>
+                        <a href="lottery-prize-cover<?=$ext?>">Prize Cover</a>
                     </li>
+                    <!--li>
+                        <a href="games<?=$ext?>">Games</a>
+                    </li-->
                     <!-- <li>
                         <a href="lotto-games<?=$ext?>">Lotto Games</a>
                     </li>
@@ -23,15 +29,10 @@
                     <li>
                         <a href="instant-win-games<?=$ext?>">Instant games</a>
                     </li> -->
-                    <li>
-                        <a href="tech<?=$ext?>">Technology</a>
-                    </li>
                     <!--li>
                         <a href="lottery<?=$ext?>">Lottery Systems</a>
                     </li-->
                 </ul>
-            </div>
-            <div class="footer__column">
                 <h4 class="footer__heading">Company</h4>
                 <ul class="footer__list">
                     <!--li>
@@ -50,12 +51,12 @@
             </div>
             <div class="footer__column">
                 <h4 class="footer__heading">Contact</h4>
-                <p class="footer__paragraph">
+                <!--p class="footer__paragraph">
                     ALOT Solutions Limited <br>
                     5.08 World Trade Center <br>
                     6 Bayside Road <br>
                     Gibraltar
-                </p>
+                </p-->
                 <ul class="footer__list">
                     <li>
                         <a href="contact-us<?=$ext?>">Contact us</a>
@@ -64,6 +65,21 @@
                         <a href="privacy-policy<?=$ext?>">Privacy policy</a>
                     </li>
                 </ul>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__heading">Address</h4>
+                <p class="footer__paragraph">
+                    ALOT Solutions Limited <br>
+                    5.08 World Trade Center <br>
+                    6 Bayside Road <br>
+                    Gibraltar
+                </p>
+                <p class="footer__paragraph">
+                    ALOT Solutions Technology, s.r.o. <br>
+                    Digital Park <br>
+                    Einsteinova 23 <br>
+                    Bratislava 821 05
+                </p>
             </div>
         </div>
     </div>
